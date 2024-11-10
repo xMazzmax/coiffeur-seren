@@ -1,0 +1,132 @@
+/*
+---------------------
+--- 01 TYPOGRAPHY ---
+---------------------
+
+- Font size system (px):
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font weights:
+Default:    400
+Medium:     500
+Semi-bold:  600
+Bold:       700
+
+- Line heights:
+Default:    1
+h2:         1.2
+h3:         1.4
+p default:  1.6
+
+- Letter spacing:
+
+
+---------------------
+--- 02 WHITESPACE ---
+---------------------
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+
+-----------------
+--- 03 COLORS ---
+-----------------
+
+- As defined in the root class
+
+
+------------------
+--- 04 SHADOWS ---
+------------------
+
+- Default:
+0 0.4rem 0.4rem var(--clr-shaddow-dark),
+0 1.2rem 1.2rem var(--clr-shaddow-soft);
+
+- Hover:
+0 0.8rem 0.8rem var(--clr-shaddow-dark--hover),
+0 2.4rem 2.4rem var(--clr-shaddow-soft--hover);
+
+
+------------------------
+--- 05 BORDER-RADIUS ---
+------------------------
+
+- Buttons: 3px
+*/
+
+/************************/
+/*** GENERAL SETTINGS ***/
+/************************/
+
+:root {
+  --clr-primary: #94d82d;
+  --clr-primary-950: #0f1604;
+  --clr-primary-900: #1e2b09;
+  --clr-primary-800: #3b5612;
+  --clr-primary-700: #59821b;
+  --clr-primary-600: #76ad24;
+  --clr-primary-500: var(--clr-primary);
+  --clr-primary-400: #a9e057;
+  --clr-primary-300: #bfe881;
+  --clr-primary-200: #d4efab;
+  --clr-primary-100: #eaf7d5;
+  --clr-primary-50: #f4fbea;
+
+  --clr-neutral-950: #0a0a0a;
+  --clr-neutral-900: #171717;
+  --clr-neutral-800: #262626;
+  --clr-neutral-700: #404040;
+  --clr-neutral-600: #525252;
+  --clr-neutral-500: #737373;
+  --clr-neutral-400: #a3a3a3;
+  --clr-neutral-300: #d4d4d4;
+  --clr-neutral-200: #e5e5e5;
+  --clr-neutral-100: #f5f5f5;
+  --clr-neutral-50: #fafafa;
+
+  --clr-shaddow-dark: rgba(0, 0, 0, 0.3);
+  --clr-shaddow-soft: rgba(0, 0, 0, 0.15);
+  --clr-shaddow-dark--hover: rgba(0, 0, 0, 0.2);
+  --clr-shaddow-soft--hover: rgba(0, 0, 0, 0.1);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus-visible {
+  transition: 200ms;
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(148, 216, 45, 0.5);
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: var(--clr-neutral-600);
+}
+
+p {
+  font-size: 1.8rem;
+  line-height: 1.6;
+}
+
+strong {
+  font-weight: 500;
+}
+
+/***********************************/
+/*** GENERAL REUSABLE COMPONENTS ***/
+/***********************************/
