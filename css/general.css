@@ -123,7 +123,8 @@ body {
   background-color: var(--clr-bg);
 }
 
-p {
+p,
+span {
   font-size: 1.8rem;
   line-height: 1.6;
 }
@@ -198,6 +199,11 @@ strong {
 }
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
+}
+
+.icon {
+  color: var(--clr-primary);
+  flex-shrink: 0;
 }
 
 /***********************************/
