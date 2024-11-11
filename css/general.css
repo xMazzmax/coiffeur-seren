@@ -140,21 +140,28 @@ strong {
 .heading-primary,
 .heading-secondary,
 .heading-tirtiary {
-  font-weight: 700;
   color: var(--clr-neutral-100);
   letter-spacing: -1px;
-  margin-bottom: 3.2rem;
 }
 
 .heading-primary {
   font-size: 6.2rem;
+  font-weight: 700;
   margin-bottom: 2.4rem;
 }
 
 .heading-secondary {
   font-size: 4.4rem;
+  font-weight: 700;
   line-height: 1.2;
   margin-bottom: 8rem;
+}
+
+.heading-tirtiary {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 2.4rem;
 }
 
 .btn,
@@ -211,6 +218,12 @@ strong {
   flex-shrink: 0;
 }
 
+.list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
 /***********************************/
 /* HELPER CLASSES */
 /***********************************/
@@ -224,4 +237,8 @@ strong {
 .section__padding--vertical {
   padding-top: 9.6rem;
   padding-bottom: 9.6rem;
+}
+
+.center-content {
+  text-align: center;
 }
