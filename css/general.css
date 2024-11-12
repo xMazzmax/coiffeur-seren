@@ -224,6 +224,12 @@ strong {
   list-style: none;
 }
 
+.list__item {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
 /***********************************/
 /* HELPER CLASSES */
 /***********************************/

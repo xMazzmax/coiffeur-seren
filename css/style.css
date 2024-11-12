@@ -66,3 +66,19 @@
   height: 4.8rem;
   margin-bottom: 3.2rem;
 }
+
+/***********************************/
+/* FEATURES */
+/***********************************/
+.features {
+  background-color: var(--clr-bg--tint);
+}
+
+.features__grid {
+  list-style: none;
+  gap: 1.6rem;
+}
+
+.icon--features {
+  height: 3.2rem;
+}
