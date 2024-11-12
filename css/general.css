@@ -42,7 +42,7 @@ h1-h3:      -1px
 ------------------
 
 - Default:
-0 0.4rem 0.4rem var(--clr-shaddow-dark),
+0 0.4rem 0.4rem var(--clr-shaddow-hard),
 0 1.2rem 1.2rem var(--clr-shaddow-soft);
 
 - Hover:
@@ -90,8 +90,8 @@ h1-h3:      -1px
   --clr-bg: var(--clr-neutral-900);
   --clr-bg--tint: var(--clr-neutral-800);
 
-  --clr-shaddow-dark: rgba(0, 0, 0, 0.3);
-  --clr-shaddow-soft: rgba(0, 0, 0, 0.15);
+  --clr-shaddow-hard: rgba(255, 255, 255, 0.3);
+  --clr-shaddow-soft: rgba(255, 255, 255, 0.15);
   --clr-shaddow-dark--hover: rgba(0, 0, 0, 0.2);
   --clr-shaddow-soft--hover: rgba(0, 0, 0, 0.1);
 }
@@ -130,7 +130,11 @@ span {
 }
 
 strong {
-  font-weight: 500;
+  font-weight: 600;
+}
+
+mark {
+  background-color: var(--clr-primary);
 }
 
 /***********************************/

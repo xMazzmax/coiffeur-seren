@@ -128,3 +128,55 @@
 .gallery__img:hover {
   transform: scale(1.2);
 }
+
+/***********************************/
+/* PREISLISTE */
+/***********************************/
+.grid--pricing {
+  grid-template-columns: 3fr 2fr 2fr;
+  gap: 4.8rem;
+}
+
+.grid__item--spezialpakete {
+  grid-column: span 2;
+}
+
+.list--pricing {
+  gap: 1.6rem;
+  margin-bottom: 4.8rem;
+}
+
+.list__item--pricing {
+  border-bottom: 1px solid var(--clr-neutral-600);
+}
+
+.price {
+  margin-left: auto;
+  text-wrap: nowrap;
+}
+
+.text-line-through {
+  display: inline-block;
+  color: var(--clr-neutral-400);
+  text-decoration: line-through 1px;
+  margin-right: 1rem;
+}
+
+.icon--pricing {
+  height: 2.4rem;
+}
+
+.payment-method {
+  display: flex;
+  gap: 1.2rem;
+  margin-bottom: 3.2rem;
+}
+
+.payment-method__img {
+  height: 3.2rem;
+  background-color: var(--clr-bg--tint);
+  /* border: 1px solid var(--clr-primary-300); */
+  border-radius: 3px;
+  box-shadow: 0 0.1rem 0.2rem var(--clr-shaddow-hard);
+  padding: 0.8rem;
+}
