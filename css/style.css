@@ -102,3 +102,10 @@
 .review__author {
   color: var(--clr-neutral-400);
 }
+
+/***********************************/
+/* GALLERIE */
+/***********************************/
+.gallery__img {
+  height: 40rem;
+}
