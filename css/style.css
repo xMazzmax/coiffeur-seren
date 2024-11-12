@@ -49,11 +49,6 @@
   color: var(--clr-neutral-400);
 }
 
-.icon--google-review {
-  height: 2.4rem;
-  fill: #fdd663;
-}
-
 /***********************************/
 /* BENEFITS */
 /***********************************/
@@ -81,4 +76,29 @@
 
 .icon--features {
   height: 3.2rem;
+}
+
+/***********************************/
+/* REVIEWS */
+/***********************************/
+.grid--review {
+  gap: 8rem;
+}
+
+.review__rating {
+  margin-bottom: 4.8rem;
+}
+
+.review__quote {
+  margin-bottom: 3.2rem;
+  font-weight: 600;
+}
+
+.review__img {
+  height: 6.4rem;
+  margin-bottom: 1.2rem;
+}
+
+.review__author {
+  color: var(--clr-neutral-400);
 }

@@ -218,6 +218,11 @@ strong {
   flex-shrink: 0;
 }
 
+.icon--star-rating {
+  height: 2.4rem;
+  fill: #fdd663;
+}
+
 .list {
   display: flex;
   flex-direction: column;
