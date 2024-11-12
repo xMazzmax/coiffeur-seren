@@ -200,6 +200,6 @@
 }
 
 .faq__answer {
-  cursor: default;
+  cursor: text;
   padding: 2.4rem 2.4rem 2.4rem 2.4rem;
 }
