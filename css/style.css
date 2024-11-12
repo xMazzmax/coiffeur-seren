@@ -24,7 +24,8 @@
 }
 
 .hero__img {
-  width: 70%;
+  width: 100%;
+  border-radius: 3px;
 }
 
 .hero__google-rating {
@@ -106,6 +107,24 @@
 /***********************************/
 /* GALLERIE */
 /***********************************/
+.gallery {
+  background-color: var(--clr-bg--tint);
+}
+.gallery__grid {
+  gap: 0.4rem;
+}
+
+.gallery__item {
+  overflow: hidden;
+  /* transform: scale(1.2); */
+}
+
 .gallery__img {
-  height: 40rem;
+  display: block;
+  width: 100%;
+  transition: 200ms;
+}
+
+.gallery__img:hover {
+  transform: scale(1.2);
 }
