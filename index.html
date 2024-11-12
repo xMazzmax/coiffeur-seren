@@ -29,21 +29,25 @@
       <!---------->
       <!-- HERO -->
       <!---------->
-      <section class="hero section__padding--vertical">
-        <div class="container--center grid grid--2-cols">
+      <section class="bg-clr section__padding--vertical">
+        <div class="hero container--center grid grid--2-cols">
           <div class="hero__text">
             <h1 class="heading-primary">Fühle dich sofort selbstbewusster</h1>
             <p class="hero__description">
               mit perfekt gestyltem Haar und Bart, ganz nach deinen Wünschen
             </p>
             <div>
-              <a class="btn btn--primary" href="#">
+              <a class="btn btn--header-cta btn--primary" href="#">
                 Jetzt zum neuen Aussehen!
               </a>
               <a class="btn btn--secondary" href="#">Mehr erfahren</a>
             </div>
             <div class="hero__google-rating">
-              <img class="hero__google-logo" src="img/google-logo.png" />
+              <img
+                class="hero__google-logo"
+                src="img/google-logo.png"
+                alt="Google-Logo"
+              />
               <span class="hero__google-rating-average">4.7</span>
               <div>
                 <svg
@@ -184,7 +188,7 @@
       <!-------------->
       <!-- FEATURES -->
       <!-------------->
-      <section class="features section__padding--vertical">
+      <section class="bg-clr section__padding--vertical">
         <div class="container--center center-content">
           <h2 class="heading-secondary">
             Warum unsere Kunden sich für uns entscheiden
@@ -447,7 +451,11 @@
               <p class="review__quote">
                 Ich werde hier immer schnell und freundlich bedient.
               </p>
-              <img class="review__img" src="img/reviews/tamino-merk.png" />
+              <img
+                class="review__img"
+                src="img/reviews/tamino-merk.png"
+                alt="Portrait von Tamino Merk"
+              />
               <p class="review__author">Tamino Merk</p>
             </div>
             <div>
@@ -512,7 +520,11 @@
                 Schnell, ohne Voranmeldung und günstig. Sehr zufrieden mit dem
                 Haarschnitt.
               </p>
-              <img class="review__img" src="img/reviews/stephan-gall.png" />
+              <img
+                class="review__img"
+                src="img/reviews/stephan-gall.png"
+                alt="Portrait von Stephan Gall"
+              />
               <p class="review__author">Stephan Gall</p>
             </div>
             <div>
@@ -579,6 +591,7 @@
               <img
                 class="review__img"
                 src="img/reviews/zeghdoudi-abdelghafour.png"
+                alt="Portrait von Zeghdoudi Abdelghafour"
               />
               <p class="review__author">Zeghdoudi Abdelghafour</p>
             </div>
@@ -588,35 +601,67 @@
       <!-------------->
       <!-- GALLERIE -->
       <!-------------->
-      <section class="gallery section__padding--vertical">
+      <section class="bg-clr section__padding--vertical">
         <div class="container--center">
           <h2 class="heading-secondary center-content">
             Von uns kreiert, für dich inspiriert
           </h2>
           <div class="gallery__grid grid grid--4-cols">
             <div class="gallery__item">
-              <img class="gallery__img" src="img/gallerie/haarschnitt-1.jpg" />
+              <img
+                class="gallery__img"
+                src="img/gallerie/haarschnitt-1.jpg"
+                alt="Haarschnitt eines Kunden"
+              />
             </div>
             <div class="gallery__item">
-              <img class="gallery__img" src="img/gallerie/haarschnitt-2.jpg" />
+              <img
+                class="gallery__img"
+                src="img/gallerie/haarschnitt-2.jpg"
+                alt="Haarschnitt eines Kunden"
+              />
             </div>
             <div class="gallery__item">
-              <img class="gallery__img" src="img/gallerie/haarschnitt-3.jpg" />
+              <img
+                class="gallery__img"
+                src="img/gallerie/haarschnitt-3.jpg"
+                alt="Haarschnitt eines Kunden"
+              />
             </div>
             <div class="gallery__item">
-              <img class="gallery__img" src="img/gallerie/haarschnitt-4.jpg" />
+              <img
+                class="gallery__img"
+                src="img/gallerie/haarschnitt-4.jpg"
+                alt="Haarschnitt eines Kunden"
+              />
             </div>
             <div class="gallery__item">
-              <img class="gallery__img" src="img/gallerie/haarschnitt-5.jpg" />
+              <img
+                class="gallery__img"
+                src="img/gallerie/haarschnitt-5.jpg"
+                alt="Haarschnitt eines Kunden"
+              />
             </div>
             <div class="gallery__item">
-              <img class="gallery__img" src="img/gallerie/haarschnitt-6.jpg" />
+              <img
+                class="gallery__img"
+                src="img/gallerie/haarschnitt-6.jpg"
+                alt="Haarschnitt eines Kunden"
+              />
             </div>
             <div class="gallery__item">
-              <img class="gallery__img" src="img/gallerie/haarschnitt-7.png" />
+              <img
+                class="gallery__img"
+                src="img/gallerie/haarschnitt-7.png"
+                alt="Haarschnitt eines Kunden"
+              />
             </div>
             <div class="gallery__item">
-              <img class="gallery__img" src="img/gallerie/haarschnitt-8.jpg" />
+              <img
+                class="gallery__img"
+                src="img/gallerie/haarschnitt-8.jpg"
+                alt="Haarschnitt eines Kunden"
+              />
             </div>
           </div>
         </div>
@@ -781,10 +826,12 @@
                 <img
                   class="payment-method__img"
                   src="img/zahlungsmethoden/cash-icon.png"
+                  alt="Cash-Icon"
                 />
                 <img
                   class="payment-method__img"
                   src="img/zahlungsmethoden/twint-logo.png"
+                  alt="Twint-Logo"
                 />
               </div>
               <p>
@@ -793,6 +840,83 @@
               </p>
             </div>
           </div>
+        </div>
+      </section>
+      <!--------->
+      <!-- FAQ -->
+      <!--------->
+      <section class="section__padding--vertical">
+        <div class="container--center">
+          <h2 class="heading-secondary">Häufig gestellte Fragen</h2>
+          <details class="faq__instance" open>
+            <summary class="faq__question heading-tirtiary">
+              Wie kann ich mir sicher sein, dass ihr auf meine Wünsche eingeht?
+            </summary>
+            <p class="faq__answer">
+              Wenn Sie uns besuchen, bieten wir Ihnen einen Kaffee oder Wasser
+              an und fragen Sie zuerst nach Ihren Wünschen. Dann geben wir Ihnen
+              unsere Empfehlungen, die auf unsere Erfahrungen basieren.
+              Schliesslich können S So stellen wir sicher, dass wir Ihre
+              Erwartungen erfüllen.
+            </p>
+          </details>
+          <details class="faq__instance">
+            <summary class="faq__question heading-tirtiary">
+              Wie kann ich mir sicher sein, dass ich mit dem Ergebnis zufrieden
+              sein werde?
+            </summary>
+            <p class="faq__answer">
+              User Hauptziel ist es, dass jeder unserer Kunden top aussieht und
+              mit einem Lächeln im Gesicht aus unserem Salon geht. Dazu sagen
+              wir Ihnen bei unserer Beratung ehrlich, was wir machen können und
+              was nicht. Können wir etwas nicht, empfehlen wir Ihnen gern einen
+              passenden Experten aus unserer Konkurrenz.
+            </p>
+          </details>
+          <details class="faq__instance">
+            <summary class="faq__question heading-tirtiary">
+              Kann ich ohne Termin kommen und direkt bedient werden?
+            </summary>
+            <p class="faq__answer">
+              Wir bieten keine Termine an und setzen auf spontane Besuche ohne
+              Voranmeldung. Unsere effiziente Arbeitsweise ermöglicht es uns,
+              Ihnen kurze Wartezeiten anbieten zu können. Wenn Sie sofort
+              bedient werden wollen, rufen Sie uns einfach kurz an – wir geben
+              Ihnen gerne Auskunft über unsere aktuelle Verfügbarkeit!
+            </p>
+          </details>
+          <details class="faq__instance">
+            <summary class="faq__question heading-tirtiary">
+              Bietet ihr auch Haarschnitte für Kinder und kann die ganze Familie
+              mitkommen?
+            </summary>
+            <p class="faq__answer">
+              Absolut! Unser Team hat Erfahrung mit Kinderhaarschnitten und
+              bietet eine freundliche, kindgerechte Atmosphäre, damit sich auch
+              die Kleinsten bei uns wohlfühlen. Wir gestalten die Haarschnitte
+              schnell und entspannt und haben genug Platz, sodass der Besuch für
+              die ganze Familie angenehm wird.
+            </p>
+          </details>
+          <details class="faq__instance">
+            <summary class="faq__question heading-tirtiary">
+              Gibt es versteckte Kosten? Wie transparent sind die Preise?
+            </summary>
+            <p class="faq__answer">
+              Bei uns erleben Sie keine bösen Überraschungen beim Bezahlen.
+              Unsere Preisstruktur ist klar und transparent und wir informieren
+              Sie vorab über alle Kosten für das, was Sie haben wollen.
+            </p>
+          </details>
+          <details class="faq__instance">
+            <summary class="faq__question heading-tirtiary">
+              Was für Zahlungsmethoden kann ich verwenden?
+            </summary>
+            <p class="faq__answer">
+              Wir akzeptieren Bargeld und Twint. Solltest du kein Bargeld haben,
+              kannst du beim Bankomat gegenüber unseres Salons Geld abheben.
+            </p>
+          </details>
         </div>
       </section>
     </main>

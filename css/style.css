@@ -6,7 +6,7 @@
 /* HERO */
 /***********************************/
 .hero {
-  background-color: var(--clr-bg--tint);
+  gap: 4.8rem;
 }
 
 .hero__text {
@@ -17,6 +17,10 @@
 
 .hero__description {
   margin-bottom: 6.4rem;
+}
+
+.btn--header-cta {
+  margin-right: 1.2rem;
 }
 
 .hero__img-container {
@@ -66,10 +70,6 @@
 /***********************************/
 /* FEATURES */
 /***********************************/
-.features {
-  background-color: var(--clr-bg--tint);
-}
-
 .features__grid {
   list-style: none;
   gap: 1.6rem;
@@ -107,9 +107,6 @@
 /***********************************/
 /* GALLERIE */
 /***********************************/
-.gallery {
-  background-color: var(--clr-bg--tint);
-}
 .gallery__grid {
   gap: 0.4rem;
 }
@@ -179,4 +176,30 @@
   border-radius: 3px;
   box-shadow: 0 0.1rem 0.2rem var(--clr-shaddow-hard);
   padding: 0.8rem;
+}
+
+/***********************************/
+/* FAQ */
+/***********************************/
+.faq__instance {
+  background-color: var(--clr-neutral-800);
+  border-radius: 3px;
+  margin-bottom: 2.4rem;
+}
+
+.faq__question {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.2;
+  cursor: pointer;
+  background-color: var(--clr-neutral-700);
+  border-radius: 3px;
+  padding: 1.2rem;
+  padding-left: 2.4rem;
+  margin-bottom: 0;
+}
+
+.faq__answer {
+  cursor: default;
+  padding: 2.4rem 2.4rem 2.4rem 2.4rem;
 }
