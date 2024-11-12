@@ -203,3 +203,40 @@
   cursor: text;
   padding: 2.4rem 2.4rem 2.4rem 2.4rem;
 }
+
+/***********************************/
+/* CTA */
+/***********************************/
+.cta {
+  gap: 4.8rem;
+}
+
+.heading-secondary--cta {
+  margin-bottom: 3.2rem;
+}
+
+.cta__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cta__description {
+  margin-bottom: 6.4rem;
+}
+
+.cta__btn-container {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.icon--cta {
+  height: 2.4rem;
+  fill: var(--clr-neutral-800);
+}
+
+.cta__img {
+  width: 100%;
+  border-radius: 3px;
+}
