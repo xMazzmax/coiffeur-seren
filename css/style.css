@@ -347,9 +347,6 @@
   margin-bottom: 3.2rem;
 }
 
-.list--contact {
-}
-
 .footer__contact:link,
 .footer__contact:visited {
   text-decoration: none;
@@ -370,9 +367,6 @@
   display: flex;
   margin-top: auto;
   gap: 1.6rem;
-}
-
-.footer__socials {
 }
 
 .icon--socials {
@@ -420,4 +414,38 @@
 .footer__dev:hover,
 .footer__dev:active {
   color: var(--clr-primary);
+}
+
+/***********************************/
+/* LEGAL */
+/***********************************/
+.section__padding--legal {
+  padding-top: 4.8rem;
+  padding-bottom: 4.8rem;
+}
+
+.section__padding--privacy {
+  padding-top: 4.8rem;
+  padding-bottom: 9.6rem;
+}
+
+.heading-primary--legal {
+  margin-top: 9.6rem;
+  margin-bottom: 1.6rem;
+}
+
+.heading-secondary--legal {
+  margin-bottom: 4.8rem;
+}
+
+.list--legal {
+  gap: 1.2rem;
+}
+
+.list__item-legal {
+  font-size: 1.8rem;
+}
+
+.closure {
+  margin-bottom: 1.2rem;
 }
