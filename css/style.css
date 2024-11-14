@@ -314,7 +314,7 @@
 }
 
 .grid--footer {
-  grid-template-columns: 2fr 3fr 3fr;
+  grid-template-columns: 1fr 2fr;
   gap: 3.2rem;
   border-bottom: solid 1px var(--clr-neutral-500);
   padding-bottom: 2.4rem;
@@ -343,19 +343,23 @@
   margin-top: 8rem;
 }
 
+.footer__contact {
+  justify-self: end;
+}
+
 .footer__address {
   margin-bottom: 3.2rem;
 }
 
-.footer__contact:link,
-.footer__contact:visited {
+.footer__contact-number:link,
+.footer__contact-number:visited {
   text-decoration: none;
   color: var(--clr-neutral-200);
   transition: 200ms;
 }
 
-.footer__contact:hover,
-.footer__contact:active {
+.footer__contact-number:hover,
+.footer__contact-number:active {
   color: var(--clr-primary);
 }
 
