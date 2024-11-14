@@ -42,8 +42,8 @@ h1-h3:      -1px
 ------------------
 
 - Default:
-0 0.4rem 0.4rem var(--clr-shaddow-hard),
-0 1.2rem 1.2rem var(--clr-shaddow-soft);
+0 0.2rem 0.2rem var(--clr-shaddow-hard),
+0 0.6rem 0.6rem var(--clr-shaddow-soft);
 
 - Hover:
 0 0.8rem 0.8rem var(--clr-shaddow-dark--hover),
@@ -90,8 +90,8 @@ h1-h3:      -1px
   --clr-bg: var(--clr-neutral-900);
   --clr-bg--tint: var(--clr-neutral-800);
 
-  --clr-shaddow-hard: rgba(255, 255, 255, 0.3);
-  --clr-shaddow-soft: rgba(255, 255, 255, 0.15);
+  --clr-shaddow-hard: rgba(255, 255, 255, 0.4);
+  --clr-shaddow-soft: rgba(255, 255, 255, 0.2);
   --clr-shaddow-dark--hover: rgba(0, 0, 0, 0.2);
   --clr-shaddow-soft--hover: rgba(0, 0, 0, 0.1);
 }
@@ -209,9 +209,11 @@ mark {
 .grid--2-cols {
   grid-template-columns: repeat(2, 1fr);
 }
+
 .grid--3-cols {
   grid-template-columns: repeat(3, 1fr);
 }
+
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
 }
