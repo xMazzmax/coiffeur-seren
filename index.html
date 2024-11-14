@@ -23,13 +23,41 @@
   </head>
   <body>
     <header class="header">
-      <nav class="header__nav"></nav>
+      <a href="#">
+        <img
+          class="seren-logo"
+          src="img/seren-logo.png"
+          alt="Coiffeur Seren Logo"
+        />
+      </a>
+      <!-------------->
+      <!-- MAIN NAV -->
+      <!-------------->
+      <nav class="main-nav">
+        <ul class="main-nav__list">
+          <li>
+            <a href="#vorteile" class="main-nav__link">Vorteile</a>
+          </li>
+          <li><a href="#features" class="main-nav__link">Highlights</a></li>
+          <li>
+            <a href="#reviews" class="main-nav__link">Kundenbewertungen</a>
+          </li>
+          <li><a href="#gallerie" class="main-nav__link">Gallerie</a></li>
+          <li><a href="#preise" class="main-nav__link">Preise</a></li>
+          <li><a href="#faq" class="main-nav__link">FAQ</a></li>
+          <li>
+            <a href="#cta" class="main-nav__link main-nav__cta"
+              >Jetzt zum neuen Aussehen!</a
+            >
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
       <!---------->
       <!-- HERO -->
       <!---------->
-      <section class="bg-clr section__padding--vertical">
+      <section class="section__padding--vertical hero-padding">
         <div class="hero container--center grid grid--2-cols">
           <div class="hero__text">
             <h1 class="heading-primary">Fühle dich sofort selbstbewusster</h1>
@@ -37,10 +65,10 @@
               mit perfekt gestyltem Haar und Bart, ganz nach deinen Wünschen
             </p>
             <div>
-              <a class="btn btn--header-cta btn--primary" href="#">
+              <a class="btn btn--header-cta btn--primary" href="#cta">
                 Jetzt zum neuen Aussehen!
               </a>
-              <a class="btn btn--secondary" href="#">Mehr erfahren</a>
+              <a class="btn btn--secondary" href="#vorteile">Mehr erfahren</a>
             </div>
             <div class="hero__google-rating">
               <img
@@ -127,7 +155,7 @@
       <!-------------->
       <!-- BENEFITS -->
       <!-------------->
-      <section class="benefits section__padding--vertical">
+      <section class="benefits bg-clr section__padding--vertical" id="vorteile">
         <div class="container--center">
           <h2 class="heading-secondary">Deine Vorteile</h2>
           <div class="grid grid--3-cols grid--benefits">
@@ -188,7 +216,7 @@
       <!-------------->
       <!-- FEATURES -->
       <!-------------->
-      <section class="bg-clr section__padding--vertical">
+      <section class="section__padding--vertical" id="features">
         <div class="container--center center-content">
           <h2 class="heading-secondary">
             Warum unsere Kunden sich für uns entscheiden
@@ -380,13 +408,25 @@
               </svg>
               <span class="features__feature">2 gratis Parkplätze</span>
             </li>
+            <li class="list__item">
+              <svg
+                class="icon icon--features"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 -960 960 960"
+              >
+                <path
+                  d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"
+                />
+              </svg>
+              <span class="features__feature">Gratis Kaffee und Wasser</span>
+            </li>
           </ul>
         </div>
       </section>
       <!------------->
       <!-- REVIEWS -->
       <!------------->
-      <section class="section__padding--vertical">
+      <section class="bg-clr section__padding--vertical" id="reviews">
         <div class="container--center">
           <h1 class="heading-secondary">Was unsere Kunden über uns sagen</h1>
           <div class="grid grid--review grid--3-cols">
@@ -601,7 +641,7 @@
       <!-------------->
       <!-- GALLERIE -->
       <!-------------->
-      <section class="bg-clr section__padding--vertical">
+      <section class="section__padding--vertical" id="gallerie">
         <div class="container--center">
           <h2 class="heading-secondary center-content">
             Von uns kreiert, für dich inspiriert
@@ -694,10 +734,10 @@
           </div>
         </div>
       </section>
-      <!---------------->
-      <!-- PREISLISTE -->
-      <!---------------->
-      <section class="section__padding--vertical">
+      <!------------>
+      <!-- PREISE -->
+      <!------------>
+      <section class="bg-clr section__padding--vertical" id="preise">
         <div class="container--center">
           <h2 class="heading-secondary">Was wir anbieten</h2>
           <div class="grid grid--pricing">
@@ -799,7 +839,7 @@
               </ul>
             </div>
             <div class="grid__item grid__item--spezialpakete">
-              <h3 class="heading-tirtiary">Sparpakete</h3>
+              <h3 class="heading-tirtiary">Spezialpakete</h3>
               <ul class="list list--pricing">
                 <li class="list__item list__item--pricing">
                   <svg
@@ -873,7 +913,7 @@
       <!--------->
       <!-- FAQ -->
       <!--------->
-      <section class="section__padding--vertical">
+      <section class="section__padding--vertical" id="faq">
         <div class="container--center">
           <h2 class="heading-secondary">Häufig gestellte Fragen</h2>
           <details class="faq__instance" open>
@@ -883,9 +923,8 @@
             <p class="faq__answer">
               Wenn Sie uns besuchen, bieten wir Ihnen einen Kaffee oder Wasser
               an und fragen Sie zuerst nach Ihren Wünschen. Dann geben wir Ihnen
-              unsere Empfehlungen, die auf unsere Erfahrungen basieren.
-              Schliesslich können S So stellen wir sicher, dass wir Ihre
-              Erwartungen erfüllen.
+              unsere Empfehlungen, die auf unsere Erfahrungen basieren. So
+              stellen wir sicher, dass wir Ihre Erwartungen erfüllen.
             </p>
           </details>
           <details class="faq__instance">
@@ -950,7 +989,7 @@
       <!--------->
       <!-- CTA -->
       <!--------->
-      <section class="bg-clr section__padding--vertical">
+      <section class="bg-clr section__padding--vertical" id="cta">
         <div class="container--center">
           <div class="cta grid grid--2-cols">
             <div class="cta__text">
