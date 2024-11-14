@@ -240,3 +240,126 @@
   width: 100%;
   border-radius: 3px;
 }
+
+/***********************************/
+/* FOOTER */
+/***********************************/
+.body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.section__padding--footer {
+  margin-top: 9.6rem;
+  margin-bottom: 3.2rem;
+}
+
+.grid--footer {
+  grid-template-columns: 2fr 3fr 3fr;
+  gap: 3.2rem;
+  border-bottom: solid 1px var(--clr-neutral-500);
+  padding-bottom: 2.4rem;
+  margin-bottom: 2.4rem;
+}
+
+.footer__logo-and-socials {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__logo {
+  display: flex;
+  margin-bottom: 3.2rem;
+}
+
+.footer__heading {
+  font-size: 2rem;
+  line-height: 1.4;
+  color: var(--clr-neutral-100);
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+}
+
+.footer__heading--phone {
+  margin-top: 8rem;
+}
+
+.footer__address {
+  margin-bottom: 3.2rem;
+}
+
+.list--contact {
+}
+
+.footer__contact:link,
+.footer__contact:visited {
+  text-decoration: none;
+  color: var(--clr-neutral-200);
+  transition: 200ms;
+}
+
+.footer__contact:hover,
+.footer__contact:active {
+  color: var(--clr-primary);
+}
+
+.icon--contact {
+  height: 2.4rem;
+}
+
+.footer__socials-container {
+  display: flex;
+  margin-top: auto;
+  gap: 1.6rem;
+}
+
+.footer__socials {
+}
+
+.icon--socials {
+  height: 3.2rem;
+  fill: var(--clr-neutral-200);
+  transition: 200ms;
+}
+
+.icon--socials:hover,
+.icon--socials:active {
+  fill: var(--clr-primary);
+}
+
+.footer__legal-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.4rem;
+}
+
+.footer__legal {
+  font-size: 1.8rem;
+  color: var(--clr-neutral-400);
+}
+
+.footer__legal--link:link,
+.footer__legal--link:visited {
+  text-decoration: none;
+  transition: 200ms;
+}
+
+.footer__legal--link:hover,
+.footer__legal--link:active {
+  color: var(--clr-primary);
+}
+
+.footer__dev:link,
+.footer__dev:visited {
+  text-decoration: none;
+  color: var(--clr-neutral-300);
+  font-weight: 600;
+  transition: 200ms;
+}
+
+.footer__dev:hover,
+.footer__dev:active {
+  color: var(--clr-primary);
+}
