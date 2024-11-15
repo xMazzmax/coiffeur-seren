@@ -3,6 +3,7 @@
 /***********************************/
 .header {
   display: flex;
+  position: fixed;
   width: 100%;
   z-index: 1;
   align-items: center;
@@ -60,6 +61,12 @@
   background-color: var(--clr-primary-300);
 }
 
+.main-nav--sticky {
+  height: 6.4rem;
+  background-color: var(--clr-bg);
+  box-shadow: 0 0.2rem 1rem var(--clr-shaddow-soft);
+}
+
 .main-nav-mobile__btn {
   display: none;
   border: none;
@@ -83,12 +90,18 @@
 /* HERO */
 /***********************************/
 .hero {
+  padding-top: 20rem !important;
+  min-height: 100vh;
+}
+
+.hero-container {
   gap: 4.8rem;
 }
 
 .hero__text {
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
 
