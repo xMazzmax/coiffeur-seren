@@ -238,6 +238,8 @@ mark {
 .list__item {
   display: flex;
   align-items: center;
+  font-size: 1.8rem;
+  line-height: 1.6rem;
   gap: 1.2rem;
 }
 
