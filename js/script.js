@@ -52,6 +52,6 @@ allLinks.forEach(function (link) {
 const displayedYear = document.querySelector(".year-of-copy");
 const currentYear = new Date().getFullYear();
 
-if (displayedYear.textContent != currentYear) {
+if (displayedYear != null && displayedYear.textContent != currentYear) {
   displayedYear.textContent = displayedYear.textContent + " - " + currentYear;
 }
