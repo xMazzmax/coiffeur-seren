@@ -272,7 +272,10 @@
     display: flex;
     flex-direction: column;
     justify-self: end;
-    /* grid-column: span 2; */
+  }
+
+  .footer__address {
+    max-width: 20rem;
   }
 
   .list__item--opening-hours {
