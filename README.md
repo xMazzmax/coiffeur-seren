@@ -117,14 +117,12 @@ Besides the website, my client also asked me for help regarding the following:
 **Google Business Account**
 My client has been working at his current hairdresser shop for years. He didn't own the place initially but eventually took it over. He also took over the existing Google Business Account and instead of renaming the existing profile, he created a second profile on the same account which resulted in the Google search results displaying the name of the new and the name of the old business. I did some research and found out my client's option to solve the problem and shared it with him:
 
-1. Delete the old profile which
-
-   \+ Would remove the name of the old business
+1. Delete the old profile which  
+   \+ Would remove the name of the old business  
    \- Would also delete all his 80+ reviews with an average rating of 4.7 ★
 
-2. Request Google to merge the old profile to the new one
-
-   \+ Would move over all reviews to the new profile
+2. Request Google to merge the old profile to the new one  
+   \+ Would move over all reviews to the new profile  
    \- Request could take up to two weeks and still be rejected
 
 My client didn't mind choosing the first option. He told be he could get new reviews fast. I told him the decision is up to him, but if I was in his shoes, I'd choose the second option first because he had nothing to lose with that. If Google accepted the request he would get to keep all his great reviews which we could use as social proof of his service on his website. If he waited two weeks and his request was rejected, he could still delete the old profile. He liked my suggestion and we went with it. I also updated his opening hours, cover picture, logo and
@@ -133,24 +131,45 @@ My client didn't mind choosing the first option. He told be he could get new rev
 During the project I came to the realization that Apple users don't use Google Maps, they use Apple Maps instead. I informed my client about it, created him an Apple Business Account, did everything necessary to claim his existing shop on Apple Maps and updated everything like on Google Maps by the end of the project.
 
 **Instagram QR code**
-My client wanted me to make him a QR code of a link to his Instagram. He agreed to my suggestion of additionally creating one with a direct link for people to leave a review on Google and printing both on self-adhesive paper so he could easily stick it wherever he wanted. I ordered the paper on Amazon, searched for inspiration on Google, selected a few ideas I liked and created a few samples of which my customer could chose from. I personalized/edited the two chosen options with the free web based photoshop tool [Photopea](https://www.photopea.com/), generated the QR codes on [QR Code Generator](https://www.qr-code-generator.com/) and brought everything together. By the end of the project I also got the idea of doing the same for the website so what my client could stick it on his entrance door and enable curious passersby to explore and close (say yes to) the services of my client entirely on their own – effectively making the sale themselves without any effort from my client. Here are the results:
+My client wanted me to make him a QR code of a link to his Instagram. He agreed to my suggestion of additionally creating one with a direct link for people to leave a review on Google and printing both on self-adhesive paper so he could easily stick it wherever he wanted. I ordered the paper on Amazon, searched for inspiration on Google, selected a few ideas I liked and created a few samples of which my customer could chose from. I personalized/edited the two chosen options with the free web based photoshop tool [Photopea](https://www.photopea.com/), generated the QR codes on [QR Code Generator](https://www.qr-code-generator.com/) and brought everything together. By the end of the project I also got the idea of doing the same for the website so that my client could stick it on his entrance door and enable curious passersby to explore and close (say yes to) the services of my client entirely on their own – effectively making the sale themselves without any effort from my client. Here are the results:
 
-![QR code of my customer's Instagram page link](https://i.postimg.cc/MHwwtHQR/instagram-github.png)
-![QR code of my customer's Google review link](https://i.postimg.cc/QCd5B8dg/google-review-github.png)
-![QR code of my customer's website link](https://i.postimg.cc/X7QWcV7G/website-github.png)
+![QR code of my customer's Instagram page link](https://i.postimg.cc/qMRvZkMK/instagram-github.png)
+![QR code of my customer's Google review link](https://i.postimg.cc/PJ6rr7KN/google-review-github.png)
+![QR code of my customer's website link](https://i.postimg.cc/SxYNkD9N/website-github.png)
 
-## ✍️ Content creation
-
-> _"Make an offer so good people feel stupid saying no"_ – Alex Hormozi
-
-https://youtube.com/shorts/xo7GZF_1eFU?si=UvUkwOWVlWmL1TkQ
-https://youtube.com/shorts/9XIgalr9aWY?si=JpF835J1xvZuYFJx
-
-### 🏗️ Website layout
+### 🧱 Website layout
 
 > _"Don't reinvent the wheel, just realign it."_ – Anthony D'Angelo
 
-As I did for the questionaire, I did for the website of my customer aswell. Instead of building some random website layout, I copied from the best. For that I searched "best landing page" on YouTube and followed the instructions from the video [Why is THIS the PERFECT Landing Page?](https://youtu.be/UC9pTtrhFys?si=cNwzowfQ-rYf-yz3) to maximize the conversion rate of potential customers that visit the website.
+Just as I approached the questionnaire, I applied the same principle to my customer's website. Rather than trying to come up with a layout myself, I drew inspiration from the best one that already exists. For that I searched "best landing page" on YouTube and followed the instructions from the video [Why is THIS the PERFECT Landing Page?](https://youtu.be/UC9pTtrhFys?si=cNwzowfQ-rYf-yz3) to maximize the conversion rate of potential customers that visit the website. Here are the key takeaways from the video:
+
+- Don't offer your service or your product, offer the dream outcome your customer is looking for
+- Create trust by providing undeniable proof that your service or product leads to the dream outcome of your customer
+- Point the user toward one – and only one – simple clear action he needs to take to reach his desired result
+
+In addition to the last video mentioned, I also watched the video [Copy This Perfect Landing Page To Double Your Leads Instantly](https://youtu.be/V2_LNtV95jM?si=k1_9B_N1mqqtbFJm&t=827) from the same channel and in one minute it explains the connection between how people make buying decisions:
+
+- 95% of a customer's buying decision is based on emotions e.g. desires, dreams etc.
+- To make sure the customer doesn't regret his decision and to cover the missing 5% of a customer's buying decision, the emotional decision needs to be backed up with logic on how the service or product ensures the claimed results e.g. stats, social proof, visual proof, features etc.
+
+With that blueprint as a starting point, here's the layout I decided to implement in the exact order it's displayed on the website:
+
+- Navbar
+  - While the blueprint I used told me to leave out the nav to lead force the user to take the optimal path to the CTA (Call To Action), I didn't want to take control away from the user and reduce his user experience, as that's something I myself would hate. So I decided to implement it.
+  - Includes from left to right:
+    - Logo (with a hyperlink to he top of the homepage)
+    - Descriptive single word for each section (except the CTA)
+    - Highlighted CTA to the correspondent section
+- Hero
+  - Left half from top to bottom:
+    -
+
+## ✍️ Content creation
+
+> [_"Make an offer so good people feel stupid saying no"_ – Alex Hormozi](https://youtube.com/shorts/joF2fMj3XKk?si=9uxLZvgPwWB57C8f)
+
+https://youtube.com/shorts/xo7GZF_1eFU?si=UvUkwOWVlWmL1TkQ
+https://youtube.com/shorts/9XIgalr9aWY?si=JpF835J1xvZuYFJx
 
 Link to ChatGPT chat histories used for market research and content creation:
 https://chatgpt.com/share/673c582e-e19c-8005-97d1-871d555102b9
