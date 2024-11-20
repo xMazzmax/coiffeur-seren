@@ -107,8 +107,8 @@ My initial plan was to hand out the questionnaire I'd prepare to my client as a 
 
 My client wanted me to make a simple website and his only requests were the following:
 
-- A list of his services and prices
-- The shop address and contact info
+- A list of his services and prices.
+- The shop address and contact info.
 
 I agreed with my client that the website should be as simple as possible since I believe that perfection is achieved, not when there is nothing more to add, but when there is nothing unnecessary left to take away so that the user can achieve his goal as simple as possible as fast as possible. That doesn't mean that that's easy, in fact it's way harder than the opposite, but I believe that is is the responsibility of the engineer to take on burden of the complexity to add as much value as possible to his customers. Computers and software are simply tools and tools should make their user's life easier, not harder. While I wanted to create something great, I also wanted to do the project as efficiently as possible.
 
@@ -117,13 +117,13 @@ Besides the website, my client also asked me for help regarding the following:
 **Google Business Account**
 My client has been working at his current hairdresser shop for years. He didn't own the place initially but eventually took it over. He also took over the existing Google Business Account and instead of renaming the existing profile, he created a second profile on the same account which resulted in the Google search results displaying the name of the new and the name of the old business. I did some research and found out my client's option to solve the problem and shared it with him:
 
-1. Delete the old profile which  
-   \+ Would remove the name of the old business  
-   \- Would also delete all his 80+ reviews with an average rating of 4.7 ★
+1. Delete the old profile which ...  
+   \+ ... would remove the name of the old business.  
+   \- ... would also delete all his 80+ reviews with an average rating of 4.7 ★.
 
-2. Request Google to merge the old profile to the new one  
-   \+ Would move over all reviews to the new profile  
-   \- Request could take up to two weeks and still be rejected
+2. Request Google to merge the old profile into the new one ...  
+   \+ ... would move over all existing reviews to the new profile.  
+   \- ... request could take up to two weeks and still be rejected.
 
 My client didn't mind choosing the first option. He told be he could get new reviews fast. I told him the decision is up to him, but if I was in his shoes, I'd choose the second option first because he had nothing to lose with that. If Google accepted the request he would get to keep all his great reviews which we could use as social proof of his service on his website. If he waited two weeks and his request was rejected, he could still delete the old profile. He liked my suggestion and we went with it. I also updated his opening hours, cover picture, logo and
 
@@ -143,26 +143,111 @@ My client wanted me to make him a QR code of a link to his Instagram. He agreed 
 
 Just as I approached the questionnaire, I applied the same principle to my customer's website. Rather than trying to come up with a layout myself, I drew inspiration from the best one that already exists. For that I searched "best landing page" on YouTube and followed the instructions from the video [Why is THIS the PERFECT Landing Page?](https://youtu.be/UC9pTtrhFys?si=cNwzowfQ-rYf-yz3) to maximize the conversion rate of potential customers that visit the website. Here are the key takeaways from the video:
 
-- Don't offer your service or your product, offer the dream outcome your customer is looking for
-- Create trust by providing undeniable proof that your service or product leads to the dream outcome of your customer
-- Point the user toward one – and only one – simple clear action he needs to take to reach his desired result
+- Don't offer your service or your product, offer the dream outcome your customer is looking for.
+- Create trust by providing undeniable proof that your service or product leads to the dream outcome of your customer.
+- Point the user toward one – and only one – simple clear action he needs to take to reach his desired result.
 
 In addition to the last video mentioned, I also watched the video [Copy This Perfect Landing Page To Double Your Leads Instantly](https://youtu.be/V2_LNtV95jM?si=k1_9B_N1mqqtbFJm&t=827) from the same channel and in one minute it explains the connection between how people make buying decisions:
 
 - 95% of a customer's buying decision is based on emotions e.g. desires, dreams etc.
-- To make sure the customer doesn't regret his decision and to cover the missing 5% of a customer's buying decision, the emotional decision needs to be backed up with logic on how the service or product ensures the claimed results e.g. stats, social proof, visual proof, features etc.
+- Emotions change all the time but proof is timeless and validates decisions and claims. To make sure the customer doesn't regret his decision when his emotions change and to cover the missing 5% of a customer's buying decision, the emotional decision needs to be backed up with logic on how the service or product ensures the claimed results e.g. stats, social proof, visual proof, features etc.
 
-With that blueprint as a starting point, here's the layout I decided to implement in the exact order it's displayed on the website:
+With the blueprint gathered as a starting point, here's the layout I decided to implement in the exact order I planned to display it on the website:
 
-- Navbar
-  - While the blueprint I used told me to leave out the nav to lead force the user to take the optimal path to the CTA (Call To Action), I didn't want to take control away from the user and reduce his user experience, as that's something I myself would hate. So I decided to implement it.
-  - Includes from left to right:
-    - Logo (with a hyperlink to he top of the homepage)
-    - Descriptive single word for each section (except the CTA)
-    - Highlighted CTA to the correspondent section
-- Hero
-  - Left half from top to bottom:
-    -
+**- Navbar (enhances user experience)**
+
+- While the blueprint I used told me to leave out the nav to lead force the user to take the optimal path to the CTA (Call To Action), I didn't want to take control away from the user and reduce his user experience, as that's something I myself would hate. So I decided to implement it.
+- Includes from left to right:
+  - Logo (with a hyperlink to he top of the homepage).
+  - Descriptive single word for each section (except the CTA).
+  - Highlighted CTA to the correspondent section.
+
+**- Hero (emotinally and logically grabs user's attention)**
+
+- Left half from top to bottom:
+  - Heading: Emotion based promise of an outcome.
+  - Subheading: Logic based explanation on how to achieve it.
+  - CTA (Call to action): Action the user needs to take to directly achieve the desired result. It's written as clearly and with as few words as possible.
+  - CTA alternative: Second option the user can take if he isn't convinced by the hero section and needs more proof. It leads the user to the following section.
+  - Google reviews rating: Displays the average Google reviews rating and the amount of reviews it's based on to add social proof and create trust.
+
+**- Benefits (emotional proof)**
+
+- Heading: Doesn't just describe what the section is about but conveys what value it adds to the user.
+- 3 (magic number) benefits (results instead of things) the service provides to the user with the following layout for each benefit component:
+  - Descriptive icon.
+    - A picture is worth a thousand words.
+    - Visuals help us understand ideas about 6x better than just text alone.
+  - Heading: (Emotional) result of the benefit described in 1-3 words.
+  - Subheading: (Logical) proof on how the benefit is achieved/the explanation of the thing or feature you provide to make it possible described in 1-3 short sentences.
+
+**- Features (logical proof)**
+
+- Heading: See "Benefits".
+- Simply list **all** features you provide with your services so that the user has overwhelming (logical) proof to accept your offer. Add an icon like a checkmark to each feature instead of just bullet points to make it more visually appealing. Only add a short description to a feature if strictly necessary for the user to understand what the feature is about, but before doing that, try fixing it by rephrasing the feature itself.
+
+**- Reviews (social proof)**
+
+- If you don't have reviews, you could also display logos of businesses you've helped with your product or service instead.
+- Ask your customers to give you a review. [The best time to ask for that is at the moment of greatest satisfaction](https://youtube.com/shorts/B0VXkSmBrbQ?si=rnae2OBG8MG5mlUg), right after delivering them their dream outcome with your product or service. You may already have great reviews but might not be aware of it. Here are some places you should consider looking for it:
+  - Google Maps and Apple Maps.
+  - Comments on your social media:
+    - Instagram.
+    - Facebook.
+    - LinkedIn.
+  - Email.
+- Choose the 3 (magic number) best reviews you have based on these things ordered from highest to lowest priority:
+  - It mentions at least one of the following:
+    - How your offer helped reach a specific goal with the best result possible e.g. "$1'000 investment and 100'000 profit" or "80% time/money saved in X with the help of the service".
+    - It proves a benefit of using what you offer.
+    - Talks about how the user overcame a common objection so that the customer can relate to his personal fears and you grab his attention e.g. "At first I thought it was pretty expensive, but the amount of money and time I saved as a result of this investment, made it all worth it!"
+  - Has a photo of the customer.
+  - Has the name of the customer.
+  - Best rating
+  - Proof is from recent times as it's more compelling than old proof (5 days vs 5 years old proof)
+- Layout from top to bottom for each of the reviews:
+  - Heading: See "Benefits".
+  - 5 stars icons: Visually displays the best rating possible even when the user skims through the page and doesn't take the time to read the reviews.
+  - Review text: 1-2 very short straight to the point sentences of just text passages of a review to increase the likelihood that users actually read the text.
+  - Image of the author: This makes the review appear more authentic.
+  - Name of the author: This also makes it appear more authentic.
+
+**- Gallery (visual proof)**
+
+- Visual proof is the best there is.
+  - Here's a list of visual media types starting with the most convincing:
+    - Video + audio
+    - Video
+    - Photo or Screenshot (real image)
+    - Illustration (image created by an artist or AI)
+  - If possible use before and after comparisons
+- I went with photos of the results from my clients services
+
+**- Offer (logical proof)**
+
+- Have you ever spent what felt like an eternity to try and find a movie or serie on Netflix, only to not find nothing at all and decide to do something else? That's known as analysis paralysis. It's the feeling of being unable to make a decision due to overthinking a problem and often happens when a person's dealing with too many variables/options. Netflix mitigated this problem with providing you with different top 10 lists that are based on things like your location, viewing history and other members with similar taste. If you want your user to take you up on any offer at all, don't overwhelm him with too many options. Generally speaking, the optimal number is – you guessed it – 3 options. But this number may vary between industries and existing services. Just make sure your offer is a conveyed as simple as possible with as few words as possible while still maintaining the essential impactful information needed.
+- For my client I sought inspiration from different hairdresser websites but the only designs I liked were those I found on [Dribbble](https://dribbble.com/) which is a self-promotion platform for the digital designers.
+
+**- FAQ (emotional fears)**
+
+- The frequently asked questions section resolves common questions users might have about your product or service and most important their personal fears that are based on past bad experiences and misconceptions. Here's some pressure points:
+  - Money
+  - Time
+  - Trust
+- Choose 5-6 questions and provide an answer to them, preferrably with some proof.
+- Layout:
+  - Heading: Question
+  - Paragraph: Answer. Since this taps into the customer's fears – which is the strongest form of motivation –, you can get away with writing longer text than the rest of the content on the website, but should still try to be concise and precise.
+
+**- CTA (goal of the whole website)**
+
+- The primary purpose of the website is to encourage the user to act upon the call to action, so that you can help him solve whatever problem or reach whatever goal he has. Therefore, one should take as much time as needed to make all the effort put into the development of the website worthwhile. Start the development of the website thinking about and writing the CTA and after finishing writing all the content, revisit it and try to rewrite it such that it's more concise and can be understood more clearly by the user.
+- Layout:
+  - Heading: Same as in the hero section.
+  - Paragraph: Elaborate on the heading and the subheading of the hero.
+  - Button: Direct call to action that describes what's gonna happen when the user presses the button.
+    \- **Bad** example: Call us now! //The user doesn't know why to call.  
+    \+ **Good** example: Call now and book a consultation! //Describes exactly what's gonna happen and why.
 
 ## ✍️ Content creation
 
