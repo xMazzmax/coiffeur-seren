@@ -65,12 +65,12 @@ With the the total of 30 minutes of research – including my first impression a
 - Low price, high quality, time (e.g. fast haircuts in under 10 min, no appointments accepted and short waiting times)
 - Many payment methods
 
-**7. What makes your products and/or services unique (why do your customers come to you instead to your competitors?)?**
+**7. What makes your products and/or services unique (why do your customers come to you instead to your competitors)?**
 
 - Money back guarantee if the customer isn't happy with the result or with the speed of the service
 - "We apply hair gel, hair wax etc. for free after a haircut"
 
-**8. What's your call to action (what's the objective of the website?)?**
+**8. What's your call to action (what's the objective of the website)?**
 
 - "Stop by anytime"
 - "Call us now to ensure 0 waiting time."
@@ -130,7 +130,7 @@ During our meeting I went over the questionaire I'd prepared and only asked him 
 
 - I only asked him about his services and prices and made a picture of the price list he showed me.
 
-**5. What makes your products and/or services unique (why do your customers come to you instead to your competitors?)?**
+**5. What makes your products and/or services unique (why do your customers come to you instead to your competitors)?**
 
 - 2 free parking lots for customers
 - Toilet on-site
@@ -168,7 +168,7 @@ My client has been working at his current hairdresser shop for years. He didn't 
    \+ ... would move over all existing reviews to the new profile.  
    \- ... request could take up to two weeks and still be rejected.
 
-My client wanted to choose the first option as he thought he could get new reviews fast. I told him the decision is up to him, but if I was in his shoes, I'd choose the second option first because he had nothing to lose and everything to win with it. If Google accepted the request he would get to keep all his great reviews which we could use on the website as social proof of how great his service is. If he waited two weeks and his request was rejected, he could still delete the old profile. He liked my suggestion chose that path. I also updated his opening hours, cover picture, logo and also the website address once it went live.
+My client wanted to choose the first option as he thought he could get new reviews quickly. I told him the decision is up to him, but if I was in his shoes, I'd choose the second option first because he had nothing to lose and everything to win with it. If Google accepted the request he would get to keep all his great reviews which we could use on the website as social proof of how great his service is. If he waited two weeks and his request was rejected, he could still delete the old profile. He liked my suggestion chose that path. I also updated his opening hours, cover picture, logo and also the website address once it went live.
 
 **Apple Business Account**
 During the project I came to the realization that Apple users don't use Google Maps, they use Apple Maps instead. I informed my client about it, created him an Apple Business Account, did everything necessary to claim his existing shop on Apple Maps and updated everything like on Google Maps by the end of the project.
@@ -282,7 +282,7 @@ With the blueprint gathered as a starting point, here's the layout I decided to 
   - Heading: Question
   - Paragraph: Answer. Since this taps into the customer's fears – which is the strongest form of motivation –, you can get away with writing longer text than the rest of the content on the website, but should still try to be concise and precise.
 
-**- CTA (goal of the whole website)**
+**- CTA (purpose of the website)**
 
 - The primary purpose of the website is to encourage the user to act upon the call to action, so that you can help him solve whatever problem or reach whatever goal he has. Therefore, one should take as much time as needed to make all the effort put into the development of the website worthwhile. Start the development of the website thinking about and writing the CTA and after finishing writing all the content, revisit it and try to rewrite it such that it's more concise and can be understood more clearly by the user.
 - Layout:
@@ -296,8 +296,41 @@ With the blueprint gathered as a starting point, here's the layout I decided to 
 
 > [_"Make an offer so good people feel stupid saying no"_ – Alex Hormozi](https://youtube.com/shorts/joF2fMj3XKk?si=9uxLZvgPwWB57C8f)
 
-https://youtube.com/shorts/xo7GZF_1eFU?si=UvUkwOWVlWmL1TkQ
-https://youtube.com/shorts/9XIgalr9aWY?si=JpF835J1xvZuYFJx
+Alex Hormozi, who built four different businesses, now has a net worth of $100'000'000 and is my mentor – even though he doesn't know I exist – said a while back that he ["looked at 2'000 ads ... of the top 50 ads ... 40 of them was just proof ... it's all it was, proof"](https://youtube.com/shorts/9XIgalr9aWY?si=JpF835J1xvZuYFJx). He also showed me ["four things to make the proofs more compelling"](https://youtube.com/shorts/xo7GZF_1eFU?si=UvUkwOWVlWmL1TkQ):
+
+1. Recent proof is better than delayed proof.
+
+- Example: 5 days vs 5 years old proof.
+
+2. Your proof should be as visual as possible.
+
+- Example: Saying you lost 10kg of fat vs showing a before and after picture of it.
+
+3. Use high volume of proof and in the right format.
+
+- Example: Having 100 reviews on Google vs printing every single one of them out, framing them and putting them at your lobby wall from floor to ceiling.
+
+I knew I had to do some market research to find out what criteria people have when it comes to choose a hairdresser, find my client's strengths and weaknesses and connect the dots to come up with the ideal offer that the target audience would feel stupid saying no to. To make the process as efficiently as possible I used [ChatGPT](https://chatgpt.com/) as my market research expert. Here are the key concepts that shaped my approach:
+
+- The quality of the results from ChatGTP depends entirely on the skill of the person crafting the prompts.
+  - It's like having a CEO who doesn't know how to manage his team effectively. If the CEO provides clear guidance and well-defined objectives, the team can focus their efforts and deliver high-quality results. Similarly, when the prompt is precise, well-structured, and detailed, ChatGPT can generate accurate, relevant, and insightful responses. On the other hand, if the CEO gives vague or poorly thought-out instructions, the team might become confused or unproductive. Likewise, a poorly written prompt can lead to generic, irrelevant, or unhelpful responses from ChatGPT.
+- Take responsibility and think for yourself instead of leaving that to the AI.
+  - By taking responsibility for your own thinking, you ensure that ChatGPT becomes a tool to enhance your capabilities rather than replacing them. ChatGPT provides suggestions, but it’s up to the user to analyze, interpret, and apply those ideas in a thoughtful, ethical, and relevant way. Engaging critically with ChatGPT helps you maintain control over the process, achieve more meaningful and personalized results, and improve your own skills over time.
+
+To find out what motivates the buying decisions of my of my client's customers I tried to define an avatar. An avatar is a detailed representation of a company's ideal customer or target audience. It's a fictional profile that embodies the characteristics, behaviors, needs, and preferences of the type of person a business aims to reach with its products or services. For that I analysed the following:
+
+- The looks of the few customer I've seen during my first meeting with my client and of the people my client has uploaded result pictures onto his Instagram profile.
+- The personality of my brother who is a regular customer of my client and connected my client and me.
+- What I personally like and dislike about hairdressing services and why I cut my hair myself instead of going to a barber (check my profile image 😄).
+- The key values my customer provides with his service. Not just with the end result but also with his process that's unique to his hairdresser shop and with which he differentiates himself from his competitors.
+
+Here's the avatar I came up with:
+
+- Young ambitious men between 16 and 35 years who highly value their time, simplicity, efficiency and money.
+
+I know for a fact – also through my own personal experience – that ambitious people are usually driven by deep insecurities. As you've already learned, fear is the strongest form of motivation. With that in mind, I wanted my copy to relate to those insecurities to grab the user's attention and provide them a genuine solution with my client's services.
+
+I wanted to apply those strategies to every piece of content I was going to write and implement into the website and that's how I provided all my services to my client in general for the most part.
 
 Link to ChatGPT chat histories used for market research and content creation:
 https://chatgpt.com/share/673c582e-e19c-8005-97d1-871d555102b9
