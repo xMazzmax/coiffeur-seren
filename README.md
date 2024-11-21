@@ -326,7 +326,7 @@ To find out what motivates the buying decisions of my of my client's customers I
 
 Here's the avatar I came up with:
 
-- Young ambitious men between 16 and 35 years who highly value their time, simplicity, efficiency and money.
+- Young ambitious men between 16 and 35 years who highly value simplicity, efficiency and their time and money.
 
 I know for a fact – also through my own personal experience – that ambitious people are usually driven by deep insecurities. As you've already learned, fear is the strongest form of motivation. With that in mind, I wanted my copy to relate to those insecurities to grab the user's attention and provide them a genuine solution with my client's services.
 
