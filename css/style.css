@@ -405,6 +405,8 @@
   gap: 1.2rem;
 }
 
+.footer__address:link,
+.footer__address:visited,
 .footer__contact-number:link,
 .footer__contact-number:visited {
   text-decoration: none;
@@ -412,6 +414,8 @@
   transition: 200ms;
 }
 
+.footer__address:hover,
+.footer__address:active,
 .footer__contact-number:hover,
 .footer__contact-number:active {
   color: var(--clr-primary);
