@@ -1,5 +1,8 @@
 # 💇‍♂️ Coiffeur Seren
 
+[🇩🇪 Lies diese Dokumentation auf Deutsch](https://github.com/xMazzmax/coiffeur-seren/blob/master/README_DE.md)
+🇧🇷 Leia essa documentação em Português (vira em breve/ coming soon/ bald verfügbar)
+
 Coiffeur Seren is a responsive landing page/single page website that I developed to practice and solidify my recently gained knowledge in HTML, CSS and web design. Other than my last project this was done for an actual client.
 
 ## 📝 First Meeting Preparation
@@ -154,6 +157,8 @@ During our meeting I went over the questionaire I'd prepared and only asked him 
 I agreed with my client's decision that the website should be as simple as possible. My definition of greatness is achieved, not when there is nothing more to add, but when there is nothing unnecessary left to take away from a product or service so that the user can achieve his goals as simple as possible and as fast as possible. Adding more value with less stuff isn't easy, in fact it's way harder. My philosophy is that it's the responsibility of the service provider to take on the burden of that complexity in order to add as much value as possible to his customers. In regards to software, I think that to the users, software are primarily tools and tools should make their life easier, not harder. That's the approach I personally take and the goal I aim towards when providing any kind of service or product, not just software development.
 
 ### 🌍 Beyond Website Developent - Marketing Strategies and Execution
+
+> [_"Every skill you add to your skill toolbelt makes the rest of your skills more valuable."_ – Alex Hormozi](https://youtube.com/shorts/M0Mq_q3gVXA?si=iuBANp5p1ZK4KSjz)
 
 Besides the website, my client also asked me for help regarding the following:
 
