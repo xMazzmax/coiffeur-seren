@@ -1,6 +1,6 @@
 # 💇‍♂️ Coiffeur Seren
 
-[🇺🇸 Read this documentation in English](https://github.com/xMazzmax/coiffeur-seren/blob/master/README.md)
+[🇺🇸 Read this documentation in English](https://github.com/xMazzmax/coiffeur-seren/blob/master/README.md)  
 🇧🇷 Leia essa documentação em Português (vira em breve/ bald verfügbar/ coming soon)
 
 Coiffeur Seren ist eine responsive Landingpage/Single-Page-Website, die ich entwickelt habe, um mein kürzlich erworbenes Wissen in HTML, CSS und Webdesign zu üben und zu festigen. Im Gegensatz zu meinem letzten Projekt wurde dies für einen tatsächlichen Kunden umgesetzt.
@@ -300,7 +300,7 @@ Mit dem als Grundlage gesammelten Plan hier das Layout, das ich in der genauen R
 
 ## 📰 Content-Produktion
 
-> _"Content is king!"_ – Bill Gates (**1996**)
+> _"Content is king!"_ – Bill Gates (**im Jahr 1996!**)
 
 Lass uns zunächst definieren, was Content-Produktion überhaupt ist: Content-Produktion – primär content creation genannt – ist der Prozess des Erzeugens und Teilens/Veröffentlichen von Materialien wie Text, Bildern, Videos oder Audio, um ein Publikum zu informieren, unterhalten oder zu einer Aktion zu bewegen.
 
@@ -357,7 +357,7 @@ Zusätzlich zur Verwendung von ChatGPT für Marktforschung nutzte ich es auch f�
 - Den letzten Schliff an meinem geschriebenen Text anbringen.
   - Da eines meiner Ziele darin bestand, meine Schreib- und Denkfähigkeiten zu verbessern, wollte ich dies nicht zugunsten der Effizienz opfern, also schrieb ich etwa 90 % des Textes selbst und nutzte nur ChatGPT, um „den letzten Schliff“ hinzuzufügen, mit dem Zitat als meine Eingabeaufforderung und immer mit dem Zusatzbefehl, „so präzise und wirkungsvoll wie möglich zu machen“. Ich benutze das Tool [Diffchecker](https://www.diffchecker.com/), um meinen Originaltext mit der überarbeiteten Version von ChatGPT zu vergleichen. Es hebt die Unterschiede hervor und erleichtert den Vergleich. Ich habe das ganze Projekt mit der kostenlosen Version von ChatGPT gemacht. Wenn du 20 $ für das monatliche Abonnement ausgibst, erhältst du nicht nur unbegrenzten Zugang zum schnellsten KI-Modell, das dir die besten Qualitätsergebnisse liefert, sondern du kannst auch eine der neuesten Funktionen namens [Canvas](https://openai.com/index/introducing-canvas/) nutzen, die – zum Zeitpunkt, an dem ich das schreibe – wird nur Nutzern mit einem kostenpflichtigen Abo zur Verfügung gestellt. Es handelt sich um eine neue Benutzeroberfläche (die Art und Weise, wie man mit einem System interagierst), die das Erstellen und Verfeinern von Texten und Code viel einfacher macht als die aktuelle Chat-Oberfläche. Es spart dir eine Menge Zeit, da das ständige Kopieren und Einfügen sowie externe Tools wie Diffchecker nicht mehr nötig sind. Wenn du mehr darüber erfahren möchtest, schau dir den eingebetteten Link zum Wort "Canvas" oben an oder folgendes Video für ein ausführliches Tutorial und Anwendungsbeispiele: [12 Use Cases for NEW ChatGPT Canvas! (Future of Writing)](https://youtu.be/LDVxv9UXQxg?si=W1elyKzMQFkrS733).
 
-Link zu den Chatverläufen von ChatGPT, die für Marktforschung und Inhaltserstellung verwendet wurden:
-https://chatgpt.com/share/673c582e-e19c-8005-97d1-871d555102b9
-https://chatgpt.com/share/673c56cb-023c-8005-86aa-0e66d5a8d6cb
+Link zu den Chatverläufen von ChatGPT, die für Marktforschung und Inhaltserstellung verwendet wurden:  
+https://chatgpt.com/share/673c582e-e19c-8005-97d1-871d555102b9  
+https://chatgpt.com/share/673c56cb-023c-8005-86aa-0e66d5a8d6cb  
 https://chatgpt.com/share/673c58bd-f080-8005-b5c3-81fded50730c

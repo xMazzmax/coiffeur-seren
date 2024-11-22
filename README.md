@@ -1,6 +1,6 @@
 # 💇‍♂️ Coiffeur Seren
 
-[🇩🇪 Lies diese Dokumentation auf Deutsch](https://github.com/xMazzmax/coiffeur-seren/blob/master/README_DE.md)
+[🇩🇪 Lies diese Dokumentation auf Deutsch](https://github.com/xMazzmax/coiffeur-seren/blob/master/README_DE.md)  
 🇧🇷 Leia essa documentação em Português (vira em breve/ coming soon/ bald verfügbar)
 
 Coiffeur Seren is a responsive landing page/single page website that I developed to practice and solidify my recently gained knowledge in HTML, CSS and web design. Other than my last project this was done for an actual client.
@@ -299,7 +299,7 @@ With the blueprint gathered as a starting point, here's the layout I decided to 
 
 ## 📰 Content creation
 
-> _"Content is king!"_ - Bill Gates (**1996**)
+> _"Content is king!"_ - Bill Gates (**in 1996!**)
 
 Let's start by defining what content creation is in the first place: Content creation is the process of generating and sharing material, such as text, images, videos, or audio, to inform, entertain, or engage an audience.
 
@@ -356,7 +356,7 @@ In addition to using ChatGPT for market research, I used it for:
 - Add a last touch to my written text.
   - Because one of my goals was to improve my writing and thinking skills, I didn't want to sacrifice it for the sake of efficiency, so I wrote about 90% of the text on my own and only used ChatGPT to "add a last touch" to it with the quote as my prompt and always with the addition of the command to "make it as consice and impactful as possible". I use the tool [Diffchecker](https://www.diffchecker.com/) to compare my original text with the revision from ChatGPT. It highlights the differences and makes comparing them very easy. I did the whole project with the free version of ChatGPT. If you spend $20 on the monthly subscription, you not only get access to unlimited access to the fastest AI model that gives you the best quality outputs, but you can also use one of the latest features called [Canvas](https://openai.com/index/introducing-canvas/) which – at the time of me writing this – is only available to paid subscription users. It's a new interface (way you interact with a system) that makes creating text and code and refining it way easier than the current chat interface. It saves you a lot of time by removing the need for constant copy pasting and external tools like Diffchecker. If you want to learn more about it check out the embedded link on the word "Canvas" above or check out this video for an indepth tutorial and use cases for it: [12 Use Cases for NEW ChatGPT Canvas! (Future of Writing)](https://youtu.be/LDVxv9UXQxg?si=W1elyKzMQFkrS733).
 
-Link to ChatGPT chat histories used for market research and content creation:
-https://chatgpt.com/share/673c582e-e19c-8005-97d1-871d555102b9
-https://chatgpt.com/share/673c56cb-023c-8005-86aa-0e66d5a8d6cb
+Link to ChatGPT chat histories used for market research and content creation:  
+https://chatgpt.com/share/673c582e-e19c-8005-97d1-871d555102b9  
+https://chatgpt.com/share/673c56cb-023c-8005-86aa-0e66d5a8d6cb  
 https://chatgpt.com/share/673c58bd-f080-8005-b5c3-81fded50730c
