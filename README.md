@@ -292,7 +292,13 @@ With the blueprint gathered as a starting point, here's the layout I decided to 
     \- **Bad** example: Call us now! //The user doesn't know why to call.  
     \+ **Good** example: Call now and book a consultation! //Describes exactly what's going to happen and why.
 
-## ✍️ Content creation
+## 📰 Content creation
+
+> _"Content is king!"_ - Bill Gates (**1996**)
+
+Let's start by defining what content creation is in the first place: Content creation is the process of generating and sharing material, such as text, images, videos, or audio, to inform, entertain, or engage an audience.
+
+### 🧠 Market research
 
 > [_"Make an offer so good people feel stupid saying no"_ – Alex Hormozi](https://youtube.com/shorts/joF2fMj3XKk?si=9uxLZvgPwWB57C8f)
 
@@ -310,7 +316,7 @@ Alex Hormozi, who built four different businesses, now has a net worth of $100'0
 
 - Example: Having 100 reviews on Google vs printing every single one of them out, framing them and putting them at your lobby wall from floor to ceiling.
 
-I knew I had to do some market research to find out what criteria people have when it comes to choose a hairdresser, find my client's strengths and weaknesses and connect the dots to come up with the ideal offer that the target audience would feel stupid saying no to. To make the process as efficiently as possible I used [ChatGPT](https://chatgpt.com/) as my market research expert. Here are the key concepts that shaped my approach:
+I knew I had to do some market research to find out what criteria people have, when it comes to choosing a hairdresser, find my client's strengths and weaknesses, and connect the dots to come up with the ideal offer that the target audience would feel stupid saying no to. The basis for my market research was the questionaire. In addition to the answers my client provided me, some observations I made helped me add more specificity to my client's answers and do the unanswered questions on my own. To make the process as efficiently as possible, I used [ChatGPT](https://chatgpt.com/) as my market research expert. Here are the key concepts that shaped my approach:
 
 - The quality of the results from ChatGTP depends entirely on the skill of the person crafting the prompts.
   - It's like having a CEO who doesn't know how to manage his team effectively. If the CEO provides clear guidance and well-defined objectives, the team can focus their efforts and deliver high-quality results. Similarly, when the prompt is precise, well-structured, and detailed, ChatGPT can generate accurate, relevant, and insightful responses. On the other hand, if the CEO gives vague or poorly thought-out instructions, the team might become confused or unproductive. Likewise, a poorly written prompt can lead to generic, irrelevant, or unhelpful responses from ChatGPT.
@@ -328,9 +334,22 @@ Here's the avatar I came up with:
 
 - Young ambitious men between 16 and 35 years who highly value simplicity, efficiency and their time and money.
 
-I know for a fact – also through my own personal experience – that ambitious people are usually driven by deep insecurities. As you've already learned, fear is the strongest form of motivation. With that in mind, I wanted my copy to relate to those insecurities to grab the user's attention and provide them a genuine solution with my client's services.
+### ✍️ Copywriting
 
-I wanted to apply those strategies to every piece of content I was going to write and implement into the website and that's how I provided all my services to my client in general for the most part.
+> [_"If you are an effective writer ... you have all the authority and competence that there is"_ – Jordan B. Peterson](https://youtube.com/shorts/CPY3dG9dcC8?si=YKdm6-vVZFue3bs5)
+
+Definition: Copywriting is the art and science of crafting persuasive and compelling text to promote a product, service, or idea and inspire the audience to take specific action.
+
+From my knowledge about neuropsychology (science about how the brain affects human behaviour through things like hormones) and behavioural psychology, but also from personal experience, I know for a fact that ambitious people who represent the avatar I came up with are usually driven by deep insecurities. As you've already learned, fear is the strongest form of motivation. With that in mind, I wanted my copy to relate to those insecurities to grab the user's attention and to provide them a genuine solution with my client's services. That's not only how I did this project, but how I do everything in my life. But with great power comes great responsibility. That's why philosophy is a big component of my life. Because I'm well aware of the limits of my capabilities, know that I don't have the the right answers to everything and sometimes make mistakes, I think about the potential negative consequences my actions might lead to. I strive to always have a net positive impact on others with everything I do. With the negatives and positives taken into account, I always try to focus only on things that will have a positive impact on me **and** the people involved. With that out the way, let's resume with copywriting.
+
+In addition to using ChatGPT for market research, I used it for:
+
+- Brainstorming countless ideas (each time within seconds).
+  - When I didn't like the output I asked my virtual expert to do it again with the simple prompt "again" and repeated it until there was something I found interesting. When that alone wasn't enough, I refined my original command/question and repeated this process.
+- Headline suggestions.
+  - Because of the importance of headlines and to make them as impactful as possible, I spent quite some time to come up with the best prompts I could think of to get the result I wanted. Some words and phrases I included were: emotional, logical, impactful, convey the following meaning, achieve the following goal, as consize/short as possible, max of X characters/words/sentences.
+- Add a last touch to my written text.
+  - Because one of my goals was to improve my writing and thinking skills, I didn't want to sacrifice it for the sake of efficiency, so I wrote about 90% of the text on my own and only used ChatGPT to "add a last touch" to it with the quote as my prompt and always with the addition of the command to "make it as consice and impactful as possible". I use the tool [Diffchecker](https://www.diffchecker.com/) to compare my original text with the revision from ChatGPT. It highlights the differences and makes comparing them very easy. I did the whole project with the free version of ChatGPT. If you spend $20 on the monthly subscription, you not only get access to unlimited access to the fastest AI model that gives you the best quality outputs, but you can also use one of the latest features called [Canvas](https://openai.com/index/introducing-canvas/) which – at the time of me writing this – is only available to paid subscription users. It's a new interface (way you interact with a system) that makes creating text and code and refining it way easier than the current chat interface. It saves you a lot of time by removing the need for constant copy pasting and external tools like Diffchecker. If you want to learn more about it check out the embedded link on the word "Canvas" above or check out this video for an indepth tutorial and use cases for it: [12 Use Cases for NEW ChatGPT Canvas! (Future of Writing)](https://youtu.be/LDVxv9UXQxg?si=W1elyKzMQFkrS733).
 
 Link to ChatGPT chat histories used for market research and content creation:
 https://chatgpt.com/share/673c582e-e19c-8005-97d1-871d555102b9
