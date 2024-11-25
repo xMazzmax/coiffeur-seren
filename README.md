@@ -102,7 +102,7 @@ With the the total of 30 minutes of research – including my first impression a
 
 - E.g. photographer, copywriter (to write the websites content/text), Google Business Account (for Google Maps), social media (Instagram, Facebook etc.), Domain
 
-## 📅 First Meeting
+## 📅 First Meeting Execution
 
 > [_"The greatest possible treasure to be found is where the danger is most intense"_ – Jordan B. Peterson](https://youtube.com/shorts/W_1cF7zSens?si=pgeGW8RTi3COojjT)
 
@@ -355,6 +355,44 @@ In addition to using ChatGPT for market research, I used it for:
   - Because of the importance of headlines and to make them as impactful as possible, I spent quite some time to come up with the best prompts I could think of to get the result I wanted. Some words and phrases I included were: emotional, logical, impactful, convey the following meaning, achieve the following goal, as consize/short as possible, max of X characters/words/sentences.
 - Add a last touch to my written text.
   - Because one of my goals was to improve my writing and thinking skills, I didn't want to sacrifice it for the sake of efficiency, so I wrote about 90% of the text on my own and only used ChatGPT to "add a last touch" to it with the quote as my prompt and always with the addition of the command to "make it as consice and impactful as possible". I use the tool [Diffchecker](https://www.diffchecker.com/) to compare my original text with the revision from ChatGPT. It highlights the differences and makes comparing them very easy. I did the whole project with the free version of ChatGPT. If you spend $20 on the monthly subscription, you not only get access to unlimited access to the fastest AI model that gives you the best quality outputs, but you can also use one of the latest features called [Canvas](https://openai.com/index/introducing-canvas/) which – at the time of me writing this – is only available to paid subscription users. It's a new interface (way you interact with a system) that makes creating text and code and refining it way easier than the current chat interface. It saves you a lot of time by removing the need for constant copy pasting and external tools like Diffchecker. If you want to learn more about it check out the embedded link on the word "Canvas" above or check out this video for an indepth tutorial and use cases for it: [12 Use Cases for NEW ChatGPT Canvas! (Future of Writing)](https://youtu.be/LDVxv9UXQxg?si=W1elyKzMQFkrS733).
+
+## 👨‍💻 Coding
+
+> [_"Coding like poetry should be short and concise."_ ― Santosh Kalwar](https://youtube.com/shorts/576d-HM6zA0?si=nva9jVC2hKvcG7j9)
+
+Before starting to implement the code, it's important to take some time to create a plan. Like in architecture of buildings, a well-thought-out blueprint ensures that the foundation is solid, the structure is cohesive, and potential issues are anticipated before construction begins. My blueprint for his project were the following coding principles:
+
+1. DRY (Don't Repeat Yourself)
+
+- **What it means:** Avoid duplicating code by abstracting repeated patterns into functions, modules, or classes.
+- **Why it matters:** Reduces redundancy (repetition), making the codebase easier to maintain by saving time and making it less prone to bugs when changes are required.
+- **Example:** Use custom variables in CSS for colors (like `color: var(--clr-primary);`) instead of static RGB values (`color: #94d82d`). I experienced in my last learning project that after using static values in all my code, when I had to change one specific defined color, I had to do it 1'000 times. In this project however, when I used the name of a variable of a specific color, I only had to change the value of the variable where it's defined to apply the change to all my code.
+
+2. KISS (Keep It Simple, Stupid)
+
+- **What it means:** Design systems and write code as simply as possible, avoiding overcomplication.
+- **Why it matters:** Simple code is easier to read, debug, and maintain. Complex code can lead to errors and increased technical debt which equals to more time spent. And _"time is money"_.
+- **Example**
+
+3. SOLID (it's an acronym for a set of five principles of object-oriented programming)
+
+- **Single Responsibility Principle (SRP):** Each class or module should have one responsibility.
+- **Open/Closed Principle:** Code should be open to extension but closed to modification.
+- **Liskov Substitution Principle:** Subtypes must be substitutable for their base types without altering functionality.
+- **Interface Segregation Principle:** Prefer small, specific interfaces over large, general ones.
+- **Dependency Inversion Principle:** Depend on abstractions, not concretions.
+
+### 🎨 Design System
+
+#### Icons
+
+#### CSS Resets
+
+#### Utility Classes
+
+## ☁️ Hosting
+
+## 🚀 Launch
 
 Link to ChatGPT chat histories used for market research and content creation:  
 https://chatgpt.com/share/673c582e-e19c-8005-97d1-871d555102b9  
