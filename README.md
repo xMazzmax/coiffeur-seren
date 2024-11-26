@@ -345,7 +345,9 @@ Here's the avatar I came up with:
 
 Definition: Copywriting is the art and science of crafting persuasive and compelling text to promote a product, service, or idea and inspire the audience to take specific action.
 
-From my knowledge about neuropsychology (science about how the brain affects human behaviour through things like hormones) and behavioural psychology, but also from personal experience, I know for a fact that ambitious people who represent the avatar I came up with are usually driven by deep insecurities. As you've already learned, fear is the strongest form of motivation. With that in mind, I wanted my copy to relate to those insecurities to grab the user's attention and to provide them a genuine solution with my client's services. That's not only how I did this project, but how I do everything in my life. But with great power comes great responsibility. That's why philosophy is a big component of my life. Because I'm well aware of the limits of my capabilities, know that I don't have the the right answers to everything and sometimes make mistakes, I think about the potential negative consequences my actions might lead to. I strive to always have a net positive impact on others with everything I do. With the negatives and positives taken into account, I always try to focus only on things that will have a positive impact on me **and** the people involved. With that out the way, let's resume with copywriting.
+From my knowledge about neuropsychology (science about how the brain affects human behaviour through things like hormones) and behavioural psychology, but also from personal experience, I know for a fact that ambitious people who represent the avatar I came up with are usually driven by deep insecurities. As you've already learned, fear is the strongest form of motivation. With that in mind, I wanted my copy to relate to those insecurities to grab the user's attention and to provide them a genuine solution with my client's services. That's not only how I did this project, but how I do everything in my life. But with great power comes great responsibility. That's why philosophy is a big component of my life. I always strive to make choises that have a net positive impact on me **and** the people involved with everything I do. I'm well aware of the limits of my capabilities and I know that I don't always make the right choises. I keep that in mind, but I don't let that stop me. I never regret anything I've done, because the mistakes I make are lessons I can learn from. The only choices I regret are those I knew I should have done, but allowed fear to take over.
+
+Let's resume with copywriting.
 
 In addition to using ChatGPT for market research, I used it for:
 
@@ -358,31 +360,76 @@ In addition to using ChatGPT for market research, I used it for:
 
 ## 👨‍💻 Coding
 
-> [_"Coding like poetry should be short and concise."_ ― Santosh Kalwar](https://youtube.com/shorts/576d-HM6zA0?si=nva9jVC2hKvcG7j9)
+> [_"Everybody should learn to program a computer ... because it teaches you how to think"_ ― Steve Jobs](https://youtube.com/shorts/esvgwME4NyI?si=gaXUJDlGYpfXsM83)
 
-Before starting to implement the code, it's important to take some time to create a plan. Like in architecture of buildings, a well-thought-out blueprint ensures that the foundation is solid, the structure is cohesive, and potential issues are anticipated before construction begins. My blueprint for his project were the following coding principles:
+Before starting to implement the code, it's important to take some time to create a plan. Just like in building architecture, a well-thought-out blueprint ensures that the foundation is solid, the structure is cohesive, and potential issues are anticipated before construction begins. For all the non-tech people, the following paragraph will give you some perspective on how it has the potential to benefit your business and your life in general aswell.
+
+Here are some examples of the top 50 current fortune 500 companies that are based on computer software or computer hardware, ranked by annual revenue: Amazon, State Grid Corporation of China (energy), Apple, Alphabet (Google), Microsoft, Samsung Electronics, Bank of America, Bank of China. While it's clear that technology plays a significant role in the success of these businesses, I'm convinced that the real game-changer lies in the leadership's realization that the principles behind building technology can be effectively applied to every single aspect of business operations, like product and service development, human resources, leadership & management, sales, marketing etc. I can speak from personal experience, because I apply those principles to every single area in my life, from relationships, to career decisions, personal growth in regards to philosophy and psychology, health management, and even day-to-day problem-solving. On a sidenote: I take lessons and principles from every area of my life and apply them to each individual area of my life. Try that for some time and watch how much faster you'll move towards your goals...
+
+The coding principles I used as blueprint for this project were the following:
 
 1. DRY (Don't Repeat Yourself)
 
 - **What it means:** Avoid duplicating code by abstracting repeated patterns into functions, modules, or classes.
 - **Why it matters:** Reduces redundancy (repetition), making the codebase easier to maintain by saving time and making it less prone to bugs when changes are required.
-- **Example:** Use custom variables in CSS for colors (like `color: var(--clr-primary);`) instead of static RGB values (`color: #94d82d`). I experienced in my last learning project that after using static values in all my code, when I had to change one specific defined color, I had to do it 1'000 times. In this project however, when I used the name of a variable of a specific color, I only had to change the value of the variable where it's defined to apply the change to all my code.
+- **Real world example:** Architects reuse standard blueprint elements for common building types (e.g., parking lots or bathrooms) to save time and reduce errors.
 
 2. KISS (Keep It Simple, Stupid)
 
 - **What it means:** Design systems and write code as simply as possible, avoiding overcomplication.
 - **Why it matters:** Simple code is easier to read, debug, and maintain. Complex code can lead to errors and increased technical debt which equals to more time spent. And _"time is money"_.
-- **Example**
+- **Real world example:** A straight staircase is simpler to design, build, and install than a complicated spiral staircase, which often makes things harder without adding much benefit for most buildings.
 
 3. SOLID (it's an acronym for a set of five principles of object-oriented programming)
 
-- **Single Responsibility Principle (SRP):** Each class or module should have one responsibility.
-- **Open/Closed Principle:** Code should be open to extension but closed to modification.
-- **Liskov Substitution Principle:** Subtypes must be substitutable for their base types without altering functionality.
-- **Interface Segregation Principle:** Prefer small, specific interfaces over large, general ones.
-- **Dependency Inversion Principle:** Depend on abstractions, not concretions.
+- **Single Responsibility Principle (SRP)**
+  - **What it means:** Each class or module should have one responsibility.
+  - **Real world example:** An architect designs, a plumber installs pipes, and an electrician wires the building. Each trade has a single responsibility, ensuring expertise and quality (for a lower price).
+- **Open/Closed Principle**
+  - **What it means:** Code should be open to extension but closed to modification.
+  - **Real world example:** Adding a garage or an extra room to a house shouldn't require tearing down the entire house; the house should be built in a way that allows the existing design to be simply extended by the garage.
+- **Liskov Substitution Principle**
+  - **What it means:** A new component should replace an old one without disrupting the system.
+  - **Real world example:** Doors are built to standard sizes so you can replace a wooden door with a glass one without altering the frame.
+- **Interface Segregation Principle**
+  - **What it means:** Design small, specific interfaces/systems over large, general ones, so that components aren’t burdened with unnecessary responsibilities.
+  - **Real world example:** Plumbing for water and gas lines are separate to prevent complications and ensure safety.
+- **Dependency Inversion Principle**
+  - **What it means:** Depend on abstractions, not concretions.
+  - **Real world example:** The architect (high-level policy) defines requirements (abstraction) for materials (low-level modules e.g. fire-resistant walls, budget, delivery deadline etc.) without specifying brands. Contractors choose suitable materials.
+- **Why the SOLID principles matter:** They provide a foundation for building modular, flexible, reusable, maintainable, and scalable systems. These systems help you create things that are easy to understand, test, and modify over time, reducing the risk of costly errors or reworks.
 
-### 🎨 Design System
+4. Readability
+
+- **What it means:** Write code that is easy for humans to understand, even at the cost of extra comments or slightly longer code.
+- **Why it matters:** Code is read more often than written. Readable code facilitates collaboration and quicker debugging.
+- **Real world example:** Writing a step-by-step assembly guide for prefabricated components helps workers follow instructions with a much lower risk for mistakes that could turn out to be way more expensive than the extra time investment for the creation of the guide.
+
+5. Modularity
+
+- **What it means:** Break down code into small, independent, and reusable modules or components.
+- **Why it matters:** Promotes code reuse, improves testing, and simplifies future updates or scaling.
+- **Real world example:** Using standardized, reusable components like bricks or panels enables flexibility and quick assembly or repair.
+
+6. Performance Optimization
+
+- **What it means:** Strive for efficient solutions to reduce resource consumption.
+- **Why it matters:** Improves speed and scalability, particularly in resource-constrained environments.
+- **Real world example:** Using a crane to lift heavy things instead of relying on manual labor saves time, physical and mental effort.
+
+7. Premature optimization is the root of all evil
+
+- **What it means:** Avoid spending excessive time on perfecting small details or features and ensure the overall structure and design are functional instead.
+- **Why it matters:** It wastes time, adds unnecessary complexity, and distracts from focusing on creating a clear, functional foundation, which should come first.
+- **Real world example:** Designing a highly complex roof before confirming the walls can support it risks wasting effort or needing redesigns.
+
+8. YAGNI (Your Ain't Gonna Need It)
+
+- **What it means:** Only implement features and write code that are **strictly necessary** for the **current** requirements.
+- **Why it matters:** Avoids unnecessary complexity and wasted effort on features that may never be used.
+- **Real world example:** Building additional rooms “just in case” they’re needed later often leads to wasted materials and unused space.
+
+#### 🎨 Design System
 
 #### Icons
 
@@ -390,9 +437,36 @@ Before starting to implement the code, it's important to take some time to creat
 
 #### Utility Classes
 
-## ☁️ Hosting
+## 🚀 Deployment
 
-## 🚀 Launch
+### 🏠 Local
+
+- IDE (Integrated Developer Environment): VS Code
+- Local Server: VS Code extension "Live Server"
+- Testing
+  - Manual: Firefox (PC), Chrome (phone)
+  - Automated: Lighthouse (Google Chrome)
+
+### 👷🏻‍♂️ Staging
+
+- CI/CD Pipeline: VS Code -> GitHub Repository -> Netlify
+- Cloud Server: Netlify
+- Testing
+  - Manual: Firefox (PC), Chrome (phone)
+  - Automated: Lighthouse (Google Chrome)
+
+### 🌐 Production
+
+- CI/CD Pipeline: VS Code -> GitHub Repository -> Netlify
+- Cloud Server: Netlify
+-
+- Testing
+  - Manual: Firefox (PC), Chrome/Safari (phone), Samsung Internet (tablet)
+  - Automated: Lighthouse (Google Chrome)
+
+### ☁️ Hosting
+
+-
 
 Link to ChatGPT chat histories used for market research and content creation:  
 https://chatgpt.com/share/673c582e-e19c-8005-97d1-871d555102b9  
