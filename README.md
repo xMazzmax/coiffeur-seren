@@ -305,9 +305,22 @@ Let's start by defining what content creation is in the first place: Content cre
 
 ### 🧠 Market research
 
+#### 📗 Methodology
+
 > [_"Make an offer so good people feel stupid saying no"_ – Alex Hormozi](https://youtube.com/shorts/joF2fMj3XKk?si=9uxLZvgPwWB57C8f)
 
-Alex Hormozi, who built four different businesses, now has a net worth of $100'000'000 and is my mentor – even though he doesn't know I exist – said a while back that he ["looked at 2'000 ads ... of the top 50 ads ... 40 of them was just proof ... it's all it was, proof"](https://youtube.com/shorts/9XIgalr9aWY?si=JpF835J1xvZuYFJx). He also showed me ["four things to make the proofs more compelling"](https://youtube.com/shorts/xo7GZF_1eFU?si=UvUkwOWVlWmL1TkQ):
+Alex Hormozi, who built four different businesses, now has a net worth of over $100'000'000 and is my mentor – even though he doesn't know I exist – said a while back that he ["looked at 2'000 ads ... of the top 50 ads ... 40 of them was just proof ... it's all it was, proof"](https://youtube.com/shorts/9XIgalr9aWY?si=JpF835J1xvZuYFJx).
+
+I knew I had to do some market research to find out what criteria people have, when it comes to choosing a hairdresser, find my client's strengths and weaknesses, and connect the dots to come up with an offer the target audience would feel stupid saying no to. The basis for my market research was the questionaire. In addition to the answers that my client gave me, I made some observations that helped me add more specificity to my client's answers and do the remaining ones on my own.
+
+In addition to that, and to find out what motivates the buying decisions specific to my client's customers, I tried to define an avatar. An avatar is a detailed representation of a company's ideal customer/target audience. It's a fictional profile that embodies the characteristics, behaviors, needs, and preferences of the type of person that is qualified to use the products or services of a business so that a so called _"product-market fit"_ is achieved. For that I analysed the following:
+
+- The looks of my client, his employees, the few customer I've seen during my first meeting with my client and of the people my client has uploaded result pictures onto his Instagram profile.
+- The personality of my brother who – connected my client and me and – is a regular customer of my client.
+- What I personally like and dislike about hairdressing services and why I cut my hair myself instead of going to a hairdresser (check my profile picture 😄).
+- The key values my customer provides with his service. Not just with the end result but also with his process that's unique to his shop and with which he differentiates himself from his competitors.
+
+Alex also showed me ["four things to make the proofs more compelling"](https://youtube.com/shorts/xo7GZF_1eFU?si=UvUkwOWVlWmL1TkQ):
 
 1. Recent proof is better than delayed proof.
 
@@ -321,23 +334,45 @@ Alex Hormozi, who built four different businesses, now has a net worth of $100'0
 
 - Example: Having 100 reviews on Google vs printing every single one of them out, framing them and putting them at your lobby wall from floor to ceiling.
 
-I knew I had to do some market research to find out what criteria people have, when it comes to choosing a hairdresser, find my client's strengths and weaknesses, and connect the dots to come up with the ideal offer that the target audience would feel stupid saying no to. The basis for my market research was the questionaire. In addition to the answers my client provided me, some observations I made helped me add more specificity to my client's answers and do the unanswered questions on my own. To make the process as efficiently as possible, I used [ChatGPT](https://chatgpt.com/) as my market research expert. Here are the key concepts that shaped my approach:
+To make the market research process as efficient as possible, I used [ChatGPT](https://chatgpt.com/) as my market research expert. Here are the key concepts that shaped my approach:
 
 - The quality of the results from ChatGTP depends entirely on the skill of the person crafting the prompts.
-  - It's like having a CEO who doesn't know how to manage his team effectively. If the CEO provides clear guidance and well-defined objectives, the team can focus their efforts and deliver high-quality results. Similarly, when the prompt is precise, well-structured, and detailed, ChatGPT can generate accurate, relevant, and insightful responses. On the other hand, if the CEO gives vague or poorly thought-out instructions, the team might become confused or unproductive. Likewise, a poorly written prompt can lead to generic, irrelevant, or unhelpful responses from ChatGPT.
+  - If a CEO knows how to manage his team effectively by providing them with clear guidance and well-defined objectives, the team can focus their efforts and deliver high-quality results. Similarly, when the prompt is precise, well-structured, and detailed, ChatGPT can generate accurate, relevant, and insightful responses. On the other hand, if the CEO gives vague or poorly thought-out instructions, the team might become confused or unproductive. Likewise, a poorly written prompt can lead to generic, irrelevant, or unhelpful responses from ChatGPT.
 - Take responsibility and think for yourself instead of leaving that to the AI.
-  - By taking responsibility for your own thinking, you ensure that ChatGPT becomes a tool to enhance your capabilities rather than replacing them. ChatGPT provides suggestions, but it’s up to the user to analyze, interpret, and apply those ideas in a thoughtful, ethical, and relevant way. Engaging critically with ChatGPT helps you maintain control over the process, achieve more meaningful and personalized results, and improve your own skills over time.
+  - By taking ownership of your thoughts, you ensure that ChatGPT becomes a tool that enhances your capabilities rather than replaces them. ChatGPT provides suggestions, but it’s the responsibility of the user to analyze, interpret, and apply those ideas in a thoughtful, ethical, and relevant way. By engaging critically with ChatGPT, you maintain control over the process, achieve more meaningful and personalized results, and improve your own skills over time.
 
-To find out what motivates the buying decisions of my of my client's customers I tried to define an avatar. An avatar is a detailed representation of a company's ideal customer or target audience. It's a fictional profile that embodies the characteristics, behaviors, needs, and preferences of the type of person a business aims to reach with its products or services. For that I analysed the following:
+#### 🎯 Results
 
-- The looks of the few customer I've seen during my first meeting with my client and of the people my client has uploaded result pictures onto his Instagram profile.
-- The personality of my brother who is a regular customer of my client and connected my client and me.
-- What I personally like and dislike about hairdressing services and why I cut my hair myself instead of going to a barber (check my profile image 😄).
-- The key values my customer provides with his service. Not just with the end result but also with his process that's unique to his hairdresser shop and with which he differentiates himself from his competitors.
+The avatar I came up with:
 
-Here's the avatar I came up with:
+- Young ambitious man between 16 and 35 years who highly values simplicity, efficiency and are very selective with their time and money.
 
-- Young ambitious men between 16 and 35 years who highly value simplicity, efficiency and their time and money.
+I kept this avatar in mind throughout the whole market research process.
+
+My client's most important strenghts that match the avatar's values:
+
+- Quick service.
+- Good reliable results.
+- Low price.
+
+How I decided to prove it (in no specific order):
+
+- Existing Google reviews.
+- A lot of result pictures.
+- Simple website and design so that the perceived brand image matches the claims of the service.
+
+My client's weaknesses:
+
+1. No security of instant availability due to the rejection of appointments.
+2. No card payment options.
+
+How I turned them into strenghts:
+
+1. I made the CTA (Call to action) a direct phone call so that the customer can check the current availability.
+
+- I noted this problem during the first meeting with my client, when he had to reject a customer that came by spontaneously because of the appointment he had with me. I knew right away I was going to use this as the CTA.
+
+2. I looked on Google Maps for the nearest ATM (cash machine) and found out there's one on the opposite side of the street of my client's shop.
 
 ### ✍️ Copywriting
 
@@ -445,7 +480,7 @@ The coding principles I used as blueprint for this project were the following:
 - Local Server: VS Code extension "Live Server"
 - Testing
   - Manual: Firefox (PC), Chrome (phone)
-  - Automated: Lighthouse (Google Chrome)
+  - Automated: Google Chrome Lighthouse (PC)
 
 ### 👷🏻‍♂️ Staging
 
@@ -453,7 +488,7 @@ The coding principles I used as blueprint for this project were the following:
 - Cloud Server: Netlify
 - Testing
   - Manual: Firefox (PC), Chrome (phone)
-  - Automated: Lighthouse (Google Chrome)
+  - Automated: Google Chrome Lighthouse (PC)
 
 ### 🌐 Production
 
@@ -462,7 +497,7 @@ The coding principles I used as blueprint for this project were the following:
 -
 - Testing
   - Manual: Firefox (PC), Chrome/Safari (phone), Samsung Internet (tablet)
-  - Automated: Lighthouse (Google Chrome)
+  - Automated: Google Chrome Lighthouse (PC)
 
 ### ☁️ Hosting
 
