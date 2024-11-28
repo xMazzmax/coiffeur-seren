@@ -7,7 +7,7 @@ Coiffeur Seren is a responsive landing page/single page website that I developed
 
 ## 📅 Client Meetings
 
-### 📗 Methodology
+**📗 METHODOLOGY**
 
 > ["_People undererstimate how much smarter you can seem if you have 20 min of preparation."_ – Alex Hormozi](https://youtube.com/shorts/I4-Ya2IFz2A?si=Dzd14v-nNknZ8Wj8)
 
@@ -104,7 +104,7 @@ With the the total of 30 minutes of research – including my first impression a
 
 - E.g. photographer, copywriter (to write the websites content/text), Google Business Account (for Google Maps), social media (Instagram, Facebook etc.), Domain
 
-### 🎯 Results
+**🎯 RESULTS**
 
 > [_"The greatest possible treasure to be found is where the danger is most intense"_ – Jordan B. Peterson](https://youtube.com/shorts/W_1cF7zSens?si=pgeGW8RTi3COojjT)
 
@@ -158,13 +158,13 @@ During our meeting I went through the questionnaire with him but after getting t
 
 I agreed with my client's decision that the website should be as simple as possible. My definition of greatness is achieved, not when there is nothing more to add, but when there is nothing unnecessary left to take away from a product or service so that the user can achieve his goals as simple as possible and as fast as possible. Adding more value with less stuff isn't easy, in fact it's way harder. My philosophy is that it's the responsibility of the service provider to take on the burden of that complexity in order to add as much value as possible to his customers. In regards to software, I think that to the users, software are primarily tools and tools should make their life easier, not harder. That's my approach and goal when providing not just software development but any kind of service or product.
 
-### 🌍 Beyond Website Developent - Marketing Strategies and Execution
+### 🌍 Marketing – Beyond Website Developent
 
 > [_"Every skill you add to your skill toolbelt makes the rest of your skills more valuable."_ – Alex Hormozi](https://youtube.com/shorts/M0Mq_q3gVXA?si=iuBANp5p1ZK4KSjz)
 
 Besides the website, my client also asked me for help regarding the following:
 
-**Google Business Account**
+**Google Business Account**  
 My client has been working at his current hairdresser shop for years. He didn't own the place initially but eventually took it over. He also took over the existing Google Business Account and instead of renaming the existing profile, he created a second profile on the same account which resulted in the Google search results displaying the name of the new and the name of the old business. I did some research and found out my client's option to solve the problem and shared it with him:
 
 1. Delete the old profile which ...
@@ -183,15 +183,15 @@ My client has been working at his current hairdresser shop for years. He didn't 
 
 My client wanted to choose the first option as he thought he could get new reviews quickly. I told him the decision is up to him, but if I was in his shoes, I'd choose the second option first because he had nothing to lose and everything to win with it. If Google accepted the request he would get to keep all his great reviews which we could use on the website as social proof of how great his service is. If he waited two weeks and his request was rejected, he could still delete the old profile. He liked my suggestion chose that path. I also updated his opening hours, cover picture, logo and also the website address once it went live.
 
-**Apple Business Account**
+**Apple Business Account**  
 During the project I came to the realization that Apple users don't use Google Maps, they use Apple Maps instead. I informed my client about it, created him an Apple Business Account, did everything necessary to claim his existing shop on Apple Maps and updated everything like on Google Maps by the end of the project. By the time of this writing, the claim of the business profile and the changes to it are still being reviewed by Apple.
 
-**Logo**
+**Logo**  
 With the photo I took of my client's logo, I tried to figure out its digital color code. Because of variables like lighting, camera and display quality, it was impossible for me to get exactly the original color of the logo. Instead of just picking a random color, I decided to go to [Open color](), an awesome open-source color scheme I like, and choose the color that came closest to my clients logo. I ended up with LIME 5 (HEX `#94d82d`). I also tried to find a font family that came close to that of the logo, but I hated every result I ended up with. Through sheer luck I ended up on a web tool called [WhatTheFont](https://www.myfonts.com/pages/whatthefont) which identifies the original font family of any uploaded image. After that, I just searched the font family package online, in preview mode I wrote the name of the shop of my customer, made a screenshot of it, applied the right color and – besides the color – had the exact same logo as my client of his window. Here's the result:
 
 ![Logo of my client's business](https://i.postimg.cc/rpR8q576/seren-logo.png)
 
-**Instagram QR code**
+**Instagram QR code**  
 My client wanted me to make him a QR code of a link to his Instagram. He agreed to my suggestion of additionally creating one with a direct link for people to leave a review on Google and printing both on self-adhesive paper so he could easily stick it wherever he wanted. I ordered the paper on Amazon, searched for inspiration on Google, selected a few ideas I liked and created a few samples of which my customer could chose from. I personalized/edited the two chosen options with the free web based photoshop tool [Photopea](https://www.photopea.com/), generated the QR codes on [QR Code Generator](https://www.qr-code-generator.com/) and brought everything together. By the end of the project I also got the idea of doing the same for the website so that my client could stick it on his entrance door and enable curious passersby to explore and close (say yes to) the services of my client entirely on their own – effectively making the sale themselves without any effort from my client. Here are the results:
 
 ![QR code of my client's Instagram page link](https://i.postimg.cc/qMRvZkMK/instagram-github.png)
@@ -200,9 +200,9 @@ My client wanted me to make him a QR code of a link to his Instagram. He agreed 
 
 ## 🧱 Website layout
 
-> _"Don't reinvent the wheel, just realign it."_ – Anthony D'Angelo
+> [_"Don't reinvent the wheel, just realign it."_ – Anthony D'Angelo](https://youtu.be/1WCPJzU3c3E?si=Oknml6jft9FJwNBy)
 
-### 📗 Methodology
+**📗 METHODOLOGY**
 
 While I wanted to create something great, I also wanted to do the project as efficiently as possible. Just as I approached the questionnaire, I applied the same principle to my customer's website. Rather than trying to come up with a layout myself, I drew inspiration from the best ones that already exists. For that I searched "best landing page" on YouTube and followed the instructions from the video [Why is THIS the PERFECT Landing Page?](https://youtu.be/UC9pTtrhFys?si=cNwzowfQ-rYf-yz3) to maximize the conversion rate of potential customers that visit the website. Here are the key takeaways from the video:
 
@@ -215,11 +215,11 @@ In addition to the last video mentioned, I also watched the video [Copy This Per
 - 95% of a customer's buying decision is based on emotions e.g. desires, dreams etc.
 - Emotions change all the time but proof is timeless and validates decisions and claims. To make sure the customer doesn't regret his decision when his emotions change and to cover the missing 5% of a customer's buying decision, the emotional decision needs to be backed up with logic on how the service or product ensures the claimed results e.g. stats, social proof, visual proof, features etc.
 
-### 🎯 Results
+**🎯 RESULTS**
 
 With the blueprint gathered as a starting point, here's the layout I decided to implement in the exact order I planned to display it on the website:
 
-**- Navbar (enhances user experience)**
+**Navbar (enhances user experience)**
 
 - While the blueprint I used told me to leave out the nav to lead force the user to take the optimal path to the CTA (Call To Action), I didn't want to take control away from the user and reduce his user experience, as that's something I myself would hate. So I decided to implement it.
 - Includes from left to right:
@@ -227,7 +227,7 @@ With the blueprint gathered as a starting point, here's the layout I decided to 
   - Descriptive single word for each section (except the CTA).
   - Highlighted CTA to the correspondent section.
 
-**- Hero (emotinally and logically grabs user's attention)**
+**Hero (emotinally and logically grabs user's attention)**
 
 - Left half from top to bottom:
   - Heading: Emotion based promise of an outcome.
@@ -236,7 +236,7 @@ With the blueprint gathered as a starting point, here's the layout I decided to 
   - CTA alternative: Second option the user can take if he isn't convinced by the hero section and needs more proof. It leads the user to the following section.
   - Google reviews rating: Displays the average Google reviews rating and the amount of reviews it's based on to add social proof and create trust.
 
-**- Benefits (emotional proof)**
+**Benefits (emotional proof)**
 
 - Heading: Doesn't just describe what the section is about but conveys what value it adds to the user.
 - 3 (magic number) benefits (results instead of things) the service provides to the user with the following layout for each benefit component:
@@ -246,12 +246,12 @@ With the blueprint gathered as a starting point, here's the layout I decided to 
   - Heading: (Emotional) result of the benefit described in 1-3 words.
   - Subheading: (Logical) proof on how the benefit is achieved/the explanation of the thing or feature you provide to make it possible described in 1-3 short sentences.
 
-**- Features (logical proof)**
+**Features (logical proof)**
 
 - Heading: See "Benefits".
 - Simply list **all** features you provide with your services so that the user has overwhelming (logical) proof to accept your offer. Add an icon like a checkmark to each feature instead of just bullet points to make it more visually appealing. Only add a short description to a feature if strictly necessary for the user to understand what the feature is about, but before doing that, try fixing it by rephrasing the feature itself.
 
-**- Reviews (social proof)**
+**Reviews (social proof)**
 
 - If you don't have reviews, you could also display logos of businesses you've helped with your product or service instead.
 - Ask your customers to give you a review. [The best time to ask for that is at the moment of greatest satisfaction](https://youtube.com/shorts/B0VXkSmBrbQ?si=rnae2OBG8MG5mlUg), right after delivering them their dream outcome with your product or service. You may already have great reviews but might not be aware of it. Here are some places you should consider looking for it:
@@ -277,7 +277,7 @@ With the blueprint gathered as a starting point, here's the layout I decided to 
   - Image of the author: This makes the review appear more authentic.
   - Name of the author: This also makes it appear more authentic.
 
-**- Gallery (visual proof)**
+**Gallery (visual proof)**
 
 - Visual proof is the best there is.
   - Here's a list of visual media types starting with the most convincing:
@@ -288,12 +288,12 @@ With the blueprint gathered as a starting point, here's the layout I decided to 
   - If possible use before and after comparisons
 - I went with photos of the results from my clients services
 
-**- Offer (logical proof)**
+**Offer (logical proof)**
 
 - Have you ever spent what felt like an eternity to try and find a movie or serie on Netflix, only to not find nothing at all and decide to do something else? That's known as analysis paralysis. It's the feeling of being unable to make a decision due to overthinking a problem and often happens when a person's dealing with too many variables/options. Netflix mitigated this problem with providing you with different top 10 lists that are based on things like your location, viewing history and other members with similar taste. If you want your user to take you up on any offer at all, don't overwhelm him with too many options. Generally speaking, the optimal number is – you guessed it – 3 options. But this number may vary between industries and existing services. Just make sure your offer is a conveyed as simple as possible with as few words as possible while still maintaining the essential impactful information needed.
 - For my client I sought inspiration from different hairdresser websites but the only designs I liked were those I found on [Dribbble](https://dribbble.com/) which is a self-promotion platform for the digital designers.
 
-**- FAQ (emotional fears)**
+**FAQ (emotional fears)**
 
 - The frequently asked questions section resolves common questions users might have about your product or service and most important their personal fears that are based on past bad experiences and misconceptions. Here are some pressure points:
   - Money
@@ -304,7 +304,7 @@ With the blueprint gathered as a starting point, here's the layout I decided to 
   - Heading: Question
   - Paragraph: Answer. Since this taps into the customer's fears – which is the strongest form of motivation – and grabs their attention, you can get away with writing longer text than the rest of the content on the website, but should still try to be concise and precise.
 
-**- CTA (purpose of the website)**
+**CTA (purpose of the website)**
 
 - The primary purpose of the website is to encourage the user to act upon the call to action, so that you can help him solve whatever problem or reach whatever goal he has. Therefore, one should take as much time as needed to make all the effort put into the development of the website worthwhile. Start the development of the website thinking about and writing the CTA and after finishing writing all the content, revisit it and try to rewrite it such that it's more concise and can be understood more clearly by the user.
 - Layout:
@@ -321,17 +321,20 @@ With the blueprint gathered as a starting point, here's the layout I decided to 
 
 ## 📰 Content creation
 
-> _"Content is king!"_ - Bill Gates (**in 1996!**)
+> [_"Content is king!"_ – Bill Gates (**in 1996!**)](https://youtube.com/shorts/0HpkysN5gGQ?si=x9lt-llAJH6FMieb)
 
 Let's start by defining what content creation is in the first place: Content creation is the process of generating and sharing material, such as text, images, videos, or audio, to inform, entertain, or engage an audience.
+
+> [!IMPORTANT]
+> It doesn't matter if you have the best product or service in the world; if you're unable to provide it to the right people that _actually_ need it and to communicate to them effectively why and how your thing will provide them their dream outcome to a specific problem, everybody will perceive your offer as worthless.
 
 ### 🧠 Market research
 
 > [_"Make an offer so good people feel stupid saying no"_ – Alex Hormozi](https://youtube.com/shorts/joF2fMj3XKk?si=9uxLZvgPwWB57C8f)
 
-#### 📗 Methodology
+**📗 METHODOLOGY**
 
-Alex Hormozi, who built four different businesses, now has a net worth of over $100'000'000 and is my mentor – even though he doesn't know I exist – said a while back that he ["looked at 2'000 ads ... of the top 50 ads ... 40 of them was just proof ... it's all it was, proof"](https://youtube.com/shorts/9XIgalr9aWY?si=JpF835J1xvZuYFJx).
+Alex Hormozi, who built four different businesses, now has a net worth of way over $100'000'000 and is my mentor – even though he doesn't know I exist – said a while back that he ["looked at 2'000 ads ... of the top 50 ads ... 40 of them was just proof ... it's all it was, proof"](https://youtube.com/shorts/9XIgalr9aWY?si=JpF835J1xvZuYFJx).
 
 I knew I had to do some market research to find out what criteria people have, when it comes to choosing a hairdresser, find my client's strengths and weaknesses, and connect the dots to come up with an offer the target audience would feel stupid saying no to. The basis for my market research was the questionnaire. In addition to the answers that my client gave me, I made some observations that helped me add more specificity to my client's answers and do the remaining ones on my own.
 
@@ -339,7 +342,7 @@ In addition to that, and to find out what motivates the buying decisions specifi
 
 - The looks of my client, his employees, the few customer I've seen during my first meeting with my client and of the people my client has uploaded result pictures onto his Instagram profile.
 - The personality of my brother who – connected my client and me and – is a regular customer of my client.
-- What I personally like and dislike about hairdressing services and why I cut my hair myself instead of going to a hairdresser (check my profile picture 😄).
+- What I personally like and dislike about hairdressing services and why I cut my hair myself instead of going to a hairdresser (check out my profile picture 😄).
 - The key values my customer provides with his service. Not just with the end result but also with his process that's unique to his shop and with which he differentiates himself from his competitors.
 
 Alex also showed me ["four things to make the proofs more compelling"](https://youtube.com/shorts/xo7GZF_1eFU?si=UvUkwOWVlWmL1TkQ):
@@ -363,7 +366,7 @@ To make the market research process as efficient as possible, I used [ChatGPT](h
 - Take responsibility and think for yourself instead of leaving that to the AI.
   - By taking ownership of your thoughts, you ensure that ChatGPT becomes a tool that enhances your capabilities rather than replaces them. ChatGPT provides suggestions, but it’s the responsibility of the user to analyze, interpret, and apply those ideas in a thoughtful, ethical, and relevant way. By engaging critically with ChatGPT, you maintain control over the process, achieve more meaningful and personalized results, and improve your own skills over time.
 
-#### 🎯 Results
+**🎯 RESULTS**
 
 The avatar I came up with:
 
@@ -402,7 +405,7 @@ How I turned them into strenghts:
 
 Definition: Copywriting is the art and science of crafting persuasive and compelling text to promote a product, service, or idea and inspire the audience to take specific action.
 
-#### 📗 Methodology
+**📗 METHODOLOGY**
 
 From my knowledge about neuropsychology (science about how the brain affects human behaviour for example through hormones) and behavioural psychology, but also from personal experience, I know for a fact that ambitious people – who represent our avatar – are usually driven by deep insecurities. As you've already learned, fear is the strongest form of motivation. With that in mind, I wanted my copy to relate to those insecurities to grab the user's attention and to provide them a genuine solution with my client's services. That's not only how I did this project, but how I do many things in my life. But with great power comes great responsibility. That's why philosophy is a big component of my life. I always strive to make choises that have a net positive impact on me **and** the people involved with everything I do. I'm well aware of the limits of my capabilities and I know that I don't always make the right choises. I keep that in mind, but I don't let that stop me. I never regret anything I've done, because the mistakes I make are lessons I can learn from. The only choices I regret are those I knew I should have done, but allowed fear to take over and prevent me from taking action.
 
@@ -417,19 +420,19 @@ In addition to using ChatGPT for market research, I used it for/to:
     > [!NOTE]
     > In the process of writing this paragraph I came to the realization that me not taking advantage of the described features makes no sense because of the insane return on investment. I became a paid user and the only thing I feel bad about is not doing it sooner.
 
-#### 🎯 Results
+**🎯 RESULTS**
 
-**Navigation:**
+**Navigation**  
 To avoid unnecessary clutter in the navbar and make the headings concise and easy to understand I used the single words "Advantages", "Highlights", "Reviews", "Gallery", "Prices", "Questions". I also added the CTA "Get your new look now!"
 
-**Hero:**
+**Hero**  
 Heading: "Feel confident instantly"
 Subheading: "with perfectly styled hair and beard, tailored to your wishes."
 CTA button: "Get your new look now!"
 Secondary action button: "Learn more"
 Reviews: "4.7★ (90+ reviews)"
 
-**Advantages:**
+**Advantages**  
 Descriptive heading: "Your advantages"
 Advantages:
 
@@ -437,7 +440,7 @@ Advantages:
 - "Peace of mind ― Our years of experience guarantee you expert advice for the results you desire. We also take your wishes into account."
 - "Save money ― With us, you get top-notch service at affordable prices. If you wish, we will also apply products like gel, hair wax, etc., for free."
 
-**Features:**
+**Features**  
 Descriptive heading: "Why our customers choose us"
 List of features:
 
@@ -457,16 +460,16 @@ List of features:
 - "2 free parking lots"
 - "Free coffee and water"
 
-**Reviews:**
+**Reviews**
 
 - "I’m always attended to quickly and kindly here. ― author's name"
 - "Quick, no appointment needed, and affordable. Very satisfied with the haircut. ― author's name"
 - "The best hair salon I’ve ever had my hair cut at. ― author's name"
 
-**Gallery:**
+**Gallery**  
 Descriptive heading: "Created by us, inspired for you"
 
-**Pricing:**
+**Pricing**  
 Descriptive heading: "What we offer"
 My client had the following siple list of all his services and prices:  
 ![Price list of my client](https://i.postimg.cc/C1zzndYs/preise.jpg)
@@ -496,7 +499,7 @@ The pricing section was also the perfect to display the payment options:
 "Payment options
 We accept cash and Twint. There is an ATM in front of our salon if you only have your card with you."
 
-**FAQ:**
+**FAQ**  
 Descriptive heading: "Frequently Asked Questions"
 
 Questions and answers:
@@ -524,12 +527,12 @@ What payment methods can I use?
 
 - We accept cash and Twint. If you don’t have cash, you can withdraw money at the ATM across from our salon."
 
-**Call To Action:**
+**Call To Action**  
 Descriptive heading: "Get your confident look now!"
 Paragraph with more context: "You can simply stop by spontaneously without having to worry about long wait times, as we work as fast as lightning. And if you don’t want to wait at all, just give us a quick call and find out if you can be attended to right away."
 CTA button: "Call now and check availability!"
 
-**Footer:**
+**Footer**  
 "Opening hours
 Monday: 08:30 - 19:00
 Tuesday: 08:30 - 19:00
@@ -555,7 +558,7 @@ Mention of my attribution as part of the agreement with my client
 Link to the legal page
 "Legal"
 
-**Legal page:**
+**Legal page**  
 I used a template for this content and simply made some adjustments.
 
 Page heading: "Legal information"
@@ -585,9 +588,9 @@ The use of the contact data published in this website for advertising purposes b
 
 ## 👨‍💻 Coding
 
-> [_"Everybody should learn to program a computer ... because it teaches you how to think"_ ― Steve Jobs](https://youtube.com/shorts/esvgwME4NyI?si=gaXUJDlGYpfXsM83)
+> [_"Everybody should learn to program a computer ... because it teaches you how to think"_ – Steve Jobs](https://youtube.com/shorts/esvgwME4NyI?si=gaXUJDlGYpfXsM83)
 
-#### 📗 Methodology
+**📗 METHODOLOGY**
 
 Before starting to implement the code, it's important to take some time to create a plan. Just like in building architecture, a well-thought-out blueprint ensures that the foundation is solid, the structure is cohesive, and potential issues are anticipated before construction begins.
 
@@ -603,66 +606,98 @@ The coding principles I used as blueprint for this project were the following:
 
 1. DRY (Don't Repeat Yourself)
 
-- **What it means:** Avoid duplicating code by abstracting repeated patterns into functions, modules, or classes.
-- **Why it matters:** Reduces redundancy (repetition), making the codebase easier to maintain by saving time and making it less prone to bugs when changes are required.
-- **Real world example:** Architects reuse standard blueprint elements for common building types (e.g., parking lots or bathrooms) to save time and reduce errors.
+- **What it means:**  
+  Avoid duplicating code by abstracting repeated patterns into functions, modules, or classes.
+- **Why it matters:**  
+  Reduces redundancy (repetition), making the codebase easier to maintain by saving time and making it less prone to bugs when changes are required.
+- **Real world example:**  
+  Architects reuse standard blueprint elements for common building types (e.g., parking lots or bathrooms) to save time and reduce errors.
 
 2. KISS (Keep It Simple, Stupid)
 
-- **What it means:** Design systems and write code as simply as possible, avoiding overcomplication.
-- **Why it matters:** Simple code is easier to read, debug, and maintain. Complex code can lead to errors and increased technical debt which equals to more time spent. And _"time is money"_.
-- **Real world example:** A straight staircase is simpler to design, build, and install than a complicated spiral staircase, which often makes things harder without adding much benefit for most buildings.
+- **What it means:**  
+  Design systems and write code as simply as possible, avoiding overcomplication.
+- **Why it matters:**  
+  Simple code is easier to read, debug, and maintain. Complex code can lead to errors and increased technical debt which equals to more time spent. And _"time is money"_.
+- **Real world example:**  
+  A straight staircase is simpler to design, build, and install than a complicated spiral staircase, which often makes things harder without adding much benefit for most buildings.
 
 3. SOLID (it's an acronym for a set of five principles of object-oriented programming)
 
 - **Single Responsibility Principle (SRP)**
-  - **What it means:** Each class or module should have one responsibility.
-  - **Real world example:** An architect designs, a plumber installs pipes, and an electrician wires the building. Each trade has a single responsibility, ensuring expertise and quality (for a lower price).
+  - **What it means:**  
+    Each class or module should have one responsibility.
+  - **Real world example:**  
+    An architect designs, a plumber installs pipes, and an electrician wires the building. Each trade has a single responsibility, ensuring expertise and quality (for a lower price).
 - **Open/Closed Principle**
-  - **What it means:** Code should be open to extension but closed to modification.
-  - **Real world example:** Adding a garage or an extra room to a house shouldn't require tearing down the entire house; the house should be built in a way that allows the existing design to be simply extended by the garage.
+  - **What it means:**  
+    Code should be open to extension but closed to modification.
+  - **Real world example:**  
+    Adding a garage or an extra room to a house shouldn't require tearing down the entire house; the house should be built in a way that allows the existing design to be simply extended by the garage.
 - **Liskov Substitution Principle**
-  - **What it means:** A new component should replace an old one without disrupting the system.
-  - **Real world example:** Doors are built to standard sizes so you can replace a wooden door with a glass one without altering the frame.
+  - **What it means:**  
+    A new component should replace an old one without disrupting the system.
+  - **Real world example:**  
+    Doors are built to standard sizes so you can replace a wooden door with a glass one without altering the frame.
 - **Interface Segregation Principle**
-  - **What it means:** Design small, specific interfaces/systems over large, general ones, so that components aren’t burdened with unnecessary responsibilities.
-  - **Real world example:** Plumbing for water and gas lines are separate to prevent complications and ensure safety.
+  - **What it means:**  
+    Design small, specific interfaces/systems over large, general ones, so that components aren’t burdened with unnecessary responsibilities.
+  - **Real world example:**  
+    Plumbing for water and gas lines are separate to prevent complications and ensure safety.
 - **Dependency Inversion Principle**
-  - **What it means:** Depend on abstractions, not concretions.
-  - **Real world example:** The architect (high-level policy) defines requirements (abstraction) for materials (low-level modules e.g. fire-resistant walls, budget, delivery deadline etc.) without specifying brands. Contractors choose suitable materials.
-- **Why the SOLID principles matter:** They provide a foundation for building modular, flexible, reusable, maintainable, and scalable systems. These systems help you create things that are easy to understand, test, and modify over time, reducing the risk of costly errors or reworks.
+  - **What it means:**  
+    Depend on abstractions, not concretions.
+  - **Real world example:**  
+    The architect (high-level policy) defines requirements (abstraction) for materials (low-level modules e.g. fire-resistant walls, budget, delivery deadline etc.) without specifying brands. Contractors choose suitable materials.
+- **Why the SOLID principles matter:**  
+  They provide a foundation for building modular, flexible, reusable, maintainable, and scalable systems. These systems help you create things that are easy to understand, test, and modify over time, reducing the risk of costly errors or reworks.
 
 4. Readability
 
-- **What it means:** Write code that is easy for humans to understand, even at the cost of extra comments or slightly longer code.
-- **Why it matters:** Code is read more often than written. Readable code facilitates collaboration and quicker debugging.
-- **Real world example:** Writing a step-by-step assembly guide for prefabricated components helps workers follow instructions with a much lower risk for mistakes that could turn out to be way more expensive than the extra time investment for the creation of the guide.
+- **What it means:**  
+  Write code that is easy for humans to understand, even at the cost of extra comments or slightly longer code.
+- **Why it matters:**  
+  Code is read more often than written. Readable code facilitates collaboration and quicker debugging.
+- **Real world example:**  
+  Writing a step-by-step assembly guide for prefabricated components helps workers follow instructions with a much lower risk for mistakes that could turn out to be way more expensive than the extra time investment for the creation of the guide.
 
 5. Modularity
 
-- **What it means:** Break down code into small, independent, and reusable modules or components.
-- **Why it matters:** Promotes code reuse, improves testing, and simplifies future updates or scaling.
-- **Real world example:** Using standardized, reusable components like bricks or panels enables flexibility and quick assembly or repair.
+- **What it means:**  
+  Break down code into small, independent, and reusable modules or components.
+- **Why it matters:**  
+  Promotes code reuse, improves testing, and simplifies future updates or scaling.
+- **Real world example:**  
+  Using standardized, reusable components like bricks or panels enables flexibility and quick assembly or repair.
 
 6. Performance Optimization
 
-- **What it means:** Strive for efficient solutions to reduce resource consumption.
-- **Why it matters:** Improves speed and scalability, particularly in resource-constrained environments.
-- **Real world example:** Using a crane to lift heavy things instead of relying on manual labor saves time, physical and mental effort.
+- **What it means:**  
+  Strive for efficient solutions to reduce resource consumption.
+- **Why it matters:**  
+  Improves speed and scalability, particularly in resource-constrained environments.
+- **Real world example:**  
+  Using a crane to lift heavy things instead of relying on manual labor saves time, physical and mental effort.
 
 7. Premature optimization is the root of all evil
 
-- **What it means:** Avoid spending excessive time on perfecting small details or features and ensure the overall structure and design are functional instead.
-- **Why it matters:** It wastes time, adds unnecessary complexity, and distracts from focusing on creating a clear, functional foundation, which should come first.
-- **Real world example:** Designing a highly complex roof before confirming the walls can support it risks wasting effort or needing redesigns.
+- **What it means:**  
+  Avoid spending excessive time on perfecting small details or features and ensure the overall structure and design are functional instead.
+- **Why it matters:**  
+  It wastes time, adds unnecessary complexity, and distracts from focusing on creating a clear, functional foundation, which should come first.
+- **Real world example:**  
+  Designing a highly complex roof before confirming the walls can support it risks wasting effort or needing redesigns.
 
 8. YAGNI (Your Ain't Gonna Need It)
 
-- **What it means:** Only implement features and write code that are **strictly necessary** for the **current** requirements.
-- **Why it matters:** Avoids unnecessary complexity and wasted effort on features that may never be used.
-- **Real world example:** Building additional rooms “just in case” they’re needed later often leads to wasted materials and unused space.
+- **What it means:**  
+  Only implement features and write code that are **strictly necessary** for the **current** requirements.
+- **Why it matters:**  
+  Avoids unnecessary complexity and wasted effort on features that may never be used.
+- **Real world example:**  
+  Building additional rooms “just in case” they’re needed later often leads to wasted materials and unused space.
 
-#### 🎯 Results
+**🎯 RESULTS**
 
 #### 🎨 Design System
 
