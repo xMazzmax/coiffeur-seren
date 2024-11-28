@@ -108,7 +108,7 @@ With the the total of 30 minutes of research – including my first impression a
 
 > [_"The greatest possible treasure to be found is where the danger is most intense"_ – Jordan B. Peterson](https://youtube.com/shorts/W_1cF7zSens?si=pgeGW8RTi3COojjT)
 
-My initial plan was to hand out the prepared questionnaire to my client as a guide on what is neecessary to successfully represent his brand and achieve his objective for the website. I wanted to leave him the content creation part so that I could focus on the design of the website and its developement with HTML and CSS only. At our initial meeting however, I quickly realized that – because of his language barrier – writing the copy on his own would be really difficult for him and most likely take a long time. Even though I wanted to develop the website as fast as possible so that I could dive deep into learning JavaScript as soon as possible, I saw a great opportunity to not just practice front-end development with this project, but also test my abilities and learn new things regarding everything that's needed for the development of a website from start to finish. I knew the result could turn out to be bad. The reason being that I didn't have any practical experience in content creation and my client didn't actively share much about his business with me like his processes and his goals – which I don't blame him for, since he'd never had to do that before – and he wanted to leave most decisions regarding the website to me. Fortunately, the nature of his business operates without much complexity and I thought I could manage the content on my own. As you're soon going to find out, my client wanted my help with more than just that. My goal was to overdeliver and exceed his expectations and as mentioned above to learn a lot of useful things that might help me reach my personal long term goals. So I decided to do it all on my own.
+My original plan was to hand out the prepared questionnaire to my client as a guide on what is neecessary to successfully represent his brand and achieve his objective for the website. I wanted to leave him the content creation part so that I could focus on the design of the website and its developement with HTML and CSS only. At our first meeting however, I quickly realized that – because of his language barrier – writing the copy on his own would be really difficult for him and most likely take a long time. Even though I wanted to develop the website as fast as possible so that I could dive deep into learning JavaScript as soon as possible, I saw a great opportunity to not just practice front-end development with this project, but also test my abilities and learn new things regarding everything that's needed for the development of a website from start to finish. I knew the result could turn out to be bad. The reason being that I didn't have any practical experience in content creation and my client didn't actively share much about his business with me like his processes and his goals – which I don't blame him for, since he'd never had to do that before – and he wanted to leave most decisions regarding the website to me. Fortunately, the nature of his business operates without much complexity and I thought I could manage the content on my own. As you're soon going to find out, my client wanted my help with more than just that. My goal was to overdeliver and exceed his expectations and as mentioned above to learn a lot of useful things that might help me reach my personal long term goals. So I decided to do it all on my own.
 
 During our meeting I went through the questionnaire with him but after getting the feeling that he didn't want to dive deep into the questions, I decided to only ask him about essential questions that I thought he could give me an answer to:
 
@@ -187,7 +187,7 @@ My client wanted to choose the first option as he thought he could get new revie
 During the project I came to the realization that Apple users don't use Google Maps, they use Apple Maps instead. I informed my client about it, created him an Apple Business Account, did everything necessary to claim his existing shop on Apple Maps and updated everything like on Google Maps by the end of the project. By the time of this writing, the claim of the business profile and the changes to it are still being reviewed by Apple.
 
 **Logo**  
-With the photo I took of my client's logo, I tried to figure out its digital color code. Because of variables like lighting, camera and display quality, it was impossible for me to get exactly the original color of the logo. Instead of just picking a random color, I decided to go to [Open color](), an awesome open-source color scheme I like, and choose the color that came closest to my clients logo. I ended up with LIME 5 (HEX `#94d82d`). I also tried to find a font family that came close to that of the logo, but I hated every result I ended up with. Through sheer luck I ended up on a web tool called [WhatTheFont](https://www.myfonts.com/pages/whatthefont) which identifies the original font family of any uploaded image. After that, I just searched the font family package online, in preview mode I wrote the name of the shop of my customer, made a screenshot of it, applied the right color and – besides the color – had the exact same logo as my client of his window. Here's the result:
+With the photo I took of my client's logo, I tried to figure out its digital color code. Because of variables like lighting, camera and display quality, it was impossible for me to get exactly the original color of the logo. Instead of just picking a random color, I decided to go to [Open color](), an awesome open-source color scheme I like, and choose the color that came closest to my clients logo. I ended up with LIME 5 (HEX code `#94d82d`). I also tried to find a font family that came close to that of the logo, but I hated every result I ended up with. Through sheer luck I ended up on a web tool called [WhatTheFont](https://www.myfonts.com/pages/whatthefont) which identifies the original font family of any uploaded image. After that, I just searched the font family package online, in preview mode I wrote the name of the shop of my customer, made a screenshot of it, applied the right color and – besides the color – had the exact same logo as my client of his window. Here's the result:
 
 ![Logo of my client's business](https://i.postimg.cc/rpR8q576/seren-logo.png)
 
@@ -214,6 +214,9 @@ In addition to the last video mentioned, I also watched the video [Copy This Per
 
 - 95% of a customer's buying decision is based on emotions e.g. desires, dreams etc.
 - Emotions change all the time but proof is timeless and validates decisions and claims. To make sure the customer doesn't regret his decision when his emotions change and to cover the missing 5% of a customer's buying decision, the emotional decision needs to be backed up with logic on how the service or product ensures the claimed results e.g. stats, social proof, visual proof, features etc.
+
+> [!IMPORTANT]
+> While my initial intention was to simply find a layout template, the two videos above went beyond website layout and additionally covered content creation. The insights I gained from them played a big role in the success of my content creation process – which I'm going to dive into in the next section.
 
 **🎯 RESULTS**
 
@@ -362,9 +365,13 @@ Alex also showed me ["four things to make the proofs more compelling"](https://y
 To make the market research process as efficient as possible, I used [ChatGPT](https://chatgpt.com/) as my market research expert. Here are the key concepts that shaped my approach:
 
 - The quality of the results from ChatGTP depends entirely on the skill of the person crafting the prompts.
-  - If a CEO knows how to manage his team effectively by providing them with clear guidance and well-defined objectives, the team can focus their efforts and deliver high-quality results. Similarly, when the prompt is precise, well-structured, and detailed, ChatGPT can generate accurate, relevant, and insightful responses. On the other hand, if the CEO gives vague or poorly thought-out instructions, the team might become confused or unproductive. Likewise, a poorly written prompt can lead to generic, irrelevant, or unhelpful responses from ChatGPT.
+
+  > [!WARNING]
+  > If a CEO knows how to manage his team effectively by providing them with clear guidance and well-defined objectives, the team can focus their efforts and deliver high-quality results. Similarly, when the prompt is precise, well-structured, and detailed, ChatGPT can generate accurate, relevant, and insightful responses. On the other hand, if the CEO gives vague or poorly thought-out instructions, the team might become confused or unproductive. Likewise, a poorly written prompt can lead to generic, irrelevant, or unhelpful responses from ChatGPT.
+
 - Take responsibility and think for yourself instead of leaving that to the AI.
-  - By taking ownership of your thoughts, you ensure that ChatGPT becomes a tool that enhances your capabilities rather than replaces them. ChatGPT provides suggestions, but it’s the responsibility of the user to analyze, interpret, and apply those ideas in a thoughtful, ethical, and relevant way. By engaging critically with ChatGPT, you maintain control over the process, achieve more meaningful and personalized results, and improve your own skills over time.
+  > [!WARNING]
+  > By taking ownership of your thoughts, you ensure that ChatGPT becomes a tool that enhances your capabilities rather than replaces them. ChatGPT provides suggestions, but it’s the responsibility of the user to analyze, interpret, and apply those ideas in a thoughtful, ethical, and relevant way. By engaging critically with ChatGPT, you maintain control over the process, achieve more meaningful and personalized results, and improve your own skills over time.
 
 **🎯 RESULTS**
 
@@ -417,8 +424,9 @@ In addition to using ChatGPT for market research, I used it for/to:
   - Because of how impactful headlines are – in a way that favors you or disfavors you –, I spent quite some time to come up with the best prompts I could think of to get the result and impact I wanted. Some words and phrases I included were: emotional, logical, impactful, convey the following meaning, achieve the following goal, as consize/short as possible, max of X characters/words/sentences.
 - Add a last touch to my written text.
   - Because one of my goals was to improve my writing and thinking skills, I didn't want to sacrifice that for the sake of efficiency, so I wrote about 90% of the text on my own and used ChatGPT to "add a last touch" to it with the quote as my prompt and always with the addition of the command to "make it as consice and impactful as possible". I used the tool [Diffchecker](https://www.diffchecker.com/) to compare my original text with the revision from ChatGPT. It highlights the differences and makes comparing them very easy. I did the whole project with the free version of ChatGPT. If you spend $20 on the monthly subscription, you not only get access to unlimited access to the fastest AI models with the most advanced reasoning capabilities that gives you the best quality outputs possible, but you can also use one of the latest features called [Canvas](https://openai.com/index/introducing-canvas/) which – at the time of this writing – is only available to paid subscription users. It's a new interface (way you interact with the system) that makes creating text and code and refining it way easier than the current chat interface. It saves you a lot of time by removing the need for constant copy pasting and external tools like Diffchecker. If you want to learn more about it check out the embedded link on the word "Canvas" above or check out this video for an indepth tutorial and use cases for it: [12 Use Cases for NEW ChatGPT Canvas! (Future of Writing)](https://youtu.be/LDVxv9UXQxg?si=W1elyKzMQFkrS733).
-    > [!NOTE]
-    > In the process of writing this paragraph I came to the realization that me not taking advantage of the described features makes no sense because of the insane return on investment. I became a paid user and the only thing I feel bad about is not doing it sooner.
+
+> [!NOTE]
+> During the process of writing this paragraph I came to the realization that me not taking advantage of the described features makes no sense because of the insane return on investment. I just became a paid user and the only thing I feel bad about is not doing it sooner.
 
 **🎯 RESULTS**
 
@@ -586,6 +594,15 @@ Privacy Policy
 
 The use of the contact data published in this website for advertising purposes by third parties is hereby expressly rejected. The operator expressly reserves the right to take legal action in the case of unsolicited advertising or informational materials."
 
+> [!TIP]
+> If you want to see more examples of how I used ChatGPT for things like market research and copywriting, here are the links to my chat histories from my planning and implementation phase of the website:  
+> https://chatgpt.com/share/673c56cb-023c-8005-86aa-0e66d5a8d6cb  
+> https://chatgpt.com/share/673c582e-e19c-8005-97d1-871d555102b9  
+> https://chatgpt.com/share/673c58bd-f080-8005-b5c3-81fded50730c  
+> https://chatgpt.com/share/6748d08f-955c-8005-8260-914dbbbcc1a2
+>
+> Because the copy used on the website is in German, most prompts are in German too, but some are in English. If you want them in English, simply tell ChatGPT to translate them.
+
 ## 👨‍💻 Coding
 
 > [_"Everybody should learn to program a computer ... because it teaches you how to think"_ – Steve Jobs](https://youtube.com/shorts/esvgwME4NyI?si=gaXUJDlGYpfXsM83)
@@ -699,13 +716,7 @@ The coding principles I used as blueprint for this project were the following:
 
 **🎯 RESULTS**
 
-#### 🎨 Design System
-
-#### Icons
-
-#### CSS Resets
-
-#### Utility Classes
+### 🎨 Design System
 
 ## 🚀 Deployment
 
@@ -736,9 +747,6 @@ The coding principles I used as blueprint for this project were the following:
 
 ### ☁️ Hosting
 
--
+## 🌊 Workflow
 
-Link to ChatGPT chat histories used for market research and content creation:  
-https://chatgpt.com/share/673c582e-e19c-8005-97d1-871d555102b9  
-https://chatgpt.com/share/673c56cb-023c-8005-86aa-0e66d5a8d6cb  
-https://chatgpt.com/share/673c58bd-f080-8005-b5c3-81fded50730c
+https://youtube.com/shorts/q725Nr4UkPU?si=Ly1ugsQa_5VCNJTc
