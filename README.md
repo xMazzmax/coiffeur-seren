@@ -531,6 +531,34 @@ Mention of my attribution as part of the agreement with my client
 Link to the legal page
 "Legal"
 
+**Legal page:**
+I used a template for this content and simply made some adjustments.
+
+Page heading: "Legal information"
+
+Rest of the text:
+"Company details
+
+[client's full name]
+[location of the business]
+[client's email]
+[business phone number]
+[business id]
+
+Copyright
+
+The copyright for all text content and the code of this website is held by Maximiliano Ely Mazzola. The copyright for all images is held by [my client's name]. © 2024.
+
+Disclaimer
+
+All texts and links have been carefully reviewed and are continuously updated. We strive to provide accurate and complete information on this website; however, we assume no responsibility, guarantees, or liability for the accuracy, completeness, or timeliness of the information provided on this website. We reserve the right to change the information on this website at any time without prior notice, and we are not obligated to update the information contained herein.
+
+Should any individual provisions or phrases of this disclaimer be or become ineffective, the remaining provisions and their validity shall not be affected.
+
+Privacy Policy
+
+The use of the contact data published in this website for advertising purposes by third parties is hereby expressly rejected. The operator expressly reserves the right to take legal action in the case of unsolicited advertising or informational materials."
+
 ## 👨‍💻 Coding
 
 > [_"Everybody should learn to program a computer ... because it teaches you how to think"_ ― Steve Jobs](https://youtube.com/shorts/esvgwME4NyI?si=gaXUJDlGYpfXsM83)
