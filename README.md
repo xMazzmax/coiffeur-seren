@@ -305,9 +305,9 @@ Let's start by defining what content creation is in the first place: Content cre
 
 ### 🧠 Market research
 
-#### 📗 Methodology
-
 > [_"Make an offer so good people feel stupid saying no"_ – Alex Hormozi](https://youtube.com/shorts/joF2fMj3XKk?si=9uxLZvgPwWB57C8f)
+
+#### 📗 Methodology
 
 Alex Hormozi, who built four different businesses, now has a net worth of over $100'000'000 and is my mentor – even though he doesn't know I exist – said a while back that he ["looked at 2'000 ads ... of the top 50 ads ... 40 of them was just proof ... it's all it was, proof"](https://youtube.com/shorts/9XIgalr9aWY?si=JpF835J1xvZuYFJx).
 
@@ -359,7 +359,7 @@ How I decided to prove it (in no specific order):
 
 - Existing Google reviews.
 - A lot of result pictures.
-- Simple website and design so that the perceived brand image matches the claims of the service.
+- Simple website with a simple design so that the perceived brand image matches the claims of the service.
 
 My client's weaknesses:
 
@@ -370,7 +370,7 @@ How I turned them into strenghts:
 
 1. I made the CTA (Call to action) a direct phone call so that the customer can check the current availability.
 
-- I noted this problem during the first meeting with my client, when he had to reject a customer that came by spontaneously because of the appointment he had with me. I knew right away I was going to use this as the CTA.
+- I noted this problem during the first meeting with my client, when he had to reject a customer that came by spontaneously because of our meeting. I knew right away I was going to use this as the CTA.
 
 2. I looked on Google Maps for the nearest ATM (cash machine) and found out there's one on the opposite side of the street of my client's shop.
 
@@ -380,18 +380,156 @@ How I turned them into strenghts:
 
 Definition: Copywriting is the art and science of crafting persuasive and compelling text to promote a product, service, or idea and inspire the audience to take specific action.
 
-From my knowledge about neuropsychology (science about how the brain affects human behaviour through things like hormones) and behavioural psychology, but also from personal experience, I know for a fact that ambitious people who represent the avatar I came up with are usually driven by deep insecurities. As you've already learned, fear is the strongest form of motivation. With that in mind, I wanted my copy to relate to those insecurities to grab the user's attention and to provide them a genuine solution with my client's services. That's not only how I did this project, but how I do everything in my life. But with great power comes great responsibility. That's why philosophy is a big component of my life. I always strive to make choises that have a net positive impact on me **and** the people involved with everything I do. I'm well aware of the limits of my capabilities and I know that I don't always make the right choises. I keep that in mind, but I don't let that stop me. I never regret anything I've done, because the mistakes I make are lessons I can learn from. The only choices I regret are those I knew I should have done, but allowed fear to take over.
+#### 📗 Methodology
 
-Let's resume with copywriting.
+From my knowledge about neuropsychology (science about how the brain affects human behaviour for example through hormones) and behavioural psychology, but also from personal experience, I know for a fact that ambitious people – who represent our avatar – are usually driven by deep insecurities. As you've already learned, fear is the strongest form of motivation. With that in mind, I wanted my copy to relate to those insecurities to grab the user's attention and to provide them a genuine solution with my client's services. That's not only how I did this project, but how I do many things in my life. But with great power comes great responsibility. That's why philosophy is a big component of my life. I always strive to make choises that have a net positive impact on me **and** the people involved with everything I do. I'm well aware of the limits of my capabilities and I know that I don't always make the right choises. I keep that in mind, but I don't let that stop me. I never regret anything I've done, because the mistakes I make are lessons I can learn from. The only choices I regret are those I knew I should have done, but allowed fear to take over and prevent me from taking action.
 
-In addition to using ChatGPT for market research, I used it for:
+In addition to using ChatGPT for market research, I used it for/to:
 
-- Brainstorming countless ideas (each time within seconds).
+- Brainstorming countless ideas within seconds.
   - When I didn't like the output I asked my virtual expert to do it again with the simple prompt "again" and repeated it until there was something I found interesting. When that alone wasn't enough, I refined my original command/question and repeated this process.
 - Headline suggestions.
-  - Because of the importance of headlines and to make them as impactful as possible, I spent quite some time to come up with the best prompts I could think of to get the result I wanted. Some words and phrases I included were: emotional, logical, impactful, convey the following meaning, achieve the following goal, as consize/short as possible, max of X characters/words/sentences.
+  - Because of how impactful headlines are – in a way that favors you or disfavors you –, I spent quite some time to come up with the best prompts I could think of to get the result and impact I wanted. Some words and phrases I included were: emotional, logical, impactful, convey the following meaning, achieve the following goal, as consize/short as possible, max of X characters/words/sentences.
 - Add a last touch to my written text.
-  - Because one of my goals was to improve my writing and thinking skills, I didn't want to sacrifice it for the sake of efficiency, so I wrote about 90% of the text on my own and only used ChatGPT to "add a last touch" to it with the quote as my prompt and always with the addition of the command to "make it as consice and impactful as possible". I use the tool [Diffchecker](https://www.diffchecker.com/) to compare my original text with the revision from ChatGPT. It highlights the differences and makes comparing them very easy. I did the whole project with the free version of ChatGPT. If you spend $20 on the monthly subscription, you not only get access to unlimited access to the fastest AI model that gives you the best quality outputs, but you can also use one of the latest features called [Canvas](https://openai.com/index/introducing-canvas/) which – at the time of me writing this – is only available to paid subscription users. It's a new interface (way you interact with a system) that makes creating text and code and refining it way easier than the current chat interface. It saves you a lot of time by removing the need for constant copy pasting and external tools like Diffchecker. If you want to learn more about it check out the embedded link on the word "Canvas" above or check out this video for an indepth tutorial and use cases for it: [12 Use Cases for NEW ChatGPT Canvas! (Future of Writing)](https://youtu.be/LDVxv9UXQxg?si=W1elyKzMQFkrS733).
+  - Because one of my goals was to improve my writing and thinking skills, I didn't want to sacrifice that for the sake of efficiency, so I wrote about 90% of the text on my own and used ChatGPT to "add a last touch" to it with the quote as my prompt and always with the addition of the command to "make it as consice and impactful as possible". I used the tool [Diffchecker](https://www.diffchecker.com/) to compare my original text with the revision from ChatGPT. It highlights the differences and makes comparing them very easy. I did the whole project with the free version of ChatGPT. If you spend $20 on the monthly subscription, you not only get access to unlimited access to the fastest AI models with the most advanced reasoning capabilities that gives you the best quality outputs possible, but you can also use one of the latest features called [Canvas](https://openai.com/index/introducing-canvas/) which – at the time of this writing – is only available to paid subscription users. It's a new interface (way you interact with the system) that makes creating text and code and refining it way easier than the current chat interface. It saves you a lot of time by removing the need for constant copy pasting and external tools like Diffchecker. If you want to learn more about it check out the embedded link on the word "Canvas" above or check out this video for an indepth tutorial and use cases for it: [12 Use Cases for NEW ChatGPT Canvas! (Future of Writing)](https://youtu.be/LDVxv9UXQxg?si=W1elyKzMQFkrS733). Sidenote: In the process of writing this paragraph I came to the realization that me not taking advantage of the described features makes no sense because of the insane return on investment. I became a paid user and the only thing I feel bad about is not doing it sooner.
+
+#### 🎯 Results
+
+**Navigation:**
+To avoid unnecessary clutter in the navbar and make the headings easy to understand I used the single words "Advantages", "Highlights", "Reviews", "Gallery", "Prices", "Questions". I also added the CTA "Get your new look now!"
+
+**Hero:**
+Heading: "Feel confident instantly"
+Subheading: "with perfectly styled hair and beard, tailored to your wishes."
+CTA button: "Get your new look now!"
+Secondary action button: "Learn more"
+Reviews: "4.7★ (90+ reviews)"
+
+**Advantages:**
+Descriptive heading: "Your advantages"
+Advantages:
+
+- "Save time ― We work without appointments and are lightning-fast, so you never have to wait long. Give us a quick call and find out if you can be attended to right away."
+- "Peace of mind ― Our years of experience guarantee you expert advice for the results you desire. We also take your wishes into account."
+- "Save money ― With us, you get top-notch service at affordable prices. If you wish, we will also apply products like gel, hair wax, etc., for free."
+
+**Features:**
+Descriptive heading: "Why our customers choose us"
+List of features:
+
+- "Stylists with years of experience"
+- "Flexible, short-notice service"
+- "4.7-star rating on Google"
+- "Fast, efficient service"
+- "Relaxed atmosphere"
+- "Friendly, attentive team"
+- "Transparent pricing"
+- "Personalized advice"
+- "Great value for money"
+- "Central and easily accessible location"
+- "Wide range of hair care products"
+- "On-site restroom"
+- "Free extras for your styling"
+- "2 free parking lots"
+- "Free coffee and water"
+
+**Reviews:**
+
+- "I’m always attended to quickly and kindly here. ― author's name"
+- "Quick, no appointment needed, and affordable. Very satisfied with the haircut. ― author's name"
+- "The best hair salon I’ve ever had my hair cut at. ― author's name"
+
+**Gallery:**
+Descriptive heading: "Created by us, inspired for you"
+
+**Pricing:**
+Descriptive heading: "What we offer"
+My client had the following siple list of all his services and prices:  
+![Price list of my client](https://i.postimg.cc/C1zzndYs/preise.jpg)
+
+I kept the simplicity but added clarity and structure to the text:
+"Hair
+
+- Men's cut: CHF 28
+- Kids' cut (up to 12 years): CHF 20
+- Coloring: CHF 25
+
+Beard
+
+- Trim: CHF 20
+- Coloring: CHF 15
+
+Eyebrows
+
+- Shaping: CHF 10
+
+Special Packages
+
+- Hair + Beard cut: CHF 45 (instead of CHF 48)
+- Hair + Beard cut + Eyebrow shaping: CHF 50 (instead of CHF 58)"
+
+The pricing section was also the perfect to display the payment options:
+"Payment options
+We accept cash and Twint. There is an ATM in front of our salon if you only have your card with you."
+
+**FAQ:**
+Descriptive heading: "Frequently Asked Questions"
+
+Questions and answers:
+"How can I be sure that you will take my wishes into account?
+
+- When you visit us, we offer you a coffee or water and first ask about your preferences. Then we give you our recommendations based on our experience. This way, we ensure that we meet your expectations.
+
+How can I be sure that I will be satisfied with the result?
+
+- Our main goal is for every customer to look great and leave our salon with a smile on their face. During our consultation, we honestly tell you what we can and cannot do. If we can't do something, we’re happy to recommend a suitable expert from our competitors.
+
+Can I come without an appointment and be attended to right away?
+
+- We don’t offer appointments and we bet on spontaneous visits without prior registration. Our efficient workflow allows us to offer short wait times. If you prefer to be attended to immediately, just give us a quick call – we’ll be happy to let you know our current availability!
+
+Do you also offer haircuts for children, and can I bring my family?
+
+- Absolutely! Our team has experience with children's haircuts and provides a friendly, child-friendly atmosphere so that even the youngest ones feel comfortable. We make the haircuts quick and relaxed, and there’s enough space to ensure the visit is pleasant for the whole family.
+
+Are there any hidden costs? How transparent are the prices?
+
+- You won’t experience any unpleasant surprises when it's time to pay. Our pricing structure is clear and transparent, and we inform you in advance of all the costs for what you want.
+
+What payment methods can I use?
+
+- We accept cash and Twint. If you don’t have cash, you can withdraw money at the ATM across from our salon."
+
+**Call To Action:**
+Descriptive heading: "Get your confident look now!"
+Paragraph with more context: "You can simply stop by spontaneously without having to worry about long wait times, as we work as fast as lightning. And if you don’t want to wait at all, just give us a quick call and find out if you can be attended to right away."
+CTA button: "Call now and check availability!"
+
+**Footer:**
+"Opening hours
+Monday: 08:30 - 19:00
+Tuesday: 08:30 - 19:00
+Wednesday:08:30 - 19:00
+Thursday: 08:30 - 19:00
+Friday: 08:30 - 21:00
+Saturday: 08:30 - 17:00
+Sunday: closed"
+
+"Address
+[address of the shop]"
+
+Instead of just writing "Phone" I added a reason for the clients to call my client with the following heading
+"Any questions?
+We'll be happy to answer them!
+
+[landline number]
+[mobile number]"
+
+Mention of my attribution as part of the agreement with my client
+"Made with ❤️ by Maximiliano"
+
+Link to the legal page
+"Legal"
 
 ## 👨‍💻 Coding
 
