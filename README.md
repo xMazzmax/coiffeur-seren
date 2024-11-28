@@ -5,11 +5,13 @@
 
 Coiffeur Seren is a responsive landing page/single page website that I developed to practice and solidify my recently gained knowledge in HTML, CSS and web design. Other than my last project this was done for an actual client.
 
-## 📝 First Meeting Preparation
+## 📅 Client Meetings
+
+### 📗 Methodology
 
 > ["_People undererstimate how much smarter you can seem if you have 20 min of preparation."_ – Alex Hormozi](https://youtube.com/shorts/I4-Ya2IFz2A?si=Dzd14v-nNknZ8Wj8)
 
-Before my first meeting with my client, I invested 20 min to find out about what's important to know before starting any website project. I did a quick YouTube search with "what to ask customer before building a website" and copied the following questions from the first search result "[Web Design Questionnaire - What to Ask Clients Before Designing a Website](https://youtu.be/xx7EGf20LQw?si=AZQLyvU7wp5JfUxU)". If you don't intend on copying the questions, skip them, as I'm gonna dive into them further down below.
+Before my first meeting with my client, I invested 20 min to find out about what's important to know before starting any website project. I did a quick YouTube search with "what to ask a customer before building a website" and copied the following questions from the first search result "[Web Design Questionnaire - What to Ask Clients Before Designing a Website](https://youtu.be/xx7EGf20LQw?si=AZQLyvU7wp5JfUxU)". If you don't intend on copying the questions, skip them, as I'm gonna dive into them further down below.
 
 1. What's your budget?
 2. What's your target launch date?
@@ -28,14 +30,14 @@ Before my first meeting with my client, I invested 20 min to find out about what
 
 I also invested 10 min to create a first impression about the client's company and his brand. For that I read through all his Google reviews, checked out his Instagram and Facebook and tried to have a look at his website (he didn't actually have one).
 
-With the the total of 30 minutes of research – including my first impression about his brand – I adapted the questionaire. I removed what I didn't find useful, changed how some of them were written, reordered them to how I thought made the most sense and elaborated on the questions to help my customer with understanding them more clearly and finding an answer to them more easily:
+With the the total of 30 minutes of research – including my first impression about his brand – I adapted the questionnaire. I removed what I didn't find useful, changed how some of them were written, reordered them to how I thought made the most sense and elaborated on the questions to help my customer with understanding them more clearly and finding an answer to them more easily:
 
 **1. What do you want exactly and why?**
 
 - I intentionally wanted to ask my client this question in broad terms to find out about **everything** he wanted and understand his reasoning/goals behind it. Without wasting anyone's time, that would help me find out right away if we were the right fit to work together and would also help with all the following questions.
 
-2. ~~What's your budget?~~
-   **2. Cost overview**
+**2. ~~What's your budget?~~**  
+**2. Cost overview**
 
 - Instead of being paid with money, I wanted was an honest review to prove the value of my work and that I could use for future job applications and I wanted his consent to me leaving my attribution with a link to my social media page at the footer of his website. I saw that as a better long term investment than money.
   - This was my way of ensuring him it was in my best interest to deliver him results I'd be proud to share.
@@ -43,13 +45,13 @@ With the the total of 30 minutes of research – including my first impression a
   - Instead of doing some random project that besides the learning effect would potentially have no use at all, I decided to add real world value to a business.
   - I've learned from highly successful people that if you're useful to them and add tons of value without asking anything in return, the probability of them giving you tons of value back voluntarily is pretty high. I wanted to test this theory.
 - Domain
-  - I looked up the cheapest reliable swiss domain host: Hostpoint CHF 5 for the first year, CHF 15/year afterwards
+  - I looked up the cheapest reliable swiss domain host: [Hostpoint](https://www.hostpoint.ch/en/domains/domains.html) CHF 5 for the first year, CHF 15/year afterwards
 - Website hosting
-  - I chose free hosting on Netlify which provides incredible value for no money at all
+  - I chose [free hosting on Netlify](https://www.netlify.com/pricing/) which provides incredible value for no money at all
 
 **3. What's your target launch date?**
 
-- If my client would take care of the content and I therefore only had to do focus on the design and coding part, I thought it would take me 1 week max. Otherwise it would take longer depending on everything he would need from me.
+- If my client would take care of the content and I therefore only had to do focus on the design and coding part, I thought it would take me 1 week max. Otherwise it would take longer depending on the things he would need from me.
 
 **4. How would you describe your organization?**
 
@@ -102,13 +104,13 @@ With the the total of 30 minutes of research – including my first impression a
 
 - E.g. photographer, copywriter (to write the websites content/text), Google Business Account (for Google Maps), social media (Instagram, Facebook etc.), Domain
 
-## 📅 First Meeting Execution
+### 🎯 Results
 
 > [_"The greatest possible treasure to be found is where the danger is most intense"_ – Jordan B. Peterson](https://youtube.com/shorts/W_1cF7zSens?si=pgeGW8RTi3COojjT)
 
-My initial plan was to hand out the questionnaire I'd prepare to my client as a guide on what is neecessary to successfully represent his brand and achieve his objective for the website. I wanted to leave him the content creation part so that I could focus on the design of the website and its developement with HTML and CSS only. At our initial meeting however, I quickly realized that – because of his language barrier – writing the copy on his own would be really difficult for him and most likely take a long time. Even though I wanted to develop the website as fast as possible so that I could dive deep into learning JavaScript as soon as possible, I saw a great opportunity to not just practice front-end development with this project, but also test my abilities and learn new things regarding everything that's needed for the development of a website from start to finish. I knew the result could turn out to be bad. The reason being that I didn't have any practical experience in content creation and my client didn't actively share much about his business with me like his processes and his goals – which I don't blame him for, since he'd never had to do that before – and he wanted to leave most decisions regarding the website to me. Fortunately, the nature of his business operates without much complexity and I thought I could manage the content on my own. As you're soon going to find out, my client wanted my help with more than just that. My goal was to overdeliver and exceed his expectations and as mentioned above to learn a lot of useful things that might help me reach my personal long term goals. So I decided to do it all on my own.
+My initial plan was to hand out the prepared questionnaire to my client as a guide on what is neecessary to successfully represent his brand and achieve his objective for the website. I wanted to leave him the content creation part so that I could focus on the design of the website and its developement with HTML and CSS only. At our initial meeting however, I quickly realized that – because of his language barrier – writing the copy on his own would be really difficult for him and most likely take a long time. Even though I wanted to develop the website as fast as possible so that I could dive deep into learning JavaScript as soon as possible, I saw a great opportunity to not just practice front-end development with this project, but also test my abilities and learn new things regarding everything that's needed for the development of a website from start to finish. I knew the result could turn out to be bad. The reason being that I didn't have any practical experience in content creation and my client didn't actively share much about his business with me like his processes and his goals – which I don't blame him for, since he'd never had to do that before – and he wanted to leave most decisions regarding the website to me. Fortunately, the nature of his business operates without much complexity and I thought I could manage the content on my own. As you're soon going to find out, my client wanted my help with more than just that. My goal was to overdeliver and exceed his expectations and as mentioned above to learn a lot of useful things that might help me reach my personal long term goals. So I decided to do it all on my own.
 
-During our meeting I went over the questionaire I'd prepared and only asked him about the most essential questions:
+During our meeting I went through the questionnaire with him but after getting the feeling that he didn't want to dive deep into the questions, I decided to only ask him about essential questions that I thought he could give me an answer to:
 
 **1. What do you want exactly and why?**
 
@@ -146,15 +148,15 @@ During our meeting I went over the questionaire I'd prepared and only asked him 
 
 **7. Do you have established branding, messaging or style guidelines?**
 
-- He didn't have the logo in digital form that I needed and told me I should improvise. I took a photo of his logo and wanted to simply choose a color that comes as close to it as possible.
+- He didn't have the logo in digital form and gave me the impression that he didn't want to bother contacting the people that designed and printed the logo he had on his window. He told me I should improvise. I took a photo of his logo and wanted to simply choose a color that comes as close to it as possible.
 
 **8. What additional services are required?**
 
 - Copywriting.
-- Photography (We agreed that he would provide me with photos for a gallery).
+- Photography (we agreed that he would provide me with photos for a gallery).
 - He gave me his Google account login details for me to fix the issues of his Google Business Profile.
 
-I agreed with my client's decision that the website should be as simple as possible. My definition of greatness is achieved, not when there is nothing more to add, but when there is nothing unnecessary left to take away from a product or service so that the user can achieve his goals as simple as possible and as fast as possible. Adding more value with less stuff isn't easy, in fact it's way harder. My philosophy is that it's the responsibility of the service provider to take on the burden of that complexity in order to add as much value as possible to his customers. In regards to software, I think that to the users, software are primarily tools and tools should make their life easier, not harder. That's the approach I personally take and the goal I aim towards when providing any kind of service or product, not just software development.
+I agreed with my client's decision that the website should be as simple as possible. My definition of greatness is achieved, not when there is nothing more to add, but when there is nothing unnecessary left to take away from a product or service so that the user can achieve his goals as simple as possible and as fast as possible. Adding more value with less stuff isn't easy, in fact it's way harder. My philosophy is that it's the responsibility of the service provider to take on the burden of that complexity in order to add as much value as possible to his customers. In regards to software, I think that to the users, software are primarily tools and tools should make their life easier, not harder. That's my approach and goal when providing not just software development but any kind of service or product.
 
 ### 🌍 Beyond Website Developent - Marketing Strategies and Execution
 
@@ -165,29 +167,42 @@ Besides the website, my client also asked me for help regarding the following:
 **Google Business Account**
 My client has been working at his current hairdresser shop for years. He didn't own the place initially but eventually took it over. He also took over the existing Google Business Account and instead of renaming the existing profile, he created a second profile on the same account which resulted in the Google search results displaying the name of the new and the name of the old business. I did some research and found out my client's option to solve the problem and shared it with him:
 
-1. Delete the old profile which ...  
-   \+ ... would remove the name of the old business.  
-   \- ... would also delete all his 80+ reviews with an average rating of 4.7 ★.
+1. Delete the old profile which ...
 
-2. Request Google to merge the old profile into the new one ...  
-   \+ ... would move over all existing reviews to the new profile.  
-   \- ... request could take up to two weeks and still be rejected.
+```diff
++ ... would remove the name of the old business.
+- ... would also delete all his 80+ reviews with an average rating of 4.7 ★.
+```
+
+2. Request Google to merge the old profile into the new one ...
+
+```diff
++ ... would move over all existing reviews to the new profile.
+- ... request could take up to two weeks and still be rejected.
+```
 
 My client wanted to choose the first option as he thought he could get new reviews quickly. I told him the decision is up to him, but if I was in his shoes, I'd choose the second option first because he had nothing to lose and everything to win with it. If Google accepted the request he would get to keep all his great reviews which we could use on the website as social proof of how great his service is. If he waited two weeks and his request was rejected, he could still delete the old profile. He liked my suggestion chose that path. I also updated his opening hours, cover picture, logo and also the website address once it went live.
 
 **Apple Business Account**
-During the project I came to the realization that Apple users don't use Google Maps, they use Apple Maps instead. I informed my client about it, created him an Apple Business Account, did everything necessary to claim his existing shop on Apple Maps and updated everything like on Google Maps by the end of the project.
+During the project I came to the realization that Apple users don't use Google Maps, they use Apple Maps instead. I informed my client about it, created him an Apple Business Account, did everything necessary to claim his existing shop on Apple Maps and updated everything like on Google Maps by the end of the project. By the time of this writing, the claim of the business profile and the changes to it are still being reviewed by Apple.
+
+**Logo**
+With the photo I took of my client's logo, I tried to figure out its digital color code. Because of variables like lighting, camera and display quality, it was impossible for me to get exactly the original color of the logo. Instead of just picking a random color, I decided to go to [Open color](), an awesome open-source color scheme I like, and choose the color that came closest to my clients logo. I ended up with LIME 5 (HEX `#94d82d`). I also tried to find a font family that came close to that of the logo, but I hated every result I ended up with. Through sheer luck I ended up on a web tool called [WhatTheFont](https://www.myfonts.com/pages/whatthefont) which identifies the original font family of any uploaded image. After that, I just searched the font family package online, in preview mode I wrote the name of the shop of my customer, made a screenshot of it, applied the right color and – besides the color – had the exact same logo as my client of his window. Here's the result:
+
+![Logo of my client's business](https://i.postimg.cc/rpR8q576/seren-logo.png)
 
 **Instagram QR code**
 My client wanted me to make him a QR code of a link to his Instagram. He agreed to my suggestion of additionally creating one with a direct link for people to leave a review on Google and printing both on self-adhesive paper so he could easily stick it wherever he wanted. I ordered the paper on Amazon, searched for inspiration on Google, selected a few ideas I liked and created a few samples of which my customer could chose from. I personalized/edited the two chosen options with the free web based photoshop tool [Photopea](https://www.photopea.com/), generated the QR codes on [QR Code Generator](https://www.qr-code-generator.com/) and brought everything together. By the end of the project I also got the idea of doing the same for the website so that my client could stick it on his entrance door and enable curious passersby to explore and close (say yes to) the services of my client entirely on their own – effectively making the sale themselves without any effort from my client. Here are the results:
 
-![QR code of my customer's Instagram page link](https://i.postimg.cc/qMRvZkMK/instagram-github.png)
-![QR code of my customer's Google review link](https://i.postimg.cc/PJ6rr7KN/google-review-github.png)
-![QR code of my customer's website link](https://i.postimg.cc/SxYNkD9N/website-github.png)
+![QR code of my client's Instagram page link](https://i.postimg.cc/qMRvZkMK/instagram-github.png)
+![QR code of my client's Google review link](https://i.postimg.cc/PJ6rr7KN/google-review-github.png)
+![QR code of my client's website link](https://i.postimg.cc/SxYNkD9N/website-github.png)
 
 ## 🧱 Website layout
 
 > _"Don't reinvent the wheel, just realign it."_ – Anthony D'Angelo
+
+### 📗 Methodology
 
 While I wanted to create something great, I also wanted to do the project as efficiently as possible. Just as I approached the questionnaire, I applied the same principle to my customer's website. Rather than trying to come up with a layout myself, I drew inspiration from the best ones that already exists. For that I searched "best landing page" on YouTube and followed the instructions from the video [Why is THIS the PERFECT Landing Page?](https://youtu.be/UC9pTtrhFys?si=cNwzowfQ-rYf-yz3) to maximize the conversion rate of potential customers that visit the website. Here are the key takeaways from the video:
 
@@ -199,6 +214,8 @@ In addition to the last video mentioned, I also watched the video [Copy This Per
 
 - 95% of a customer's buying decision is based on emotions e.g. desires, dreams etc.
 - Emotions change all the time but proof is timeless and validates decisions and claims. To make sure the customer doesn't regret his decision when his emotions change and to cover the missing 5% of a customer's buying decision, the emotional decision needs to be backed up with logic on how the service or product ensures the claimed results e.g. stats, social proof, visual proof, features etc.
+
+### 🎯 Results
 
 With the blueprint gathered as a starting point, here's the layout I decided to implement in the exact order I planned to display it on the website:
 
@@ -278,14 +295,14 @@ With the blueprint gathered as a starting point, here's the layout I decided to 
 
 **- FAQ (emotional fears)**
 
-- The frequently asked questions section resolves common questions users might have about your product or service and most important their personal fears that are based on past bad experiences and misconceptions. Here's some pressure points:
+- The frequently asked questions section resolves common questions users might have about your product or service and most important their personal fears that are based on past bad experiences and misconceptions. Here are some pressure points:
   - Money
   - Time
   - Trust
-- Choose 5-6 questions and provide an answer to them, preferrably with some proof.
+- Choose 5-6 questions and provide an answer to them, ideally with some proof.
 - Layout:
   - Heading: Question
-  - Paragraph: Answer. Since this taps into the customer's fears – which is the strongest form of motivation –, you can get away with writing longer text than the rest of the content on the website, but should still try to be concise and precise.
+  - Paragraph: Answer. Since this taps into the customer's fears – which is the strongest form of motivation – and grabs their attention, you can get away with writing longer text than the rest of the content on the website, but should still try to be concise and precise.
 
 **- CTA (purpose of the website)**
 
@@ -294,8 +311,13 @@ With the blueprint gathered as a starting point, here's the layout I decided to 
   - Heading: Same as in the hero section.
   - Paragraph: Elaborate on the heading and the subheading of the hero.
   - Button: Direct call to action that describes what's going to happen when the user presses the button.
-    \- **Bad** example: Call us now! //The user doesn't know why to call.  
-    \+ **Good** example: Call now and book a consultation! //Describes exactly what's going to happen and why.
+
+```diff
+- **Bad** example: Call us now!
+  => The user doesn't know why to call.
++ **Good** example: Call now and book a consultation!
+  => Describes exactly what's going to happen and why.
+```
 
 ## 📰 Content creation
 
@@ -311,7 +333,7 @@ Let's start by defining what content creation is in the first place: Content cre
 
 Alex Hormozi, who built four different businesses, now has a net worth of over $100'000'000 and is my mentor – even though he doesn't know I exist – said a while back that he ["looked at 2'000 ads ... of the top 50 ads ... 40 of them was just proof ... it's all it was, proof"](https://youtube.com/shorts/9XIgalr9aWY?si=JpF835J1xvZuYFJx).
 
-I knew I had to do some market research to find out what criteria people have, when it comes to choosing a hairdresser, find my client's strengths and weaknesses, and connect the dots to come up with an offer the target audience would feel stupid saying no to. The basis for my market research was the questionaire. In addition to the answers that my client gave me, I made some observations that helped me add more specificity to my client's answers and do the remaining ones on my own.
+I knew I had to do some market research to find out what criteria people have, when it comes to choosing a hairdresser, find my client's strengths and weaknesses, and connect the dots to come up with an offer the target audience would feel stupid saying no to. The basis for my market research was the questionnaire. In addition to the answers that my client gave me, I made some observations that helped me add more specificity to my client's answers and do the remaining ones on my own.
 
 In addition to that, and to find out what motivates the buying decisions specific to my client's customers, I tried to define an avatar. An avatar is a detailed representation of a company's ideal customer/target audience. It's a fictional profile that embodies the characteristics, behaviors, needs, and preferences of the type of person that is qualified to use the products or services of a business so that a so called _"product-market fit"_ is achieved. For that I analysed the following:
 
@@ -391,12 +413,14 @@ In addition to using ChatGPT for market research, I used it for/to:
 - Headline suggestions.
   - Because of how impactful headlines are – in a way that favors you or disfavors you –, I spent quite some time to come up with the best prompts I could think of to get the result and impact I wanted. Some words and phrases I included were: emotional, logical, impactful, convey the following meaning, achieve the following goal, as consize/short as possible, max of X characters/words/sentences.
 - Add a last touch to my written text.
-  - Because one of my goals was to improve my writing and thinking skills, I didn't want to sacrifice that for the sake of efficiency, so I wrote about 90% of the text on my own and used ChatGPT to "add a last touch" to it with the quote as my prompt and always with the addition of the command to "make it as consice and impactful as possible". I used the tool [Diffchecker](https://www.diffchecker.com/) to compare my original text with the revision from ChatGPT. It highlights the differences and makes comparing them very easy. I did the whole project with the free version of ChatGPT. If you spend $20 on the monthly subscription, you not only get access to unlimited access to the fastest AI models with the most advanced reasoning capabilities that gives you the best quality outputs possible, but you can also use one of the latest features called [Canvas](https://openai.com/index/introducing-canvas/) which – at the time of this writing – is only available to paid subscription users. It's a new interface (way you interact with the system) that makes creating text and code and refining it way easier than the current chat interface. It saves you a lot of time by removing the need for constant copy pasting and external tools like Diffchecker. If you want to learn more about it check out the embedded link on the word "Canvas" above or check out this video for an indepth tutorial and use cases for it: [12 Use Cases for NEW ChatGPT Canvas! (Future of Writing)](https://youtu.be/LDVxv9UXQxg?si=W1elyKzMQFkrS733). Sidenote: In the process of writing this paragraph I came to the realization that me not taking advantage of the described features makes no sense because of the insane return on investment. I became a paid user and the only thing I feel bad about is not doing it sooner.
+  - Because one of my goals was to improve my writing and thinking skills, I didn't want to sacrifice that for the sake of efficiency, so I wrote about 90% of the text on my own and used ChatGPT to "add a last touch" to it with the quote as my prompt and always with the addition of the command to "make it as consice and impactful as possible". I used the tool [Diffchecker](https://www.diffchecker.com/) to compare my original text with the revision from ChatGPT. It highlights the differences and makes comparing them very easy. I did the whole project with the free version of ChatGPT. If you spend $20 on the monthly subscription, you not only get access to unlimited access to the fastest AI models with the most advanced reasoning capabilities that gives you the best quality outputs possible, but you can also use one of the latest features called [Canvas](https://openai.com/index/introducing-canvas/) which – at the time of this writing – is only available to paid subscription users. It's a new interface (way you interact with the system) that makes creating text and code and refining it way easier than the current chat interface. It saves you a lot of time by removing the need for constant copy pasting and external tools like Diffchecker. If you want to learn more about it check out the embedded link on the word "Canvas" above or check out this video for an indepth tutorial and use cases for it: [12 Use Cases for NEW ChatGPT Canvas! (Future of Writing)](https://youtu.be/LDVxv9UXQxg?si=W1elyKzMQFkrS733).
+    > [!NOTE]
+    > In the process of writing this paragraph I came to the realization that me not taking advantage of the described features makes no sense because of the insane return on investment. I became a paid user and the only thing I feel bad about is not doing it sooner.
 
 #### 🎯 Results
 
 **Navigation:**
-To avoid unnecessary clutter in the navbar and make the headings easy to understand I used the single words "Advantages", "Highlights", "Reviews", "Gallery", "Prices", "Questions". I also added the CTA "Get your new look now!"
+To avoid unnecessary clutter in the navbar and make the headings concise and easy to understand I used the single words "Advantages", "Highlights", "Reviews", "Gallery", "Prices", "Questions". I also added the CTA "Get your new look now!"
 
 **Hero:**
 Heading: "Feel confident instantly"
@@ -563,9 +587,17 @@ The use of the contact data published in this website for advertising purposes b
 
 > [_"Everybody should learn to program a computer ... because it teaches you how to think"_ ― Steve Jobs](https://youtube.com/shorts/esvgwME4NyI?si=gaXUJDlGYpfXsM83)
 
-Before starting to implement the code, it's important to take some time to create a plan. Just like in building architecture, a well-thought-out blueprint ensures that the foundation is solid, the structure is cohesive, and potential issues are anticipated before construction begins. For all the non-tech people, the following paragraph will give you some perspective on how it has the potential to benefit your business and your life in general aswell.
+#### 📗 Methodology
 
-Here are some examples of the top 50 current fortune 500 companies that are based on computer software or computer hardware, ranked by annual revenue: Amazon, State Grid Corporation of China (energy), Apple, Alphabet (Google), Microsoft, Samsung Electronics, Bank of America, Bank of China. While it's clear that technology plays a significant role in the success of these businesses, I'm convinced that the real game-changer lies in the leadership's realization that the principles behind building technology can be effectively applied to every single aspect of business operations, like product and service development, human resources, leadership & management, sales, marketing etc. I can speak from personal experience, because I apply those principles to every single area in my life, from relationships, to career decisions, personal growth in regards to philosophy and psychology, health management, and even day-to-day problem-solving. On a sidenote: I take lessons and principles from every area of my life and apply them to each individual area of my life. Try that for some time and watch how much faster you'll move towards your goals...
+Before starting to implement the code, it's important to take some time to create a plan. Just like in building architecture, a well-thought-out blueprint ensures that the foundation is solid, the structure is cohesive, and potential issues are anticipated before construction begins.
+
+> [!IMPORTANT]
+> For all the non-tech people, the following paragraph will give you some perspective on how coding principles have the potential to benefit your business and your life in general.
+
+Here are some examples of the top 50 current fortune 500 companies that are based on computer software or computer hardware, ranked by annual revenue: Amazon, State Grid Corporation of China (energy), Apple, Alphabet (Google), Microsoft, Samsung Electronics, Bank of America, Bank of China. While it's clear that technology plays a significant role in the success of these businesses, I'm convinced that the real game-changer lies in the leadership's realization that the principles behind building technology can be effectively applied to every single aspect of business operations, like product and service development, human resources, leadership & management, sales, marketing etc. I can speak from personal experience, because I apply those principles to every single area in my life, from relationships, to career decisions, personal growth in regards to learning, philosophy and psychology, health management, and even day-to-day problem-solving.
+
+> [!TIP]
+> I take lessons and principles from every area of my life and apply them to each individual area of my life. Try that for some time and watch how much faster you'll move towards your goals...
 
 The coding principles I used as blueprint for this project were the following:
 
@@ -629,6 +661,8 @@ The coding principles I used as blueprint for this project were the following:
 - **What it means:** Only implement features and write code that are **strictly necessary** for the **current** requirements.
 - **Why it matters:** Avoids unnecessary complexity and wasted effort on features that may never be used.
 - **Real world example:** Building additional rooms “just in case” they’re needed later often leads to wasted materials and unused space.
+
+#### 🎯 Results
 
 #### 🎨 Design System
 
