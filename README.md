@@ -366,8 +366,8 @@ To make the market research process as efficient as possible, I used [ChatGPT](h
 
 - The quality of the results from ChatGTP depends entirely on the skill of the person crafting the prompts.
 
-  > [!WARNING]
-  > If a CEO knows how to manage his team effectively by providing them with clear guidance and well-defined objectives, the team can focus their efforts and deliver high-quality results. Similarly, when the prompt is precise, well-structured, and detailed, ChatGPT can generate accurate, relevant, and insightful responses. On the other hand, if the CEO gives vague or poorly thought-out instructions, the team might become confused or unproductive. Likewise, a poorly written prompt can lead to generic, irrelevant, or unhelpful responses from ChatGPT.
+> [!WARNING]
+> If a CEO knows how to manage his team effectively by providing them with clear guidance and well-defined objectives, the team can focus their efforts and deliver high-quality results. Similarly, when the prompt is precise, well-structured, and detailed, ChatGPT can generate accurate, relevant, and insightful responses. On the other hand, if the CEO gives vague or poorly thought-out instructions, the team might become confused or unproductive. Likewise, a poorly written prompt can lead to generic, irrelevant, or unhelpful responses from ChatGPT.
 
 - Take responsibility and think for yourself instead of leaving that to the AI.
   > [!WARNING]
@@ -478,11 +478,11 @@ List of features:
 Descriptive heading: "Created by us, inspired for you"
 
 **Pricing**  
-Descriptive heading: "What we offer"
+Descriptive heading: "What we offer"  
 My client had the following siple list of all his services and prices:  
 ![Price list of my client](https://i.postimg.cc/C1zzndYs/preise.jpg)
 
-I kept the simplicity but added clarity and structure to the text:
+I kept the simplicity but added clarity and structure to the text:  
 "Hair
 
 - Men's cut: CHF 28
@@ -503,14 +503,14 @@ Special Packages
 - Hair + Beard cut: CHF 45 (instead of CHF 48)
 - Hair + Beard cut + Eyebrow shaping: CHF 50 (instead of CHF 58)"
 
-The pricing section was also the perfect to display the payment options:
+The pricing section was also the perfect to display the payment options:  
 "Payment options
 We accept cash and Twint. There is an ATM in front of our salon if you only have your card with you."
 
 **FAQ**  
 Descriptive heading: "Frequently Asked Questions"
 
-Questions and answers:
+Questions and answers:  
 "How can I be sure that you will take my wishes into account?
 
 - When you visit us, we offer you a coffee or water and first ask about your preferences. Then we give you our recommendations based on our experience. This way, we ensure that we meet your expectations.
@@ -536,34 +536,34 @@ What payment methods can I use?
 - We accept cash and Twint. If you don’t have cash, you can withdraw money at the ATM across from our salon."
 
 **Call To Action**  
-Descriptive heading: "Get your confident look now!"
-Paragraph with more context: "You can simply stop by spontaneously without having to worry about long wait times, as we work as fast as lightning. And if you don’t want to wait at all, just give us a quick call and find out if you can be attended to right away."
+Descriptive heading: "Get your confident look now!"  
+Paragraph with more context: "You can simply stop by spontaneously without having to worry about long wait times, as we work as fast as lightning. And if you don’t want to wait at all, just give us a quick call and find out if you can be attended to right away."  
 CTA button: "Call now and check availability!"
 
 **Footer**  
-"Opening hours
-Monday: 08:30 - 19:00
-Tuesday: 08:30 - 19:00
-Wednesday:08:30 - 19:00
-Thursday: 08:30 - 19:00
-Friday: 08:30 - 21:00
-Saturday: 08:30 - 17:00
+"Opening hours  
+Monday: 08:30 - 19:00  
+Tuesday: 08:30 - 19:00  
+Wednesday:08:30 - 19:00  
+Thursday: 08:30 - 19:00  
+Friday: 08:30 - 21:00  
+Saturday: 08:30 - 17:00  
 Sunday: closed"
 
-"Address
+"Address  
 [address of the shop]"
 
-Instead of just writing "Phone" I added a reason for the clients to call my client with the following heading
-"Any questions?
+Instead of just writing "Phone" I added a reason for the clients to call my client with the following heading  
+"Any questions?  
 We'll be happy to answer them!
 
-[landline number]
+[landline number]  
 [mobile number]"
 
-Mention of my attribution as part of the agreement with my client
+Mention of my attribution as part of the agreement with my client  
 "Made with ❤️ by Maximiliano"
 
-Link to the legal page
+Link to the legal page  
 "Legal"
 
 **Legal page**  
@@ -574,10 +574,10 @@ Page heading: "Legal information"
 Rest of the text:
 "Company details
 
-[client's full name]
-[location of the business]
-[client's email]
-[business phone number]
+[client's full name]  
+[location of the business]  
+[client's email]  
+[business phone number]  
 [business id]
 
 Copyright
@@ -601,7 +601,7 @@ The use of the contact data published in this website for advertising purposes b
 > https://chatgpt.com/share/673c58bd-f080-8005-b5c3-81fded50730c  
 > https://chatgpt.com/share/6748d08f-955c-8005-8260-914dbbbcc1a2
 >
-> Because the copy used on the website is in German, most prompts are in German too, but some are in English. If you want them in English, simply tell ChatGPT to translate them.
+> Because the copy used on the website is in German, most prompts are in German too, but some are in English. Simply tell ChatGPT to translate the prompts you want in a different language.
 
 ## 👨‍💻 Coding
 
@@ -621,7 +621,7 @@ Here are some examples of the top 50 current fortune 500 companies that are base
 
 The coding principles I used as blueprint for this project were the following:
 
-1. DRY (Don't Repeat Yourself)
+_**1. DRY (Don't Repeat Yourself)**_
 
 - **What it means:**  
   Avoid duplicating code by abstracting repeated patterns into functions, modules, or classes.
@@ -630,7 +630,7 @@ The coding principles I used as blueprint for this project were the following:
 - **Real world example:**  
   Architects reuse standard blueprint elements for common building types (e.g., parking lots or bathrooms) to save time and reduce errors.
 
-2. KISS (Keep It Simple, Stupid)
+_**2. KISS (Keep It Simple, Stupid)**_
 
 - **What it means:**  
   Design systems and write code as simply as possible, avoiding overcomplication.
@@ -639,7 +639,7 @@ The coding principles I used as blueprint for this project were the following:
 - **Real world example:**  
   A straight staircase is simpler to design, build, and install than a complicated spiral staircase, which often makes things harder without adding much benefit for most buildings.
 
-3. SOLID (it's an acronym for a set of five principles of object-oriented programming)
+_**3. SOLID (it's an acronym for a set of five principles of object-oriented programming)**_
 
 - **Single Responsibility Principle (SRP)**
   - **What it means:**  
@@ -669,7 +669,7 @@ The coding principles I used as blueprint for this project were the following:
 - **Why the SOLID principles matter:**  
   They provide a foundation for building modular, flexible, reusable, maintainable, and scalable systems. These systems help you create things that are easy to understand, test, and modify over time, reducing the risk of costly errors or reworks.
 
-4. Readability
+_**4. Readability**_
 
 - **What it means:**  
   Write code that is easy for humans to understand, even at the cost of extra comments or slightly longer code.
@@ -678,7 +678,7 @@ The coding principles I used as blueprint for this project were the following:
 - **Real world example:**  
   Writing a step-by-step assembly guide for prefabricated components helps workers follow instructions with a much lower risk for mistakes that could turn out to be way more expensive than the extra time investment for the creation of the guide.
 
-5. Modularity
+_**5. Modularity**_
 
 - **What it means:**  
   Break down code into small, independent, and reusable modules or components.
@@ -687,7 +687,7 @@ The coding principles I used as blueprint for this project were the following:
 - **Real world example:**  
   Using standardized, reusable components like bricks or panels enables flexibility and quick assembly or repair.
 
-6. Performance Optimization
+_**6. Performance Optimization**_
 
 - **What it means:**  
   Strive for efficient solutions to reduce resource consumption.
@@ -696,7 +696,7 @@ The coding principles I used as blueprint for this project were the following:
 - **Real world example:**  
   Using a crane to lift heavy things instead of relying on manual labor saves time, physical and mental effort.
 
-7. Premature optimization is the root of all evil
+_**7. Premature optimization is the root of all evil**_
 
 - **What it means:**  
   Avoid spending excessive time on perfecting small details or features and ensure the overall structure and design are functional instead.
@@ -705,7 +705,7 @@ The coding principles I used as blueprint for this project were the following:
 - **Real world example:**  
   Designing a highly complex roof before confirming the walls can support it risks wasting effort or needing redesigns.
 
-8. YAGNI (Your Ain't Gonna Need It)
+_**8. YAGNI (Your Ain't Gonna Need It)**_
 
 - **What it means:**  
   Only implement features and write code that are **strictly necessary** for the **current** requirements.
