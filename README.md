@@ -1,6 +1,6 @@
 # 💇‍♂️ Coiffeur Seren
 
-[🇩🇪 Lies diese Dokumentation auf Deutsch](https://github.com/xMazzmax/coiffeur-seren/blob/master/README_DE.md)  
+[🇩🇪 Lies diese Dokumentation auf Deutsch (in Bearbeitung/ in progress/ em andamento)](https://github.com/xMazzmax/coiffeur-seren/blob/master/README_DE.md)  
 🇧🇷 Leia essa documentação em Português (vira em breve/ coming soon/ bald verfügbar)
 
 Coiffeur Seren is a responsive landing page/single page website that I developed to practice and solidify my recently gained knowledge in HTML, CSS and web design. Other than my last project this was done for an actual client.
@@ -332,7 +332,7 @@ With the blueprint gathered as a starting point, here's the layout I decided to 
 I take a pragmatic (practical) approach, when it comes to design. In my opinion, the main goal of design should – and I rarely use the words should and must – be to reach a predefined specific goal. When it comes to software and products or services in general, that means enhancing the user experience in a way that facilitates the necessary process for the user to reach his goals.
 
 > [!IMPORTANT]
-> With the video [Only Noobs Build Beautiful Websites](https://youtu.be/NJGLR5gl6m4?si=_cijl9LWfkYNxIos) you'll gain all the essential knowledge you need to master the core principles of functional design.
+> With the video [Only Noobs Build Beautiful Websites](https://youtu.be/NJGLR5gl6m4?si=_cijl9LWfkYNxIos) you'll learn all the essential principles needed to master functional design.
 
 ### Layout
 
