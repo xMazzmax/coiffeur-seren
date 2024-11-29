@@ -322,6 +322,69 @@ With the blueprint gathered as a starting point, here's the layout I decided to 
   => Describes exactly what's going to happen and why.
 ```
 
+## 🎨 Design
+
+> [_"Design is not just what it looks like and feels like. Design is how it works."_ – Steve Jobs](https://youtu.be/xNqs_S-zEBY?si=VXJzYMtIZnqpYrXy)
+
+> [!NOTE]
+> Check out how old the linked video from above is...
+
+I take a pragmatic (practical) approach, when it comes to design. In my opinion, the main goal of design should – and I rarely use the words should and must – be to reach a predefined specific goal. When it comes to software and products or services in general, that means enhancing the user experience in a way that facilitates the necessary process for the user to reach his goals.
+
+> [!IMPORTANT]
+> With the video [Only Noobs Build Beautiful Websites](https://youtu.be/NJGLR5gl6m4?si=_cijl9LWfkYNxIos) you'll gain all the essential knowledge you need to master the core principles of functional design.
+
+### Layout
+
+The complexity of any kind of layout can be simplified by breaking it down into the following parts:
+
+- Atoms
+- Molecules
+- Organisms
+- Templates
+- Pages
+
+This is a model of the problem-solving approach called "first principle thinking", where you break a problem down to its most basic, fundamental truths and build your solution from there. This is the approach the most successful scientists, engineers and businesses take to create great things.
+
+Here's what each part means:
+
+- Atoms
+  - These are the basic building blocks of the molecules and cannot be broken down further into smaller parts.
+  - General example: Bricks and mortar.
+  - Website example: Labels and input fields.
+- Molecules
+  - Molecules are simple groups of atoms functioning together as a unit.
+  - General Example: Walls (made from bricks and mortar).
+  - Website example: Form fields (made from labels and input fields).
+- Organisms
+  - Organisms are relatively complex components composed of groups of molecules and atoms, forming distinct sections.
+  - General Example: Rooms (made from walls, a roof, windows and an entrance).
+  - Website example: Contact forms (made from form fields and buttons).
+- Templates
+  - Templates provide high level structures by arranging organisms into layouts, serving as blueprints that define content placement without the need of defining any specific content.
+  - General Example: Living room blueprint.
+  - Website example: Contact form wireframe.
+- Pages
+  - Pages are instances of templates filled with real content, representing what users will actually see and interact with.
+  - General Example: 3D model of a living room (complete with furniture, lighting, and decoration).
+  - Website example: Contact form prototype (filled with actual labels, placeholder text, and functional buttons that return the desired outcome based on the input in the input fields).
+
+### ↔️ Size and Spacing
+
+### 🌈 Color
+
+### ✍️ Typography
+
+### 🖼 Images and Icons
+
+### Content
+
+### 📱 Responsiveness
+
+### Consistency
+
+### 🧬 Design System
+
 ## 📰 Content creation
 
 > [_"Content is king!"_ – Bill Gates (**in 1996!**)](https://youtube.com/shorts/0HpkysN5gGQ?si=x9lt-llAJH6FMieb)
