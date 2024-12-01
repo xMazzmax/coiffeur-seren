@@ -329,10 +329,13 @@ With the blueprint gathered as a starting point, here's the layout I decided to 
 > [!NOTE]
 > Check out how old the linked video from above is...
 
-I take a pragmatic (practical) approach, when it comes to design. In my opinion, the main goal of design should – and I rarely use the words should and must – be to reach a predefined specific goal. When it comes to software and products or services in general, that means enhancing the user experience in a way that facilitates the necessary process for the user to reach his goals.
+I take a pragmatic (practical) approach, when it comes to design. In my opinion, the main goal of design should – and I rarely use the words should and must – be to reach a specific predefined goal. When it comes to software and products or services in general, that means enhancing the user experience in a way that facilitates the necessary process for the user to reach his goals.
 
 > [!IMPORTANT]
-> With the video [Only Noobs Build Beautiful Websites](https://youtu.be/NJGLR5gl6m4?si=_cijl9LWfkYNxIos) you'll learn all the essential principles needed to master functional design.
+> Study the following videos to learn all essential principles needed to master functional design:
+>
+> - [The Easy Way to Design Top Tier Websites](https://youtu.be/qyomWr_C_jA?si=i0CoVhpRM_rspxOs)
+> - [Only Noobs Build Beautiful Websites](https://youtu.be/NJGLR5gl6m4?si=_cijl9LWfkYNxIos)
 
 ### Layout
 
@@ -371,11 +374,35 @@ Here's what each part means:
 
 ### ↔️ Size and Spacing
 
+Here are some principles to use size and spacing effectively:
+
+- Objects that are positioned close to one another create the impression of being closely related. This effect becomes even more noticeable when other objects are spaced farther apart, emphasizing the proximity of the closer ones.
+
 ### 🌈 Color
+
+The easiest way to use colors effectively is to use the minimum amount of different colors as possible. With only three colors, you're already good to go. There's two approaches to this:
+**First approach**
+
+1. Start with the primary color. It's the color that will be used most in whatever it is you're creating. Let's say it's black like the background of the editor I'm using right now.
+2. Then choose a secondary color which has a high contrast (think light vs dark) to the primary color. Let's say white, like the color of the text I'm writing. This color will be the second most used color.
+3. Lastly, choose an accent color which stands out from the other two. It should especially have a high contrast to the primary color. Let's say a light blue like the color of the links you've seen throughout the documentation. And that's it.
+
+**Second approach**
+
+1. Start with the accent color. This approach is best used for when you have an existing brand color.
+2. Choose the primary color, which like in the first approach, should have a high contrast to the accent color.
+3. Choose the secondary color like in the first approach. That's it.
+
+Not every color works well with one another. So that you don't have to study color theory
 
 ### ✍️ Typography
 
 ### 🖼 Images and Icons
+
+> [_"A picture is worth a thousand words"_ – Fred R. Barnard](https://youtube.com/shorts/kkcRaN240ss?si=VDR1h1cn-ctrpA5p)
+
+Here's an article that does an exceptional job at explaining the relationship between illustrations and words with many examples. There's more to it than you might think:  
+https://ia.net/topics/is-every-picture-worth-1000-words
 
 ### Content
 
