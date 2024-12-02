@@ -332,10 +332,11 @@ With the blueprint gathered as a starting point, here's the layout I decided to 
 I take a pragmatic (practical) approach, when it comes to design. In my opinion, the main goal of design should – and I rarely use the words should and must – be to reach a specific predefined goal. When it comes to software and products or services in general, that means enhancing the user experience in a way that facilitates the necessary process for the user to reach his goals.
 
 > [!IMPORTANT]
-> Study the following videos to learn all essential principles needed to master functional design:
+> If you want to apply [the 80/20 principle](https://youtu.be/ymiBDged-eQ?si=9DHxs5lHSSMWQVpB&t=709) to design, simply study the videos below to learn all essential principles needed to master functional design. And don't get fooled by the impression that principles in the videos only apply to web development just because all examples are from website design. The principles can be applied to anythink you can imagine. Remember the introductory quote from [the last chapter](#-website-layout)? On top of being able to copy the essence of a thing to create a similar thing in a specific domain, you can also do the same across different domains like from IT to relationships. People usually mistake this for **_invention_**, when in reality it's simply **_adaptation_** that leads to what we call **_innovation_**:
 >
-> - [The Easy Way to Design Top Tier Websites](https://youtu.be/qyomWr_C_jA?si=i0CoVhpRM_rspxOs)
+> - [The Easiest Way to Build Websites](https://youtu.be/OjEg0IBR_ak?si=JsNzqmSQTsFei0aS)
 > - [Only Noobs Build Beautiful Websites](https://youtu.be/NJGLR5gl6m4?si=_cijl9LWfkYNxIos)
+> - [The Easy Way to Design Top Tier Websites](https://youtu.be/qyomWr_C_jA?si=i0CoVhpRM_rspxOs)
 
 ### Layout
 
@@ -346,8 +347,6 @@ The complexity of any kind of layout can be simplified by breaking it down into 
 - Organisms
 - Templates
 - Pages
-
-This is a model of the problem-solving approach called "first principle thinking", where you break a problem down to its most basic, fundamental truths and build your solution from there. This is the approach the most successful scientists, engineers and businesses take to create great things.
 
 Here's what each part means:
 
@@ -372,36 +371,231 @@ Here's what each part means:
   - General Example: 3D model of a living room (complete with furniture, lighting, and decoration).
   - Website example: Contact form prototype (filled with actual labels, placeholder text, and functional buttons that return the desired outcome based on the input in the input fields).
 
+> [!IMPORTANT]
+> This is a model (from the book [Atomic Design](https://atomicdesign.bradfrost.com/table-of-contents/)) of the problem-solving approach called "first principles thinking". You break down a problem into its smallest components and most basic, fundamental truths and build your solution from there. Here are some key features of this approach:
+>
+> - **Breaks Down Assumptions:** It helps you identify and challenge assumptions that may limit creativity or lead to suboptimal solutions.
+> - **Focuses on Fundamentals:** By starting from the most basic truths, you work with solid, undeniable facts instead of inherited beliefs or conventional wisdom.
+> - **Encourages Innovation:** This approach often leads to novel insights and solutions because it forces you to rethink problems from the ground up rather than relying on existing frameworks.
+> - **Builds Efficient Solutions:** Stripping a problem to its core components often reveals simpler or (waaaay) more efficient ways to solve it.
+> - **Universal Applicability:** It can be applied to anything that need problem solving like science, business, engineering, personal challenges.
+>
+> This is the approach the most successful scientists, engineers and businesses take to create truly great things.
+
 ### ↔️ Size and Spacing
 
 Here are some principles to use size and spacing effectively:
 
 - Objects that are positioned close to one another create the impression of being closely related. This effect becomes even more noticeable when other objects are spaced farther apart, emphasizing the proximity of the closer ones.
 
+1. Visual Hierarchy
+
+- Use size to prioritize elements and guide the viewer's attention, making important content stand out.
+  Example: Headlines should be larger than body text, and primary buttons should stand out more than secondary ones.
+
+2. Consistency
+   Maintain consistent spacing and sizing throughout the design to create a harmonious and professional appearance.
+   Example: Use a design system (this has its own chapter) or grid with fixed margins, paddings, and font sizes across all elements.
+
+3. White Space (Negative Space)
+   Allow sufficient empty space around and between elements to prevent clutter and enhance readability.
+   Example: Leave breathing room around text, buttons, and images to create a clean and organized layout.
+
+> [!TIP]
+> Start with plenty of space, then refine it by making big adjustments first, followed by smaller and smaller steps, going back and forth between too little and too much, until you find the balance you're happy with. Think of it like sculpting a statue: You begin by removing large chunks of material, then gradually carve out finer details until the form feels just right.
+
+4. Proportional Scaling
+   Maintain proportional relationships between elements to ensure visual balance and alignment.
+   Example: Use a modular scale or the golden ratio (1.618) to determine sizes for text, images, and other components.
+
+- Paragraph font size = 18px
+- Subheading 2 font size = paragraph font size [18px] \* golden ratio [1.618] = 29px
+- Subheading 1 font size = subheading 2 font size [29px] \* golden ratio [1.618] = 47px
+- Heading font size = subheading 1 font size [47px] \* golden ratio [1.618] = 76px
+
+5. Grouping and Proximity
+   Position related elements closer together while moving unrelated ones further apart to visually convey their relationships.
+   Example: In a contact form, group labels and input fields together, while separating other parts like heading and buttons with additional spacing.
+
+6. Alignment
+   Align elements consistently (left, center, or right) to establish order and, as a result, improve readability.
+   Example: All headings are aligned to the left.
+
+7. Responsive Design
+   Adapt size and spacing dynamically based on screen size or resolution to ensure usability across devices.
+   Example: Instead of fixed pixel values, use flexible relative units (like percentages or em/rem) that automatically adapt the size of elements (e.g. an image) to any given screen size.
+
+8. Contrast
+   Use size and spacing to create contrast between elements, making certain parts more noticeable than others.
+   Example: Highlight a call-to-action button by making it larger and giving it plenty surrounding space.
+
+9. Legibility
+   Ensure text sizes and line spacing (leading) are optimized for readability across all screen sizes.
+   Example: Set line height to 1.5x the font size and avoid text that is too small or cramped.
+
+10. Alignment with Content Purpose
+    Adjust size and spacing to reflect the importance or nature of the content.
+    Example: Use larger images and headings for a hero section, while keeping footer elements smaller and compact.
+
+11. Rhythm and Balance
+    Use consistent spacing patterns (like padding or margins) to create a rhythm that feels natural and visually balanced.
+    Example: Establish a spacing scale (e.g., 2px(+2 =>), 4px(+4 =>), 8px(+6) ... 128px ) to ensure harmony throughout the design (and save tons of time).
+
+12. Feedback and Interaction
+    Ensure spacing and size make interactive elements easy to identify and use.
+    Example: Make buttons large enough and with sufficient spacing to prevent accidental clicks by the user during touch interaction.
+
 ### 🌈 Color
 
-The easiest way to use colors effectively is to use the minimum amount of different colors as possible. With only three colors, you're already good to go. There's two approaches to this:
+Colors evoke specific emotions or associations due to a mix of biological responses, cultural meanings, and personal experiences. Use specific colors that evoke the feelings you want to be associated with your offer.
+
+Here's a list of the most important and commonly recognized colors, along with their primary associations:
+**Primary Colors**
+
+- Red: Energy, passion, urgency.
+- Blue: Trust, calmness, stability.
+- Yellow: Happiness, optimism, warmth.
+
+**Secondary Colors** (Created by mixing primary colors)
+
+- Green: Nature, growth, harmony.
+- Orange: Creativity, enthusiasm, friendliness.
+- Purple: Luxury, creativity, wisdom.
+
+**Neutral Colors**
+
+- Black: Power, elegance, sophistication.
+- White: Purity, simplicity, cleanliness.
+- Gray: Neutrality, balance, practicality.
+- Brown: Earthiness, stability, reliability.
+
+**Tertiary or Highlight Colors**
+
+- Cyan: Freshness, clarity, modernity.
+- Magenta: Boldness, vibrancy, energy.
+- Gold: Prestige, wealth, success.
+- Silver: Elegance, modernity, innovation.
+
+Use the classic design principle called **"60-30-10 rule"** to create balanced and harmonious color schemes. The percentages are a reference to how much of each color is used in the design:
+
+- **60%: Dominant color** (main background or base color, like walls or large surfaces).
+- **30%: Secondary color** (complements the dominant, used for furniture or upholstery).
+- **10%: Accent color** (pops of color for accessories like pillows, artwork, or decorations).
+
+This ratio ensures visual interest without overwhelming the design. The less of a color there is, the more it stands out and this increases its importance. So use it to intentionally guide the user's attention, but use it sparingly.
+
+If you want to use more than three colors, do as follows:
+
+1. Adjust Dominance
+
+- Keep one dominant color at 60%.
+- Introduce up to 5 non-dominant colors (1 dominant + max 5 = 6 total to avoid losing impact) without exceeding 40% combined.
+
+2. Split the 30% or 10%:
+
+- Divide the 30% (secondary color) into complementary shades (e.g. 20% and 10%) based on their importance.
+- Split the 10% (accent color) into smaller pops, e.g., 5% each for two accents.
+
+3. Harmonize
+
+- Ensure all colors work together, using a unifying tone, hue, or theme (use the tools mentioned below).
+
+The easiest way to use colors effectively is to use the minimum amount of different colors as possible. You can get away with using one single color (with different tones), but I feel like three colors is the sweet spot. That's what I went with in my project and that's what for example [YouTube](https://www.youtube.com/) (white, black, red), [Netflix](https://www.netflix.com) (black, white, red) and [Meta (Facebook)](https://www.meta.com/) (white, black, blue) use.
+
+I have two approaches for choosing my three colors:
 **First approach**
 
-1. Start with the primary color. It's the color that will be used most in whatever it is you're creating. Let's say it's black like the background of the editor I'm using right now.
-2. Then choose a secondary color which has a high contrast (think light vs dark) to the primary color. Let's say white, like the color of the text I'm writing. This color will be the second most used color.
-3. Lastly, choose an accent color which stands out from the other two. It should especially have a high contrast to the primary color. Let's say a light blue like the color of the links you've seen throughout the documentation. And that's it.
+1. Start with the primary color. It's the color that will be used most in whatever it is you're creating. Let's say it's black like the background of the editor I'm currently using.
+2. Then choose a secondary color, which has a high contrast (think light vs dark) to the primary color. This color will be the second most used color. Let's say white, like the color of the text I'm writing.
+3. Lastly, choose an accent color that has a high contrast to the primary color. It should especially stands out from the other two colors, because its goal is catch the user's attention to highlight important things. Let's say a blue like the standard blue of the links you've seen in this documentation.
 
 **Second approach**
 
 1. Start with the accent color. This approach is best used for when you have an existing brand color.
-2. Choose the primary color, which like in the first approach, should have a high contrast to the accent color.
-3. Choose the secondary color like in the first approach. That's it.
+2. Choose the primary color, which – like in the first approach – should have a high contrast to the accent color.
+3. Choose the secondary color like in the first approach.
 
-Not every color works well with one another. So that you don't have to study color theory
+You've learned that not every color works well with one another. To get this right and avoid the time investment of studying color theory, simply use the following tools that will get you results in no time:
 
-### ✍️ Typography
+> [!DANGER]
+> There's no need to use every single tool. Like with a physical toolbox, only use the tools that are actually needed for the specific job.
+
+- [Open colors](https://yeun.github.io/open-color/)
+  - It's an open-source color scheme that offers you a limited (avoids analysys paralysis) amount of great looking colors.
+- [Color Generator (by Sajid)](https://www.iamsajid.com/colors/)
+  - Simplest color generator in the world.
+- [W3 Color Converter](https://www.w3schools.com/colors/colors_converter.asp)
+  - Convert the color from HSL values to
+- [Coolors](https://coolors.co/)
+  - It's core feature is to generate color palettes (which are based on color theory) for you.
+  - [Here's a guide](https://youtu.be/8yiqmhwmzmg?si=Y4JEkyWxOcums_3K) on how to use it, that's quick and straightforward.
+- [Tint and Shade Generator](https://maketintsandshades.com/)
+  - Does what the name says (by the way, that's the perfect example of how to name a product, service, or website address; "The boring company" from Elon Musk is another great naming example).
+- [Realtime Colors](https://www.realtimecolors.com/)
+  - Visualizes your colors and fonts on a real site
+  - Guides from the creator:
+    - [Realtime Colors v1](https://youtu.be/HAlIWRcldoc?si=Y6YlYCMO95Cnyd5T)
+    - [Realtime Colors v2](https://youtu.be/YWVneCWIfoE?si=Led5S6FmLv5SntX3)
+    - [Realtime Colors v3](https://youtu.be/zy7Kf8WiSyE?si=iuEA0Vr9xJrZ1xFr)
+
+### ✒️ Typography
+
+The most fundamental and practical knowledge about typography is **readability** and **hierarchy**:
+
+**Readability**
+Ensure text is easy to read by choosing appropriate fonts, sizes, spacing, and contrast. Prioritize legibility, especially for body text, with clean, well-designed typefaces and sufficient line spacing.
+
+**Hierarchy**
+Use typography to guide the reader's attention by creating a visual structure:
+
+- Headings: Use larger, bold font for emphasis.
+- Subheadings: Slightly smaller or lighter styles to show the relationship to the heading.
+- Body text: Consistent, simple styles for readability.
+- Emphasis: Use bold, italics, or color sparingly to highlight key points.
+
+> [!TIP]
+> Except for the hero section, by emphasizing the subheading instead of the heading, you can draw attention to key details or provide clarity through a descriptive subheading.
+
+By applying these principles you ensure your text communicates your message effectively and engages the audience the way you intend to.
+
+#### 🔠 Fonts
+
+The most fundamental and practical knowledge about fonts is **appropriateness** and **consistency**:
+
+**Appropriateness**
+Choose fonts that match the purpose and tone of your content.
+
+- Serif fonts: Traditional and formal.
+- Sans-serif fonts: Modern and clean (easier to read).
+- Display fonts: Bold and decorative.
+- Monospace fonts: Technical and structured.
+
+**Consistency**
+Limit the number of fonts (1-3) to maintain a cohesive look.
+
+- Pair complementary fonts: Use one for headings and another for body text.
+- Ensure weights, styles, and sizes create a design with harmony.
+
+> [!TIP]
+> The more typefaces (font families) you use, the more time you need to spend to get it right and the bigger the risk of messing it up. So simply choose one single typeface. Instead of choosing a serif typeface, I'd also suggest choosing a sans-serif typeface, because it's easier to read.
+
+Here's a [list of typeface suggestions]():
+
+- Inter
+- Open Sans
+- Lato
+- Work Sans
+- Roboto
+- Lexend
+- Source Sans 3
+- Montserrat
+- DM Sans
 
 ### 🖼 Images and Icons
 
 > [_"A picture is worth a thousand words"_ – Fred R. Barnard](https://youtube.com/shorts/kkcRaN240ss?si=VDR1h1cn-ctrpA5p)
 
-Here's an article that does an exceptional job at explaining the relationship between illustrations and words with many examples. There's more to it than you might think:  
+Here's an article that does an exceptional job at explaining the relationship between illustrations and words with many examples. There's more to it than you might think:
 https://ia.net/topics/is-every-picture-worth-1000-words
 
 ### Content
@@ -461,7 +655,7 @@ To make the market research process as efficient as possible, I used [ChatGPT](h
 
 - Take responsibility and think for yourself instead of leaving that to the AI.
   > [!WARNING]
-  > By taking ownership of your thoughts, you ensure that ChatGPT becomes a tool that enhances your capabilities rather than replaces them. ChatGPT provides suggestions, but it’s the responsibility of the user to analyze, interpret, and apply those ideas in a thoughtful, ethical, and relevant way. By engaging critically with ChatGPT, you maintain control over the process, achieve more meaningful and personalized results, and improve your own skills over time.
+  > By taking ownership of your thoughts, you ensure that ChatGPT becomes a tool that enhances your capabilities rather than replaces them. ChatGPT provides suggestions, but it's the responsibility of the user to analyze, interpret, and apply those ideas in a thoughtful, ethical, and relevant way. By engaging critically with ChatGPT, you maintain control over the process, achieve more meaningful and personalized results, and improve your own skills over time.
 
 **🎯 RESULTS**
 
@@ -560,9 +754,9 @@ List of features:
 
 **Reviews**
 
-- "I’m always attended to quickly and kindly here. ― author's name"
+- "I'm always attended to quickly and kindly here. ― author's name"
 - "Quick, no appointment needed, and affordable. Very satisfied with the haircut. ― author's name"
-- "The best hair salon I’ve ever had my hair cut at. ― author's name"
+- "The best hair salon I've ever had my hair cut at. ― author's name"
 
 **Gallery**  
 Descriptive heading: "Created by us, inspired for you"
@@ -607,27 +801,27 @@ Questions and answers:
 
 How can I be sure that I will be satisfied with the result?
 
-- Our main goal is for every customer to look great and leave our salon with a smile on their face. During our consultation, we honestly tell you what we can and cannot do. If we can't do something, we’re happy to recommend a suitable expert from our competitors.
+- Our main goal is for every customer to look great and leave our salon with a smile on their face. During our consultation, we honestly tell you what we can and cannot do. If we can't do something, we're happy to recommend a suitable expert from our competitors.
 
 Can I come without an appointment and be attended to right away?
 
-- We don’t offer appointments and we bet on spontaneous visits without prior registration. Our efficient workflow allows us to offer short wait times. If you prefer to be attended to immediately, just give us a quick call – we’ll be happy to let you know our current availability!
+- We don't offer appointments and we bet on spontaneous visits without prior registration. Our efficient workflow allows us to offer short wait times. If you prefer to be attended to immediately, just give us a quick call – we'll be happy to let you know our current availability!
 
 Do you also offer haircuts for children, and can I bring my family?
 
-- Absolutely! Our team has experience with children's haircuts and provides a friendly, child-friendly atmosphere so that even the youngest ones feel comfortable. We make the haircuts quick and relaxed, and there’s enough space to ensure the visit is pleasant for the whole family.
+- Absolutely! Our team has experience with children's haircuts and provides a friendly, child-friendly atmosphere so that even the youngest ones feel comfortable. We make the haircuts quick and relaxed, and there's enough space to ensure the visit is pleasant for the whole family.
 
 Are there any hidden costs? How transparent are the prices?
 
-- You won’t experience any unpleasant surprises when it's time to pay. Our pricing structure is clear and transparent, and we inform you in advance of all the costs for what you want.
+- You won't experience any unpleasant surprises when it's time to pay. Our pricing structure is clear and transparent, and we inform you in advance of all the costs for what you want.
 
 What payment methods can I use?
 
-- We accept cash and Twint. If you don’t have cash, you can withdraw money at the ATM across from our salon."
+- We accept cash and Twint. If you don't have cash, you can withdraw money at the ATM across from our salon."
 
 **Call To Action**  
 Descriptive heading: "Get your confident look now!"  
-Paragraph with more context: "You can simply stop by spontaneously without having to worry about long wait times, as we work as fast as lightning. And if you don’t want to wait at all, just give us a quick call and find out if you can be attended to right away."  
+Paragraph with more context: "You can simply stop by spontaneously without having to worry about long wait times, as we work as fast as lightning. And if you don't want to wait at all, just give us a quick call and find out if you can be attended to right away."  
 CTA button: "Call now and check availability!"
 
 **Footer**  
@@ -748,7 +942,7 @@ _**3. SOLID (it's an acronym for a set of five principles of object-oriented pro
     Doors are built to standard sizes so you can replace a wooden door with a glass one without altering the frame.
 - **Interface Segregation Principle**
   - **What it means:**  
-    Design small, specific interfaces/systems over large, general ones, so that components aren’t burdened with unnecessary responsibilities.
+    Design small, specific interfaces/systems over large, general ones, so that components aren't burdened with unnecessary responsibilities.
   - **Real world example:**  
     Plumbing for water and gas lines are separate to prevent complications and ensure safety.
 - **Dependency Inversion Principle**
@@ -802,7 +996,7 @@ _**8. YAGNI (Your Ain't Gonna Need It)**_
 - **Why it matters:**  
   Avoids unnecessary complexity and wasted effort on features that may never be used.
 - **Real world example:**  
-  Building additional rooms “just in case” they’re needed later often leads to wasted materials and unused space.
+  Building additional rooms "just in case" they're needed later usually leads to wasted ressources like time and materials.
 
 **🎯 RESULTS**
 
@@ -840,3 +1034,9 @@ _**8. YAGNI (Your Ain't Gonna Need It)**_
 ## 🌊 Workflow
 
 https://youtube.com/shorts/q725Nr4UkPU?si=Ly1ugsQa_5VCNJTc
+
+## 💡 Meta Learning
+
+Meta learning is the process of learning how to learn more effectively by understanding and optimizing your own learning methods, strategies, and habits. It involves reflecting on what works best in general and specifically for you and your use case, identifying patterns, and applying techniques to enhance the way you acquire, retain, and apply knowledge or skills.
+
+https://youtu.be/PgxT1wItu8M?si=YyoKtY2ljJ_v6U4u
