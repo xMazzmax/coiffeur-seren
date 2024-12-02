@@ -579,7 +579,7 @@ Limit the number of fonts (1-3) to maintain a cohesive look.
 > [!TIP]
 > The more typefaces (font families) you use, the more time you need to spend to get it right and the bigger the risk of messing it up. So simply choose one single typeface. Instead of choosing a serif typeface, I'd also suggest choosing a sans-serif typeface, because it's easier to read.
 
-Here's a [list of typeface suggestions]():
+Here's a [list of typeface suggestions](https://fonts.google.com/share?selection.family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000|Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900|Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900|Lexend:wght@100..900|Montserrat:ital,wght@0,100..900;1,100..900|Open+Sans:ital,wght@0,300..800;1,300..800|Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900|Source+Sans+3:ital,wght@0,200..900;1,200..900|Work+Sans:ital,wght@0,100..900;1,100..900):
 
 - Inter
 - Open Sans
