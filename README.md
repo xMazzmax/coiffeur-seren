@@ -198,33 +198,92 @@ My client wanted me to make him a QR code of a link to his Instagram. He agreed 
 ![QR code of my client's Google review link](https://i.postimg.cc/PJ6rr7KN/google-review-github.png)
 ![QR code of my client's website link](https://i.postimg.cc/SxYNkD9N/website-github.png)
 
-## 🧱 Website layout
+## 🎨 Design
+
+> [_"Design is not just what it looks like and feels like. Design is how it works."_ – Steve Jobs](https://youtu.be/xNqs_S-zEBY?si=VXJzYMtIZnqpYrXy)
+
+> [!NOTE]
+> Check out how old the linked video from above is...
+
+I take a pragmatic (practical) approach, when it comes to design. In my opinion, the main goal of design should – and I rarely use the words should and must – be to reach a specific predefined goal. When it comes to software and products or services in general, that means enhancing the user experience in a way that facilitates the necessary process for the user to reach his goals.
+
+> [!IMPORTANT]
+> If you want to apply [the 80/20 principle](https://youtu.be/ymiBDged-eQ?si=9DHxs5lHSSMWQVpB&t=709) to design, simply study the videos below to learn _all essential principles needed_ to master what I call _functional design_. And don't get fooled by the impression that the principles in the videos only apply to web development just because all examples are from website design. The principles can be applied to anythink you can imagine. Remember the introductory quote from [the last chapter](#-website-layout)? On top of being able to copy the essence of a thing to create a similar thing within a specific domain, you can also do the same across different domains like from IT to relationships to give you an extreme example. People usually mistake this for **_invention_**, when in reality it's simply **_adaptation_** that leads to what we call **_innovation_**:
+>
+> This will teach you **_how_** to do the doing (develop the right mindset):
+>
+> - [So, you want to build apps & websites?](https://youtu.be/lJY3eJ_uvg0?si=SVHEd0PBzf7Y0eM7)
+> - [The Easy Way to Learn New Skills](https://youtu.be/PgxT1wItu8M?si=rNXa83py5YoTkYPA)
+> - [Don't ask AI to write your code](https://youtu.be/LxehKQ8HTL4?si=lk9mvSceU2o-QwdJ)
+>   This will teach you **_what_** to do for the doing (identify the optimal actions):
+> - [The Easiest Way to Build Websites](https://youtu.be/OjEg0IBR_ak?si=JsNzqmSQTsFei0aS)
+> - [Only Noobs Build Beautiful Websites](https://youtu.be/NJGLR5gl6m4?si=_cijl9LWfkYNxIos)
+> - [The Easy Way to Design Top Tier Websites](https://youtu.be/qyomWr_C_jA?si=i0CoVhpRM_rspxOs)
+> - [The 80% of UI Design - Typography](https://youtu.be/9-oefwZ6Z74?si=px0R6vmwHG9awFzf)
+
+### 🧱 Layout
 
 > [_"Don't reinvent the wheel, just realign it."_ – Anthony D'Angelo](https://youtu.be/1WCPJzU3c3E?si=Oknml6jft9FJwNBy)
 
 **📗 METHODOLOGY**
 
-While I wanted to create something great, I also wanted to do the project as efficiently as possible. Just as I approached the questionnaire, I applied the same principle to my customer's website. Rather than trying to come up with a layout myself, I drew inspiration from the best ones that already exists. For that I searched "best landing page" on YouTube and followed the instructions from the video [Why is THIS the PERFECT Landing Page?](https://youtu.be/UC9pTtrhFys?si=cNwzowfQ-rYf-yz3) to maximize the conversion rate of potential customers that visit the website. Here are the key takeaways from the video:
+The complexity of any kind of layout can be simplified by breaking it down into the following parts:
 
-- Don't offer your service or your product, offer the dream outcome your customer is looking for.
-- Create trust by providing undeniable proof that your service or product leads to the dream outcome of your customer.
-- Point the user toward one – and only one – simple and clear action he needs to take to reach his desired result.
+- Atoms
+- Molecules
+- Organisms
+- Templates
+- Pages
 
-In addition to the last video mentioned, I also watched the video [Copy This Perfect Landing Page To Double Your Leads Instantly](https://youtu.be/V2_LNtV95jM?si=k1_9B_N1mqqtbFJm&t=827) from the same channel and in one minute it explains the connection between how people make buying decisions:
+Here's what each part means:
 
-- 95% of a customer's buying decision is based on emotions e.g. desires, dreams etc.
-- Emotions change all the time but proof is timeless and validates decisions and claims. To make sure the customer doesn't regret his decision when his emotions change and to cover the missing 5% of a customer's buying decision, the emotional decision needs to be backed up with logic on how the service or product ensures the claimed results e.g. stats, social proof, visual proof, features etc.
+- Atoms
+  - These are the basic building blocks of the molecules and cannot be broken down further into smaller parts.
+  - General example: Bricks and mortar.
+  - Website example: Labels and input fields.
+- Molecules
+  - Molecules are simple groups of atoms functioning together as a unit.
+  - General Example: Walls (made from bricks and mortar).
+  - Website example: Form fields (made from labels and input fields).
+- Organisms
+  - Organisms are relatively complex components composed of groups of molecules and atoms, forming distinct sections.
+  - General Example: Rooms (made from walls, a roof, windows and an entrance).
+  - Website example: Contact forms (made from form fields and buttons).
+- Templates
+  - Templates provide high level structures by arranging organisms into layouts, serving as blueprints that define content placement without the need of defining any specific content.
+  - General Example: Living room blueprint.
+  - Website example: Contact form wireframe.
+- Pages
+  - Pages are instances of templates filled with real content, representing what users will actually see and interact with.
+  - General Example: 3D model of a living room (complete with furniture, lighting, and decoration).
+  - Website example: Contact form prototype (filled with actual labels, placeholder text, and functional buttons that return the desired outcome based on the input in the input fields).
 
 > [!IMPORTANT]
-> While my initial intention was to simply find a layout template, the two videos above went beyond website layout and additionally covered content creation. The insights I gained from them played a big role in the success of my content creation process – which I'm going to dive into in the next section.
+> This is a model (from the book [Atomic Design](https://atomicdesign.bradfrost.com/table-of-contents/)) of the problem-solving approach called "first principles thinking". You break down a problem into its smallest components and most basic, fundamental truths and build your solution from there. Here are some key features of this approach:
+>
+> - **Breaks Down Assumptions:** It helps you identify and challenge assumptions that may limit creativity or lead to suboptimal solutions.
+> - **Focuses on Fundamentals:** By starting from the most basic truths, you work with solid, undeniable facts instead of inherited beliefs or conventional wisdom.
+> - **Encourages Innovation:** This approach often leads to novel insights and solutions because it forces you to rethink problems from the ground up rather than relying on existing frameworks.
+> - **Builds Efficient Solutions:** Stripping a problem to its core components often reveals simpler or (waaaay) more efficient ways to solve it.
+> - **Universal Applicability:** It can be applied to anything that need problem solving like science, business, engineering, personal challenges.
+>
+> This is the approach the most successful scientists, engineers and businesses take to create truly great things.
+
+While I wanted to create something great, I also wanted to do the project as efficiently as possible. I didn't know shit about fuck regarding landing pages. So for me to run towards the right direction instead of running backwards – due to my ignorance of having no prior experience and to save an invaluable amount of time – the same principle I used for the questionnaire I also applied to create the layout. Rather than trying to come up with the layout on my own, I copied the best ones that already exists and adjusted it to my use case. For that I searched "best landing page" on YouTube and analyzed the instructions from the video [Why is THIS the PERFECT Landing Page?](https://youtu.be/UC9pTtrhFys?si=cNwzowfQ-rYf-yz3).
+
+> [!IMPORTANT]
+> While my initial intention was to simply find a layout template, the video above went beyond website layout and additionally covered behavioural psychology in regards to customers' buying decisions. The insights I gained from them played a big role in the success of my content creation process. We're going to dive deep into that in the content creation chapter.
 
 **🎯 RESULTS**
 
-With the blueprint gathered as a starting point, here's the layout I decided to implement in the exact order I planned to display it on the website:
+With the blueprint gathered from the last video mentioned as a starting point, here's the layout I decided to implement in the exact order it is displayed on the website:
+
+> [!NOTE]
+> To give you some context on why I made the following layout decisions, I'm already going into the content aspect to a certain extent, before we get to the content chapter itself. After gaining more insights and understanding from the content chapter, I advise you to review the following examples to gain an even better practical understanding by linking the different concepts to apply it to your personal use case more effectively.
 
 **Navbar (enhances user experience)**
 
-- While the blueprint I used told me to leave out the nav to lead force the user to take the optimal path to the CTA (Call To Action), I didn't want to take control away from the user and reduce his user experience, as that's something I myself would hate. So I decided to implement it.
+- While the blueprint I used told me to leave out the nav to lead force the user to take the optimal path to the CTA (Call To Action), I didn't want to cause a bad user experience by taking control away from him, as that's something I hate myself. So I decided to implement it.
 - Includes from left to right:
   - Logo (with a hyperlink to he top of the homepage).
   - Descriptive single word for each section (except the CTA).
@@ -288,13 +347,14 @@ With the blueprint gathered as a starting point, here's the layout I decided to 
     - Video
     - Photo or Screenshot (real image)
     - Illustration (image created by an artist or AI)
-  - If possible use before and after comparisons
-- I went with photos of the results from my clients services
+  - If possible use before and after comparisons.
+- I went with photos of the results from my clients services.
+  - If it were my business, I would have created different photos because – especially in this case – they're the most important elements on the website. I made suggestions to my client, but since he wasn't willing to do the work – and I decided to set boundaries on what responsibilities I was and wasn't willing to take on –, I focused only on what I could control and made the best of the resources he provided.
 
 **Offer (logical proof)**
 
-- Have you ever spent what felt like an eternity to try and find a movie or serie on Netflix, only to not find nothing at all and decide to do something else? That's known as analysis paralysis. It's the feeling of being unable to make a decision due to overthinking a problem and often happens when a person's dealing with too many variables/options. Netflix mitigated this problem with providing you with different top 10 lists that are based on things like your location, viewing history and other members with similar taste. If you want your user to take you up on any offer at all, don't overwhelm him with too many options. Generally speaking, the optimal number is – you guessed it – 3 options. But this number may vary between industries and existing services. Just make sure your offer is a conveyed as simple as possible with as few words as possible while still maintaining the essential impactful information needed.
-- For my client I sought inspiration from different hairdresser websites but the only designs I liked were those I found on [Dribbble](https://dribbble.com/) which is a self-promotion platform for the digital designers.
+- Have you ever spent what felt like an eternity to try and find a movie or serie on Netflix, only to not find nothing at all and decide to do something else? That's known as analysis paralysis. It's the feeling of being unable to make a decision due to overthinking a problem and often happens when a person's dealing with too many variables/options. Netflix mitigated this problem with providing you with different top 10 lists that are based on things like your location, viewing history and other members with similar taste. If you want your user to take you up on any offer at all, don't overwhelm him with too many options. Generally speaking, the optimal number is – you guessed it – 3 options. But this number may vary between industries and existing services. Just make sure your offer is conveyed as simple as possible with as few words as possible, while still maintaining the essential impactful information needed.
+- I tried to seek inspiration from different hairdresser websites. After many horrible websites I decided to switch gears and looked around on [Dribbble](https://dribbble.com/), which is a self-promotion platform for digital designers. There I've found many examples I liked and by combining single elements that I liked from different examples, I created my own design.
 
 **FAQ (emotional fears)**
 
@@ -322,66 +382,6 @@ With the blueprint gathered as a starting point, here's the layout I decided to 
   => Describes exactly what's going to happen and why.
 ```
 
-## 🎨 Design
-
-> [_"Design is not just what it looks like and feels like. Design is how it works."_ – Steve Jobs](https://youtu.be/xNqs_S-zEBY?si=VXJzYMtIZnqpYrXy)
-
-> [!NOTE]
-> Check out how old the linked video from above is...
-
-I take a pragmatic (practical) approach, when it comes to design. In my opinion, the main goal of design should – and I rarely use the words should and must – be to reach a specific predefined goal. When it comes to software and products or services in general, that means enhancing the user experience in a way that facilitates the necessary process for the user to reach his goals.
-
-> [!IMPORTANT]
-> If you want to apply [the 80/20 principle](https://youtu.be/ymiBDged-eQ?si=9DHxs5lHSSMWQVpB&t=709) to design, simply study the videos below to learn all essential principles needed to master functional design. And don't get fooled by the impression that principles in the videos only apply to web development just because all examples are from website design. The principles can be applied to anythink you can imagine. Remember the introductory quote from [the last chapter](#-website-layout)? On top of being able to copy the essence of a thing to create a similar thing in a specific domain, you can also do the same across different domains like from IT to relationships. People usually mistake this for **_invention_**, when in reality it's simply **_adaptation_** that leads to what we call **_innovation_**:
->
-> - [The Easiest Way to Build Websites](https://youtu.be/OjEg0IBR_ak?si=JsNzqmSQTsFei0aS)
-> - [Only Noobs Build Beautiful Websites](https://youtu.be/NJGLR5gl6m4?si=_cijl9LWfkYNxIos)
-> - [The Easy Way to Design Top Tier Websites](https://youtu.be/qyomWr_C_jA?si=i0CoVhpRM_rspxOs)
-
-### Layout
-
-The complexity of any kind of layout can be simplified by breaking it down into the following parts:
-
-- Atoms
-- Molecules
-- Organisms
-- Templates
-- Pages
-
-Here's what each part means:
-
-- Atoms
-  - These are the basic building blocks of the molecules and cannot be broken down further into smaller parts.
-  - General example: Bricks and mortar.
-  - Website example: Labels and input fields.
-- Molecules
-  - Molecules are simple groups of atoms functioning together as a unit.
-  - General Example: Walls (made from bricks and mortar).
-  - Website example: Form fields (made from labels and input fields).
-- Organisms
-  - Organisms are relatively complex components composed of groups of molecules and atoms, forming distinct sections.
-  - General Example: Rooms (made from walls, a roof, windows and an entrance).
-  - Website example: Contact forms (made from form fields and buttons).
-- Templates
-  - Templates provide high level structures by arranging organisms into layouts, serving as blueprints that define content placement without the need of defining any specific content.
-  - General Example: Living room blueprint.
-  - Website example: Contact form wireframe.
-- Pages
-  - Pages are instances of templates filled with real content, representing what users will actually see and interact with.
-  - General Example: 3D model of a living room (complete with furniture, lighting, and decoration).
-  - Website example: Contact form prototype (filled with actual labels, placeholder text, and functional buttons that return the desired outcome based on the input in the input fields).
-
-> [!IMPORTANT]
-> This is a model (from the book [Atomic Design](https://atomicdesign.bradfrost.com/table-of-contents/)) of the problem-solving approach called "first principles thinking". You break down a problem into its smallest components and most basic, fundamental truths and build your solution from there. Here are some key features of this approach:
->
-> - **Breaks Down Assumptions:** It helps you identify and challenge assumptions that may limit creativity or lead to suboptimal solutions.
-> - **Focuses on Fundamentals:** By starting from the most basic truths, you work with solid, undeniable facts instead of inherited beliefs or conventional wisdom.
-> - **Encourages Innovation:** This approach often leads to novel insights and solutions because it forces you to rethink problems from the ground up rather than relying on existing frameworks.
-> - **Builds Efficient Solutions:** Stripping a problem to its core components often reveals simpler or (waaaay) more efficient ways to solve it.
-> - **Universal Applicability:** It can be applied to anything that need problem solving like science, business, engineering, personal challenges.
->
-> This is the approach the most successful scientists, engineers and businesses take to create truly great things.
-
 ### ↔️ Size and Spacing
 
 Here are some principles to use size and spacing effectively:
@@ -390,22 +390,22 @@ Here are some principles to use size and spacing effectively:
 
 1. Visual Hierarchy
 
-- Use size to prioritize elements and guide the viewer's attention, making important content stand out.
+- Use size to prioritize elements and guide the viewer's attention, making important content stand out.  
   Example: Headlines should be larger than body text, and primary buttons should stand out more than secondary ones.
 
 2. Consistency
-   Maintain consistent spacing and sizing throughout the design to create a harmonious and professional appearance.
+   Maintain consistent spacing and sizing throughout the design to create a harmonious and professional appearance.  
    Example: Use a design system (this has its own chapter) or grid with fixed margins, paddings, and font sizes across all elements.
 
 3. White Space (Negative Space)
-   Allow sufficient empty space around and between elements to prevent clutter and enhance readability.
+   Allow sufficient empty space around and between elements to prevent clutter and enhance readability.  
    Example: Leave breathing room around text, buttons, and images to create a clean and organized layout.
 
 > [!TIP]
 > Start with plenty of space, then refine it by making big adjustments first, followed by smaller and smaller steps, going back and forth between too little and too much, until you find the balance you're happy with. Think of it like sculpting a statue: You begin by removing large chunks of material, then gradually carve out finer details until the form feels just right.
 
 4. Proportional Scaling
-   Maintain proportional relationships between elements to ensure visual balance and alignment.
+   Maintain proportional relationships between elements to ensure visual balance and alignment.  
    Example: Use a modular scale or the golden ratio (1.618) to determine sizes for text, images, and other components.
 
 - Paragraph font size = 18px
@@ -414,23 +414,23 @@ Here are some principles to use size and spacing effectively:
 - Heading font size = subheading 1 font size [47px] \* golden ratio [1.618] = 76px
 
 5. Grouping and Proximity
-   Position related elements closer together while moving unrelated ones further apart to visually convey their relationships.
+   Position related elements closer together while moving unrelated ones further apart to visually convey their relationships.  
    Example: In a contact form, group labels and input fields together, while separating other parts like heading and buttons with additional spacing.
 
 6. Alignment
-   Align elements consistently (left, center, or right) to establish order and, as a result, improve readability.
+   Align elements consistently (left, center, or right) to establish order and, as a result, improve readability.  
    Example: All headings are aligned to the left.
 
 7. Responsive Design
-   Adapt size and spacing dynamically based on screen size or resolution to ensure usability across devices.
+   Adapt size and spacing dynamically based on screen size or resolution to ensure usability across devices.  
    Example: Instead of fixed pixel values, use flexible relative units (like percentages or em/rem) that automatically adapt the size of elements (e.g. an image) to any given screen size.
 
 8. Contrast
-   Use size and spacing to create contrast between elements, making certain parts more noticeable than others.
+   Use size and spacing to create contrast between elements, making certain parts more noticeable than others.  
    Example: Highlight a call-to-action button by making it larger and giving it plenty surrounding space.
 
 9. Legibility
-   Ensure text sizes and line spacing (leading) are optimized for readability across all screen sizes.
+   Ensure text sizes and line spacing (leading) are optimized for readability across all screen sizes.  
    Example: Set line height to 1.5x the font size and avoid text that is too small or cramped.
 
 10. Alignment with Content Purpose
@@ -438,11 +438,11 @@ Here are some principles to use size and spacing effectively:
     Example: Use larger images and headings for a hero section, while keeping footer elements smaller and compact.
 
 11. Rhythm and Balance
-    Use consistent spacing patterns (like padding or margins) to create a rhythm that feels natural and visually balanced.
-    Example: Establish a spacing scale (e.g., 2px(+2 =>), 4px(+4 =>), 8px(+6) ... 128px ) to ensure harmony throughout the design (and save tons of time).
+    Use consistent spacing patterns (e.g. for padding or margins) to create a rhythm that feels natural and visually balanced (and save tons of time + avoid unnecessary long-term suffering).  
+    Example: Establish a spacing scale (e.g., 2px(+2 =>), 4px(+4 =>), 8px(+6) ... 128px ) to ensure harmony throughout the design.
 
 12. Feedback and Interaction
-    Ensure spacing and size make interactive elements easy to identify and use.
+    Ensure spacing and size make interactive elements easy to identify and use.  
     Example: Make buttons large enough and with sufficient spacing to prevent accidental clicks by the user during touch interaction.
 
 ### 🌈 Color
@@ -606,14 +606,25 @@ https://ia.net/topics/is-every-picture-worth-1000-words
 
 ### 🧬 Design System
 
-## 📰 Content creation
+## 📰 Content Creation
 
 > [_"Content is king!"_ – Bill Gates (**in 1996!**)](https://youtube.com/shorts/0HpkysN5gGQ?si=x9lt-llAJH6FMieb)
 
 Let's start by defining what content creation is in the first place: Content creation is the process of generating and sharing material, such as text, images, videos, or audio, to inform, entertain, or engage an audience.
 
 > [!IMPORTANT]
-> It doesn't matter if you have the best product or service in the world; if you're unable to provide it to the right people that _actually_ need it and to communicate to them effectively why and how your thing will provide them their dream outcome to a specific problem, everybody will perceive your offer as worthless.
+> It doesn't matter if you have the best product or service in the world; you must be able to **provide your offer to the right people that _actually_ need it** and to **communicate _effectively_** why and how your thing will lead them to their personal dream outcome regarding a specific problem, **or else everybody will perceive your offer as _worthless_**.
+
+To maximize conversion rates of website visitors (potential customers) I applied the following key takeaways from the video [Why is THIS the PERFECT Landing Page?](https://youtu.be/UC9pTtrhFys?si=cNwzowfQ-rYf-yz3) mentioned in the layout chapter:
+
+- Don't offer your service or your product to your leads (potential customer), offer them the individual dream outcome they're looking for to an existing problem.
+- Create trust by being honest and providing undeniable proof that what you have to offer will get them the promised result.
+- Lead the users toward one – and only one – simple and clear action they need to take to reach their desired results.
+
+In addition to the last video mentioned, I also watched the video [Copy This Perfect Landing Page To Double Your Leads Instantly](https://youtu.be/V2_LNtV95jM?si=k1_9B_N1mqqtbFJm&t=827) from the same channel, and, in one minute, by explaining the clear connection between emotions and logic, the video teaches you how people make buying decisions:
+
+- 95% of customers' buying decisions are based on emotions e.g. desires & dreams, fears & suffering etc.
+- Emotions change all the time but proof is timeless and validates decisions and claims. To make sure the customer doesn't regret his decision when his emotions change and to cover the missing 5% of a customer's buying decision, the emotional decision needs to be backed up with the logic on how your offer ensures the claimed results e.g. stats, social proof, visual proof, features etc.
 
 ### 🧠 Market research
 
@@ -621,7 +632,7 @@ Let's start by defining what content creation is in the first place: Content cre
 
 **📗 METHODOLOGY**
 
-Alex Hormozi, who built four different businesses, now has a net worth of way over $100'000'000 and is my mentor – even though he doesn't know I exist – said a while back that he ["looked at 2'000 ads ... of the top 50 ads ... 40 of them was just proof ... it's all it was, proof"](https://youtube.com/shorts/9XIgalr9aWY?si=JpF835J1xvZuYFJx).
+Alex Hormozi has built four different businesses. As of 2020 he had a net worth of $100M (now it's most likely closer to $1B). Even though he doesn't know I exist, he's actually my mentor. A while back he said that he ["looked at 2'000 ads ... of the top 50 ads ... 40 of them was just proof ... it's all it was, proof"](https://youtube.com/shorts/9XIgalr9aWY?si=JpF835J1xvZuYFJx).
 
 I knew I had to do some market research to find out what criteria people have, when it comes to choosing a hairdresser, find my client's strengths and weaknesses, and connect the dots to come up with an offer the target audience would feel stupid saying no to. The basis for my market research was the questionnaire. In addition to the answers that my client gave me, I made some observations that helped me add more specificity to my client's answers and do the remaining ones on my own.
 
