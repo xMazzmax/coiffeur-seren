@@ -5,6 +5,9 @@
 
 Coiffeur Seren is a responsive landing page/single page website that I developed to practice and solidify my recently gained knowledge in HTML, CSS and web design. Other than my last project this was done for an actual client.
 
+> [!TIP]
+> Press the following icon on the top left to get an overview of all chapters. It'll save you time if you're looking for something specific: ⋮☰
+
 ## 📅 Client Meetings
 
 **📗 METHODOLOGY**
@@ -187,7 +190,7 @@ My client wanted to choose the first option as he thought he could get new revie
 During the project I came to the realization that Apple users don't use Google Maps, they use Apple Maps instead. I informed my client about it, created him an Apple Business Account, did everything necessary to claim his existing shop on Apple Maps and updated everything like on Google Maps by the end of the project. By the time of this writing, the claim of the business profile and the changes to it are still being reviewed by Apple.
 
 **Logo**  
-With the photo I took of my client's logo, I tried to figure out its digital color code. Because of variables like lighting, camera and display quality, it was impossible for me to get exactly the original color of the logo. Instead of just picking a random color, I decided to go to [Open color](), an awesome open-source color scheme I like, and choose the color that came closest to my clients logo. I ended up with LIME 5 (HEX code `#94d82d`). I also tried to find a font family that came close to that of the logo, but I hated every result I ended up with. Through sheer luck I ended up on a web tool called [WhatTheFont](https://www.myfonts.com/pages/whatthefont) which identifies the original font family of any uploaded image. After that, I just searched the font family package online, in preview mode I wrote the name of the shop of my customer, made a screenshot of it, applied the right color and – besides the color – had the exact same logo as my client of his window. Here's the result:
+With the photo I took of my client's logo, I tried to figure out its digital color code. Because of variables like lighting, camera and display quality, it was impossible for me to get exactly the original color of the logo. Instead of just picking a random color, I decided to go to [Open color](https://yeun.github.io/open-color/), an awesome open-source color scheme, and choose the color that came closest to my clients logo. I ended up with [LIME 5](https://yeun.github.io/open-color/#lime) (HEX code `#94d82d`). I also tried to find a font family that came close to that of the logo, but I hated every result I ended up with. Through sheer luck I ended up on a web tool called [WhatTheFont](https://www.myfonts.com/pages/whatthefont), which identifies the original font family of any uploaded image. After that, I just searched the font family package online, in preview mode I wrote the name of the shop of my customer, made a screenshot of it, applied the right color and – besides the color – had the exact same logo as my client of his window. Here's the result:
 
 ![Logo of my client's business](https://i.postimg.cc/rpR8q576/seren-logo.png)
 
@@ -215,7 +218,9 @@ I take a pragmatic (practical) approach, when it comes to design. In my opinion,
 > - [So, you want to build apps & websites?](https://youtu.be/lJY3eJ_uvg0?si=SVHEd0PBzf7Y0eM7)
 > - [The Easy Way to Learn New Skills](https://youtu.be/PgxT1wItu8M?si=rNXa83py5YoTkYPA)
 > - [Don't ask AI to write your code](https://youtu.be/LxehKQ8HTL4?si=lk9mvSceU2o-QwdJ)
->   This will teach you **_what_** to do for the doing (identify the optimal actions):
+>
+>   This will teach you **_what_** to do for the doing (identify the optimal action path):
+>
 > - [The Easiest Way to Build Websites](https://youtu.be/OjEg0IBR_ak?si=JsNzqmSQTsFei0aS)
 > - [Only Noobs Build Beautiful Websites](https://youtu.be/NJGLR5gl6m4?si=_cijl9LWfkYNxIos)
 > - [The Easy Way to Design Top Tier Websites](https://youtu.be/qyomWr_C_jA?si=i0CoVhpRM_rspxOs)
@@ -259,7 +264,7 @@ Here's what each part means:
   - Website example: Contact form prototype (filled with actual labels, placeholder text, and functional buttons that return the desired outcome based on the input in the input fields).
 
 > [!IMPORTANT]
-> This is a model (from the book [Atomic Design](https://atomicdesign.bradfrost.com/table-of-contents/)) of the problem-solving approach called "first principles thinking". You break down a problem into its smallest components and most basic, fundamental truths and build your solution from there. Here are some key features of this approach:
+> This is a model (from the book [Atomic Design](https://atomicdesign.bradfrost.com/table-of-contents/)) of a problem-solving approach called "first principles thinking". The core message is to break down a problem into its smallest possible components and most basic, fundamental truths and build your solution from there. Here are some key features of this approach:
 >
 > - **Breaks Down Assumptions:** It helps you identify and challenge assumptions that may limit creativity or lead to suboptimal solutions.
 > - **Focuses on Fundamentals:** By starting from the most basic truths, you work with solid, undeniable facts instead of inherited beliefs or conventional wisdom.
@@ -279,7 +284,7 @@ While I wanted to create something great, I also wanted to do the project as eff
 With the blueprint gathered from the last video mentioned as a starting point, here's the layout I decided to implement in the exact order it is displayed on the website:
 
 > [!NOTE]
-> To give you some context on why I made the following layout decisions, I'm already going into the content aspect to a certain extent, before we get to the content chapter itself. After gaining more insights and understanding from the content chapter, I advise you to review the following examples to gain an even better practical understanding by linking the different concepts to apply it to your personal use case more effectively.
+> To give you some context on why I made the following layout decisions, I'm already going into the content aspect to a certain extent, before we get to the content chapter itself later on. After gaining more insights and understanding from the content chapter, I advise you to review the following examples to gain an even better practical understanding by linking the different concepts together. This interconnected thinking will help you apply the knowledge more effectively to your individual use case.
 
 **Navbar (enhances user experience)**
 
@@ -297,6 +302,7 @@ With the blueprint gathered from the last video mentioned as a starting point, h
   - CTA (Call to action): Action the user needs to take to directly achieve the desired result. It's written as clearly and with as few words as possible.
   - CTA alternative: Second option the user can take if he isn't convinced by the hero section and needs more proof. It leads the user to the following section.
   - Google reviews rating: Displays the average Google reviews rating and the amount of reviews it's based on to add social proof and create trust.
+- Right half: Image
 
 **Benefits (emotional proof)**
 
@@ -384,6 +390,10 @@ With the blueprint gathered from the last video mentioned as a starting point, h
 
 ### ↔️ Size and Spacing
 
+> [_"Size, cosmically speaking, doesn’t matter. Only space. And even the smallest of spaces can hold the vastest of universes."_ – Ramy Vance]()
+
+**📗 METHODOLOGY**
+
 Here are some principles to use size and spacing effectively:
 
 - Objects that are positioned close to one another create the impression of being closely related. This effect becomes even more noticeable when other objects are spaced farther apart, emphasizing the proximity of the closer ones.
@@ -445,11 +455,19 @@ Here are some principles to use size and spacing effectively:
     Ensure spacing and size make interactive elements easy to identify and use.  
     Example: Make buttons large enough and with sufficient spacing to prevent accidental clicks by the user during touch interaction.
 
+**🎯 RESULTS**
+
+The results can be found in the [design system](#-design-system) chapter.
+
 ### 🌈 Color
 
-Colors evoke specific emotions or associations due to a mix of biological responses, cultural meanings, and personal experiences. Use specific colors that evoke the feelings you want to be associated with your offer.
+> [_"Color is a power which directly influences the soul."_ – Wassily Kandinsky](https://youtube.com/shorts/-_W6l_mtdIo?si=X7RdbOnNrqBlC8zT)
 
-Here's a list of the most important and commonly recognized colors, along with their primary associations:
+**📗 METHODOLOGY**
+
+Colors evoke specific emotions or associations due to a mix of biological responses, cultural meanings, and personal experiences. Use colors that evoke the specific feelings you want to be associated with your offer.
+
+Here's a list of the most important and commonly recognized colors, along with their primary associations:  
 **Primary Colors**
 
 - Red: Energy, passion, urgency.
@@ -475,6 +493,8 @@ Here's a list of the most important and commonly recognized colors, along with t
 - Magenta: Boldness, vibrancy, energy.
 - Gold: Prestige, wealth, success.
 - Silver: Elegance, modernity, innovation.
+
+#### Choosing colors
 
 Use the classic design principle called **"60-30-10 rule"** to create balanced and harmonious color schemes. The percentages are a reference to how much of each color is used in the design:
 
@@ -502,7 +522,7 @@ If you want to use more than three colors, do as follows:
 
 The easiest way to use colors effectively is to use the minimum amount of different colors as possible. You can get away with using one single color (with different tones), but I feel like three colors is the sweet spot. That's what I went with in my project and that's what for example [YouTube](https://www.youtube.com/) (white, black, red), [Netflix](https://www.netflix.com) (black, white, red) and [Meta (Facebook)](https://www.meta.com/) (white, black, blue) use.
 
-I have two approaches for choosing my three colors:
+I have two approaches for choosing my three colors:  
 **First approach**
 
 1. Start with the primary color. It's the color that will be used most in whatever it is you're creating. Let's say it's black like the background of the editor I'm currently using.
@@ -515,9 +535,40 @@ I have two approaches for choosing my three colors:
 2. Choose the primary color, which – like in the first approach – should have a high contrast to the accent color.
 3. Choose the secondary color like in the first approach.
 
+#### 👥 Tints and Shades
+
+After deciding what colors you want to use, you'll also need tints (darker versions) and shades (darker versions) for situations like:
+
+- Increasing/reducing the importance of elements.
+- Visual feedback on user interactions with the user interface.
+- Ensure accessibility for people with visual impairments with a high enough contrast ratio.
+
+Choose between those three approaches:
+
+1. Time efficient approach  
+   Use existing tints and shades from some online resource. Tailwind CSS – a very popular CSS framework among developers – offers a beautiful, well-organized [color palette with predefined tints and shades](https://tailwindcss.com/docs/customizing-colors) that you can easily copy and paste into your designs for a professional look. Keep it simple, though:
+   - Just take a color range like neutral (white to black and their shades in between) for the primary and secondary color.
+   - Choose an accent color like red (including its tints and shades)
+2. Individualized approach
+   If you have specific colors in mind including their color code, use a tool like [Tint and Shade Generator](https://maketintsandshades.com/) to generate tints and shades yourself. Even if you do choose a custom color, I'd advise you to copy the color system from Tailwind. Let's take azure (HEX: `#007FFF` from Microsoft Azure) as an example:
+
+- Copy the tints in 20% increments from the base color except for the last one, where you do a 10% increment.
+- Do the same thing for the shades.
+
+Here's how this would look like visually:  
+![example of how to create tints and shades](https://i.ibb.co/Msvdmt9/how-to-create-tints-and-shades.png)
+
+3. Mixed approach
+
+- Generate the custom colors and their tints and shades with a tool like
+- Copy the rest from a ressource like [Tailwind CSS](https://tailwindcss.com/docs/customizing-colors)
+- With this approach you get the best from both worlds (that's what I did for this project)
+
+#### Ressources and Tools
+
 You've learned that not every color works well with one another. To get this right and avoid the time investment of studying color theory, simply use the following tools that will get you results in no time:
 
-> [!DANGER]
+> [!CAUTION]
 > There's no need to use every single tool. Like with a physical toolbox, only use the tools that are actually needed for the specific job.
 
 - [Open colors](https://yeun.github.io/open-color/)
@@ -538,7 +589,62 @@ You've learned that not every color works well with one another. To get this rig
     - [Realtime Colors v2](https://youtu.be/YWVneCWIfoE?si=Led5S6FmLv5SntX3)
     - [Realtime Colors v3](https://youtu.be/zy7Kf8WiSyE?si=iuEA0Vr9xJrZ1xFr)
 
+**🎯 RESULTS**
+
+**Primary color:** Black (HEX: #171717)
+In addition to the fact that it has an ultra high contrast to the accent color, I chose black because of the following assossiations:
+
+- Power (authority, strength, and dominance)
+- Formality (seriousness and professionalism)
+- Simplicity (minimalism and clarity)
+
+Don't choose pure black (#000000), because it doesn't feel natural and is harsh on our eyes. Choose a slightly softer black to create a more natural and visually comfortable appearance instead.
+
+**Secondary color:** White (HEX: `#e5e5e5`)
+Creates the best possible contrast to black, and strengthens the assossiation of simplicity and formality.
+
+Don't choose pure white (`#ffffff`) for the same reasons I just mentioned for pure black.
+
+**Accent color:** Lime (HEX: `#94d82d`)
+As described in the marketing chapter, I chose it because it came closest to the color of my client's logo. The other color choices were based on this one.
+
+**Neutral tints and shades:**  
+`#fafafa`  
+`#f5f5f5`  
+`#e5e5e5`(secondary base)  
+`#d4d4d4`  
+`#a3a3a3`  
+`#737373`  
+`#525252`  
+`#404040`  
+`#262626`  
+`#171717`(primary base)  
+`#0a0a0a`
+
+I copied this from Tailwind.
+
+**Lime tints and shades:**  
+`#f4fbea`  
+`#eaf7d5`  
+`#d4efab`  
+`#bfe881`  
+`#a9e057`  
+`#94d82d`(accent base)  
+`#76ad24`  
+`#59821b`  
+`#3b5612`  
+`#1e2b09`  
+`#0f1604`
+
+I custom made this.
+
 ### ✒️ Typography
+
+> [_"Lettering differs from type in the same way that modeling clay differs from LEGO® bricks."_ – Mark Simonson](https://www.youtube.com/watch?v=LcgCwnLSoYw)
+
+**📗 METHODOLOGY**
+
+Typography is about arranging text (letters, numbers, symbols) in a way that makes it readable, visually appealing, and impactful.
 
 The most fundamental and practical knowledge about typography is **readability** and **hierarchy**:
 
@@ -558,7 +664,14 @@ Use typography to guide the reader's attention by creating a visual structure:
 
 By applying these principles you ensure your text communicates your message effectively and engages the audience the way you intend to.
 
-#### 🔠 Fonts
+#### 🔠 Typeface
+
+> [!TIP]
+> People usually use the different terms "typeface, font, typography" as synonyms. That's simply not right and this caused me some confusion in the beginning. Here's what each term means and their relation to one another to give you some clarity:
+>
+> - **Typefaces** are character families (e.g. Arial, Calibri, Times New Roman).
+> - **Fonts** are styles or designs of a specific typeface (e.g. regular, bold, italic). Fonts are variations/instances of typefaces.
+> - **Typography** – as mentioned above – is the technique of arranging text (letters, numbers, symbols) to make written language legible, readable, and visually appealing. Typefaces are elements/tools of typography.
 
 The most fundamental and practical knowledge about fonts is **appropriateness** and **consistency**:
 
@@ -577,7 +690,7 @@ Limit the number of fonts (1-3) to maintain a cohesive look.
 - Ensure weights, styles, and sizes create a design with harmony.
 
 > [!TIP]
-> The more typefaces (font families) you use, the more time you need to spend to get it right and the bigger the risk of messing it up. So simply choose one single typeface. Instead of choosing a serif typeface, I'd also suggest choosing a sans-serif typeface, because it's easier to read.
+> The more typefaces you use, the more time you need to spend to get it right and the bigger the risk of messing it up. So simply choose one single typeface. I'd also advise you to choose a sans-serif typeface because they're easier to read than serif typefaces.
 
 Here's a [list of typeface suggestions](https://fonts.google.com/share?selection.family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000|Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900|Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900|Lexend:wght@100..900|Montserrat:ital,wght@0,100..900;1,100..900|Open+Sans:ital,wght@0,300..800;1,300..800|Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900|Source+Sans+3:ital,wght@0,200..900;1,200..900|Work+Sans:ital,wght@0,100..900;1,100..900):
 
@@ -591,24 +704,54 @@ Here's a [list of typeface suggestions](https://fonts.google.com/share?selection
 - Montserrat
 - DM Sans
 
+**🎯 RESULTS**
+
 ### 🖼 Images and Icons
 
 > [_"A picture is worth a thousand words"_ – Fred R. Barnard](https://youtube.com/shorts/kkcRaN240ss?si=VDR1h1cn-ctrpA5p)
 
+**📗 METHODOLOGY**
+
 Here's an article that does an exceptional job at explaining the relationship between illustrations and words with many examples. There's more to it than you might think:
 https://ia.net/topics/is-every-picture-worth-1000-words
 
-### Content
+**🎯 RESULTS**
 
 ### 📱 Responsiveness
 
+> [_"."_ – ]()
+
+**📗 METHODOLOGY**
+
+**🎯 RESULTS**
+
 ### Consistency
 
+> [_"."_ – ]()
+
+**📗 METHODOLOGY**
+
+**🎯 RESULTS**
+
 ### 🧬 Design System
+
+> [_"."_ – ]()
+
+**📗 METHODOLOGY**
+
+**🎯 RESULTS**
+
+## Prototyping
+
+**📗 METHODOLOGY**
+
+**🎯 RESULTS**
 
 ## 📰 Content Creation
 
 > [_"Content is king!"_ – Bill Gates (**in 1996!**)](https://youtube.com/shorts/0HpkysN5gGQ?si=x9lt-llAJH6FMieb)
+
+**📗 METHODOLOGY**
 
 Let's start by defining what content creation is in the first place: Content creation is the process of generating and sharing material, such as text, images, videos, or audio, to inform, entertain, or engage an audience.
 
@@ -629,8 +772,6 @@ In addition to the last video mentioned, I also watched the video [Copy This Per
 ### 🧠 Market research
 
 > [_"Make an offer so good people feel stupid saying no"_ – Alex Hormozi](https://youtube.com/shorts/joF2fMj3XKk?si=9uxLZvgPwWB57C8f)
-
-**📗 METHODOLOGY**
 
 Alex Hormozi has built four different businesses. As of 2020 he had a net worth of $100M (now it's most likely closer to $1B). Even though he doesn't know I exist, he's actually my mentor. A while back he said that he ["looked at 2'000 ads ... of the top 50 ads ... 40 of them was just proof ... it's all it was, proof"](https://youtube.com/shorts/9XIgalr9aWY?si=JpF835J1xvZuYFJx).
 
@@ -705,9 +846,9 @@ How I turned them into strenghts:
 
 > [_"If you are an effective writer ... you have all the authority and competence that there is"_ – Jordan B. Peterson](https://youtube.com/shorts/CPY3dG9dcC8?si=YKdm6-vVZFue3bs5)
 
-Definition: Copywriting is the art and science of crafting persuasive and compelling text to promote a product, service, or idea and inspire the audience to take specific action.
-
 **📗 METHODOLOGY**
+
+Copywriting is about crafting persuasive and compelling text to promote a product, service, or idea and inspire the audience to take specific action.
 
 From my knowledge about neuropsychology (science about how the brain affects human behaviour for example through hormones) and behavioural psychology, but also from personal experience, I know for a fact that ambitious people – who represent our avatar – are usually driven by deep insecurities. As you've already learned, fear is the strongest form of motivation. With that in mind, I wanted my copy to relate to those insecurities to grab the user's attention and to provide them a genuine solution with my client's services. That's not only how I did this project, but how I do many things in my life. But with great power comes great responsibility. That's why philosophy is a big component of my life. I always strive to make choises that have a net positive impact on me **and** the people involved with everything I do. I'm well aware of the limits of my capabilities and I know that I don't always make the right choises. I keep that in mind, but I don't let that stop me. I never regret anything I've done, because the mistakes I make are lessons I can learn from. The only choices I regret are those I knew I should have done, but allowed fear to take over and prevent me from taking action.
 
@@ -1011,9 +1152,13 @@ _**8. YAGNI (Your Ain't Gonna Need It)**_
 
 **🎯 RESULTS**
 
-### 🎨 Design System
-
 ## 🚀 Deployment
+
+> [_"."_ – ]()
+
+**📗 METHODOLOGY**
+
+**🎯 RESULTS**
 
 ### 🏠 Local
 
@@ -1042,12 +1187,18 @@ _**8. YAGNI (Your Ain't Gonna Need It)**_
 
 ### ☁️ Hosting
 
+> [_"."_ – ]()
+
+**📗 METHODOLOGY**
+
+**🎯 RESULTS**
+
 ## 🌊 Workflow
+
+> [_"."_ – ]()
+
+**📗 METHODOLOGY**
 
 https://youtube.com/shorts/q725Nr4UkPU?si=Ly1ugsQa_5VCNJTc
 
-## 💡 Meta Learning
-
-Meta learning is the process of learning how to learn more effectively by understanding and optimizing your own learning methods, strategies, and habits. It involves reflecting on what works best in general and specifically for you and your use case, identifying patterns, and applying techniques to enhance the way you acquire, retain, and apply knowledge or skills.
-
-https://youtu.be/PgxT1wItu8M?si=YyoKtY2ljJ_v6U4u
+**🎯 RESULTS**
