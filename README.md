@@ -706,6 +706,27 @@ Here's a [list of typeface suggestions](https://fonts.google.com/share?selection
 
 **🎯 RESULTS**
 
+I chose the font family "Open Sans":  
+![Example of all characters of the font family Open Sans](https://i.ibb.co/7Wt60Dw/font-family.png)
+
+Those were the reasons for my decision:
+
+- Sans serif typeface.
+  - Increased readability.
+  - Minimalistic and simple.
+- Consists mainly of straight lines and has plenty of space between characters.
+  - Increased readability.
+- Subtle round edges at the letters "g" and "y".
+  - A bit of sophistication and elegance softens/reduces the stiffness of the straight lines of the other characters and adds calm and peace.
+
+As a fallback (in case Open Sans isn't available) I chose the generic font-family "sans-serif".
+
+As for font weight, I used:
+
+- Default: 400 (e.g. body text)
+- Semi-Bold: 600 (e.g. heading 3)
+- Bold: 700 (e.g. heading 1 and 2)
+
 ### 🖼 Images and Icons
 
 > [_"A picture is worth a thousand words"_ – Fred R. Barnard](https://youtube.com/shorts/kkcRaN240ss?si=VDR1h1cn-ctrpA5p)
@@ -727,7 +748,7 @@ https://ia.net/topics/is-every-picture-worth-1000-words
 
 ### Consistency
 
-> [_"."_ – ]()
+> [_"Consistency Beats Talent, Luck, Good Intentions, and Even Quality."_ – Unknown](https://youtube.com/shorts/9ViRrTTPEJM?si=_yS3EhoyjBX3tfCj)
 
 **📗 METHODOLOGY**
 
@@ -735,7 +756,7 @@ https://ia.net/topics/is-every-picture-worth-1000-words
 
 ### 🧬 Design System
 
-> [_"."_ – ]()
+> [_"Your systems are perfectly designed to get the results that you are getting."_ – Stephen R. Covey](https://youtube.com/shorts/PAyLQqaU7U4?si=HtHxa7OhkCV7J-PR)
 
 **📗 METHODOLOGY**
 
