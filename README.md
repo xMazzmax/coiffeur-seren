@@ -264,7 +264,7 @@ Here's what each part means:
   - Website example: Contact form prototype (filled with actual labels, placeholder text, and functional buttons that return the desired outcome based on the input in the input fields).
 
 > [!IMPORTANT]
-> This is a model (from the book [Atomic Design](https://atomicdesign.bradfrost.com/table-of-contents/)) of a problem-solving approach called "first principles thinking". The core message is to break down a problem into its smallest possible components and most basic, fundamental truths and build your solution from there. Here are some key features of this approach:
+> This is a model (from the book [Atomic Design](https://atomicdesign.bradfrost.com/table-of-contents/)) of a problem-solving approach called "first principles thinking". The core message is to break down a problem into its smallest possible components, most basic, fundamental truths and build your solution from there. Here are some key features of this approach:
 >
 > - **Breaks Down Assumptions:** It helps you identify and challenge assumptions that may limit creativity or lead to suboptimal solutions.
 > - **Focuses on Fundamentals:** By starting from the most basic truths, you work with solid, undeniable facts instead of inherited beliefs or conventional wisdom.
@@ -390,7 +390,7 @@ With the blueprint gathered from the last video mentioned as a starting point, h
 
 ### ↔️ Size and Spacing
 
-> [_"Size, cosmically speaking, doesn’t matter. Only space. And even the smallest of spaces can hold the vastest of universes."_ – Ramy Vance]()
+> [_"Size, cosmically speaking, doesn’t matter. Only space. And even the smallest of spaces can hold the vastest of universes."_ – Ramy Vance](https://youtube.com/shorts/EdD6_ACHV58?si=WvTsnYb7MjhQSeDC)
 
 **📗 METHODOLOGY**
 
