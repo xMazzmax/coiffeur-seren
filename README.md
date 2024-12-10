@@ -201,6 +201,8 @@ My client wanted me to make him a QR code of a link to his Instagram. He agreed 
 ![QR code of my client's Google review link](https://i.postimg.cc/PJ6rr7KN/google-review-github.png)
 ![QR code of my client's website link](https://i.postimg.cc/SxYNkD9N/website-github.png)
 
+After addeding the QR codes here, I noticed that in the first two I addressed the reader formally (with "Sie") on the left, while addressing him informally ("Scanne") on the right. That was a mistake and I should have used informal language to stay consistent with the brand just as throughout the whole website.
+
 ## 🎨 Design
 
 > [_"Design is not just what it looks like and feels like. Design is how it works."_ – Steve Jobs](https://youtu.be/xNqs_S-zEBY?si=VXJzYMtIZnqpYrXy)
@@ -390,7 +392,7 @@ With the blueprint gathered from the last video mentioned as a starting point, h
 
 ### ↔️ Size and Spacing
 
-> [_"Size, cosmically speaking, doesn’t matter. Only space. And even the smallest of spaces can hold the vastest of universes."_ – Ramy Vance](https://youtube.com/shorts/EdD6_ACHV58?si=WvTsnYb7MjhQSeDC)
+> [_"Size, cosmically speaking, doesn't matter. Only space. And even the smallest of spaces can hold the vastest of universes."_ – Ramy Vance](https://youtube.com/shorts/EdD6_ACHV58?si=WvTsnYb7MjhQSeDC)
 
 **📗 METHODOLOGY**
 
@@ -741,15 +743,22 @@ As for font weight, I used:
 
 To create clear and impactful presentations, **balance the use of visuals and text** by understanding their unique strengths and how they work together. Use **images** for quick comprehension, emotional impact, and clarity, and rely on **text** for details, explanations, and abstract concepts. Avoid clichés like "a picture is worth a thousand words" and only use visuals that genuinely enhance your message rather than serving as placeholders.
 
-Choose **visuals that tell a clear story** and reflect **modern contexts** with diversity and authenticity. Avoid outdated or superficial stock images that can undermine your message. Before selecting an image, **ask critical questions** to ensure it communicates the intended message and adds value. Don’t use placeholders that are merely decorative.
+Choose **visuals that tell a clear story** and reflect **modern contexts** with diversity and authenticity. Avoid outdated or superficial stock images that can undermine your message. Before selecting an image, **ask critical questions** to ensure it communicates the intended message and adds value. Don't use placeholders that are merely decorative.
 
-Develop a **balanced approach** by asking yourself what emotion or message you want to convey and whether it’s best communicated through images, text, or both. **Practice minimalism** by keeping your messaging clear and concise, ensuring every word and image serves a purpose. **Avoid redundancy** – don’t describe what’s obvious in an image; instead, provide new insights or context.
+Develop a **balanced approach** by asking yourself what emotion or message you want to convey and whether it's best communicated through images, text, or both. **Practice minimalism** by keeping your messaging clear and concise, ensuring every word and image serves a purpose. **Avoid redundancy** – don't describe what's obvious in an image; instead, provide new insights or context.
 
 Ensure **text and visuals align** in tone, style, and message. When placing images side by side, maintain **consistency** in color, style, and resolution to avoid distractions. If images clash, insert a text slide between them. **Use comparisons intentionally** to highlight key differences or create a compelling story.
 
 To achieve **synergy**, make sure text and visuals complement each other: the text should clarify or enhance the image, and the image should bring the text to life. **Balance the strengths** of both – images for emotional impact and clarity, and text for detail and context. Focus on **quality over quantity**; a few well-chosen visuals are more powerful than many generic ones. Remember, **less is more** – avoid clutter to maintain clarity.
 
 Finally, **rehearse your presentation** and seek feedback from others. Critically evaluate if your visuals and text flow smoothly, reinforce your message, and engage your audience. By thoughtfully applying these principles, you can create presentations where visuals and text work together to deliver a **clear, engaging, and memorable message**.
+
+When choosing icons sets and deciding on image border radius, remember this:
+
+- Sharp edges give a sense of structure, conservatism, tradition, preciseness, professionalism, efficiency, harshness, seriousness.
+- Round edges give a sense of flexibility, creativity, modernity, innovation, casualness, softness, playfulness.
+
+You don't have to choose one or the other. See it as a spectrum. Depending on your brand, you can lean more towards one or the other, but after deciding on for example mostly sharp edges, choose 1 single border radius and 1 single icon set that gives that impression and stick to it.
 
 **🎯 RESULTS**
 
@@ -763,6 +772,8 @@ The icons tell the user what the content is about and the heading adds specifici
 
 The icons help the user navigate the offers to find what he's looking for more quickly:  
 ![example of proper combination of icon and text](https://i.ibb.co/JpTF8gf/use-of-icon-with-text-example-2.png)
+
+By the way, I used Google's [Material Symbols](https://fonts.google.com/icons). Instead of using their API (fetching the icons from their server every time a page is loaded), I hard coded it (copied the SVG and pasted it directly inside the HTML). When working on a big project, I'd suggest using the API for better code readability and maintainability.
 
 ### 📱 Responsiveness
 
@@ -819,9 +830,88 @@ Some examples:
 
 > [_"Consistency Beats Talent, Luck, Good Intentions, and Even Quality."_ – Unknown](https://youtube.com/shorts/9ViRrTTPEJM?si=_yS3EhoyjBX3tfCj)
 
-**📗 METHODOLOGY**
+Below is a summary of some of the key elements when it comes to consistency for almost all chapters in this documentation. Some of them were already mentioned in their respective chapter but look at this as a consolidated reference to reinforce their importance:
 
-**🎯 RESULTS**
+- 📅 Meetings
+
+  - Use a standard template or outline for all client meetings to make the process more efficient and avoid confusion.
+  - Keep meeting frequency and communication methods consistent (e.g. always in-person meetings and milestone completion confirmations through something like Whatsapp).
+
+- 🌍 Marketing – Beyond Website Development
+
+  - Ensure the brand's voice, tone, and value offer remain consistent across all marketing channels, not just the website.
+
+- 🎨 Design
+
+  - Write down decisions (colors, fonts, spacing) and the reason behind them, to be able to keep track of them and communicate them effectively.
+  - Apply a unified style throughout the whole website.
+
+- 🧱 Layout
+
+  - Maintain grid system and layout patterns similar so users quickly recognize how to navigate different sections.
+  - Place navigation, headers, footers, and main content areas in locations the users are used to or at least the same across pages.
+
+- ↔️ Size and Spacing
+
+  - Use a standardized scale for spacing (e.g. a spacing system with set increments) to ensure a cohesive look and save time by limiting your choises.
+  - Create harmony in the interface (what the user sees) by keeping proportions of elements (padding, margins, and line heights) the same.
+
+- 🌈 Color
+
+  - Stick to a defined color palette (primary, secondary, accent colors) to reinforce brand identity.
+  - Apply each color purposefully (60/30/10 rule) so users instantly understand what's important and for example what elements like links can be interacted with.
+
+- 👉 Choosing Colors
+
+  - Document guidelines on selecting colors that align with brand values, ensuring future color additions remain consistent.
+
+- 👥 Tints and Shades
+
+  - Use a standardized method for generating tints and shades (e.g., specific percentage increments of black or white) so color variations feel related and consistent.
+
+- ✒️ Typography
+
+  - Establish a clear typographic scale and apply it consistently to everything to – like in spacing – ensure a cohesive look and save time by limiting your choises.
+
+- 🔠 Typeface
+
+  - Ensure the selected typeface matches the brand's personality and stick to it.
+
+- 🖼 Images and Icons
+
+  - Use a coherent visual style for all images and a uniform icon set so visuals never feel out of place (e.g. all icons either outlined **_or_** filled and rounded **_or_** sharp).
+  - Maintain consistent image sizes and formats (e.g. all icons as SVG) to ensure uniform quality and loading times.
+
+- 📱 Responsiveness
+
+  - Define a set of responsive breakpoint ranges (e.g. between 250-300px where the design breaks) and apply them consistently across the entire site.
+  - Ensure that fonts, images, and layouts resize following a predictable pattern, so users enjoy a similar experience on any device.
+
+- 🧬 Design System
+
+  - Document all brand assets, styles, and components in one place to ensure that everyone on the team references the same sources.
+  - Consistently update the design system with new patterns or elements as they evolve, so the entire product stays coherent.
+
+- 🦿 Prototyping
+
+  - Maintain a similar level of detail across prototypes, ensuring that interactions and design elements are represented uniformly.
+  - When updating prototypes, apply feedback changes not only to single parts but to the prototype as a whole, so each revised prototype remains aligned with the established standards.
+
+- 📰 Content Creation
+
+  - Adopt a uniform writing style, tone, and vocabulary that echoes the brand's personality and message.
+  - Use consistent headings, formatting styles, and punctuation rules across all written content.
+
+- 🧠 Market Research
+
+  - Set clear goals and objectives to consistently stay on the task at hand and not drift away from the original scope.
+  - Apply standardized methods and criteria on how to collect and evaluate market insights for fair evaluations that reduce personal biases and lead to reliable results.
+    - Example: Ask 100 people the exact same question and favor those answers who come up most often to create a theory.
+  - Try what's called "triangulation", which involves approaching the same goal from different angles or standardized methods. The higher the consistency throughout the results from these different approaches, the stronger their reliability and validity.
+
+- ✍️ Copywriting
+  - Maintain the same key messages throughout the whole copy that tell a cohesive narrative and communicate the brand identity and value proposition to the user.
+  - Standardize the editing process, so that all copy is reviewed and refined to lead to the same tone, style and quality before publication.
 
 ### 🧬 Design System
 
