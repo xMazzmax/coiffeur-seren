@@ -494,7 +494,7 @@ Here's a list of the most important and commonly recognized colors, along with t
 - Gold: Prestige, wealth, success.
 - Silver: Elegance, modernity, innovation.
 
-#### Choosing colors
+#### 👉 Choosing colors
 
 Use the classic design principle called **"60-30-10 rule"** to create balanced and harmonious color schemes. The percentages are a reference to how much of each color is used in the design:
 
@@ -564,7 +564,7 @@ Here's how this would look like visually:
 - Copy the rest from a ressource like [Tailwind CSS](https://tailwindcss.com/docs/customizing-colors)
 - With this approach you get the best from both worlds (that's what I did for this project)
 
-#### Ressources and Tools
+#### 🛠️ Ressources and Tools
 
 You've learned that not every color works well with one another. To get this right and avoid the time investment of studying color theory, simply use the following tools that will get you results in no time:
 
@@ -815,7 +815,7 @@ Some examples:
 ![responsive flexbox example desktop](https://i.ibb.co/G9qffTq/flexbox-example-desktop.png)  
 ![responsive flexbox example mobile](https://i.ibb.co/sF1GGT8/responsive-flexbox-example-mobile.png)
 
-### Consistency
+### ♾️ Consistency
 
 > [_"Consistency Beats Talent, Luck, Good Intentions, and Even Quality."_ – Unknown](https://youtube.com/shorts/9ViRrTTPEJM?si=_yS3EhoyjBX3tfCj)
 
@@ -831,7 +831,7 @@ Some examples:
 
 **🎯 RESULTS**
 
-## Prototyping
+### 🦿 Prototyping
 
 **📗 METHODOLOGY**
 
