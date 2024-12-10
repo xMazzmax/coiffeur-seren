@@ -6,7 +6,7 @@
 Coiffeur Seren is a responsive landing page/single page website that I developed to practice and solidify my recently gained knowledge in HTML, CSS and web design. Other than my last project this was done for an actual client.
 
 > [!TIP]
-> Press the following icon on the top left to get an overview of all chapters. It'll save you time if you're looking for something specific: ⋮☰
+> Press the following icon on the top left to get an overview of all chapters. It'll also save you time if you're looking for something specific: ⋮☰
 
 ## 📅 Client Meetings
 
@@ -715,6 +715,7 @@ Those were the reasons for my decision:
   - Increased readability.
   - Minimalistic and simple.
 - Consists mainly of straight lines and has plenty of space between characters.
+  - Minimalistic and simple.
   - Increased readability.
 - Subtle round edges at the letters "g" and "y".
   - A bit of sophistication and elegance softens/reduces the stiffness of the straight lines of the other characters and adds calm and peace.
@@ -733,18 +734,86 @@ As for font weight, I used:
 
 **📗 METHODOLOGY**
 
-Here's an article that does an exceptional job at explaining the relationship between illustrations and words with many examples. There's more to it than you might think:
-https://ia.net/topics/is-every-picture-worth-1000-words
+> [!TIP]
+> I didn't write the following text on my own. To save time and test how ChatGPT summarizes large amounts of text, I let it summarize the blog post [Is Every Picture Worth 1,000 Words?](https://ia.net/topics/is-every-picture-worth-1000-words). For that I first told ChatGPT what I wanted, explained the problem of not being able to sent it the whole text at once, asked it to tell me exactly how to make it work and to create me the exact orders I should give. One important takeaway was to only use a max. of 2'000 characters (not words) for the GPT o1 model and 3'000-4'000 for the GPT 4 model. I broke the whole blog text down into small chunks, let ChatGPT summarize each one of it, did the same process twice more to summarize the summaries until I ended up with the text below. Check out the blog post to see magnificent good and bad examples of how images should and shouldn't be used.
+>
+> P.S. I only found the article during the writing of this documentation.
+
+To create clear and impactful presentations, **balance the use of visuals and text** by understanding their unique strengths and how they work together. Use **images** for quick comprehension, emotional impact, and clarity, and rely on **text** for details, explanations, and abstract concepts. Avoid clichés like "a picture is worth a thousand words" and only use visuals that genuinely enhance your message rather than serving as placeholders.
+
+Choose **visuals that tell a clear story** and reflect **modern contexts** with diversity and authenticity. Avoid outdated or superficial stock images that can undermine your message. Before selecting an image, **ask critical questions** to ensure it communicates the intended message and adds value. Don’t use placeholders that are merely decorative.
+
+Develop a **balanced approach** by asking yourself what emotion or message you want to convey and whether it’s best communicated through images, text, or both. **Practice minimalism** by keeping your messaging clear and concise, ensuring every word and image serves a purpose. **Avoid redundancy** – don’t describe what’s obvious in an image; instead, provide new insights or context.
+
+Ensure **text and visuals align** in tone, style, and message. When placing images side by side, maintain **consistency** in color, style, and resolution to avoid distractions. If images clash, insert a text slide between them. **Use comparisons intentionally** to highlight key differences or create a compelling story.
+
+To achieve **synergy**, make sure text and visuals complement each other: the text should clarify or enhance the image, and the image should bring the text to life. **Balance the strengths** of both – images for emotional impact and clarity, and text for detail and context. Focus on **quality over quantity**; a few well-chosen visuals are more powerful than many generic ones. Remember, **less is more** – avoid clutter to maintain clarity.
+
+Finally, **rehearse your presentation** and seek feedback from others. Critically evaluate if your visuals and text flow smoothly, reinforce your message, and engage your audience. By thoughtfully applying these principles, you can create presentations where visuals and text work together to deliver a **clear, engaging, and memorable message**.
 
 **🎯 RESULTS**
+
+Here are three examples:
+
+The image on the right should represent a confident customer after a haircut. I used the best Image I had at my exposal, but still, the customer has basically no emotion at all on his face, and the image doesn't support the promise of the offer, leading to a huge percentage of visitors leaving the website within the first 3-5 seconds. The Google ratings average I added acts as social proof and mitigates the damage to some extent:  
+![example of proper combination of image and text](https://i.ibb.co/mb5t1s3/use-of-image-with-text-example.png)
+
+The icons tell the user what the content is about and the heading adds specificity:  
+![example of proper combination of icon and text](https://i.ibb.co/BTLw6dS/use-of-icon-with-text-example-1.png)
+
+The icons help the user navigate the offers to find what he's looking for more quickly:  
+![example of proper combination of icon and text](https://i.ibb.co/JpTF8gf/use-of-icon-with-text-example-2.png)
 
 ### 📱 Responsiveness
 
-> [_"."_ – ]()
+> [_"In life, change is inevitable. In business, change is vital."_ – Warren G. Bennis](https://youtube.com/shorts/8XO04S_Ch6w?si=IZgf8FnNogJ4d_IL)
 
 **📗 METHODOLOGY**
 
+When planning a website, you have to keep responsiveness in mind throughout the whole design and implementation process. You don't want to invest a lot of time to create something that's really fancy and unique only to find out afterwards, that it only works/looks good on desktop PCs but terrible on mobile phones.
+
+While keeping responsiveness in mind, I chose the desktop-first design, where you design and implement the website for large screen sizes like desktop PCs first. With that you optimize the website for desktops. Once you're done, you then check how it looks on smaller and smaller screen sizes and fix the design where it is not optimal or even breaks along the way. The second option, is called mobile-first design, where you optimize for mobile and then fix the design for bigger and bigger screens step by step.
+
+Here are some general guidelines to design just about anything:
+
+- Create components that can be rearranged, replaced, or reused without affecting the overall structure.
+  - Prefabricated building blocks that can be reconfigured.
+- Ensure the design maintains functionality and appearance at different sizes or scales.
+  - Chosing images that don't have too much detail which wouldn't be visible when displayed in smaller scales.
+- Use adjustable parameters or rules to generate variations of the design.
+  - Creating a flexible T-shirt that adapts to the user's body type within a certain range of variability.
+- Design with multiple versions and tests in mind and change based on test results.
+  - Creating prototypes to test before going all-in on an idea that was destined to fail from the start.
+- Allow for content or design elements that can change based on context or user preference.
+  - Selling ice cream where the customer can choose the topping, based on his personal taste.
+- Use a consistent framework that maintains order while allowing flexibility.
+  - Using SVG files icons that always displays it in the best possible resolution instead of PNG files that make it pixelated when increasing the size.
+- Design with potential changes or expansions in mind.
+- Create designs in layers, where elements can be added or removed without disrupting the core structure.
+  - For a website, the content layer (HTML) is separated from its styling (CSS). One can be changed without directly affecting the other.
+  - Choose to provide products or services in a domain (e.g. health, money making, relationship) for which the demand won't ever be negatively affected by external changes and most likely grow in the future.
+
+In regards to web development, HTML (content and structure) is inherently responsive. Responsiveness only becomes a problem, when the developer doesn't know about that innate responsiveness of HTML and because of that introduces bugs through CSS (style). It's like designing an adjustable belt but adding holes in the wrong places so it no longer fits different sizes properly.
+
 **🎯 RESULTS**
+
+Some examples:
+
+- Instead of using a fixed pixel values for images and text, I used variable values like percentages that automatically adapt to the current screen size.
+
+- There is a navigation dedicated to desktop and one to mobile devices to provide the best possible user experience.
+
+  - Desktop  
+    ![desktop navigation](https://i.ibb.co/pKj7yL0/navbar-desktop.png)
+  - Mobile closed  
+    ![mobile navigation closed](https://i.ibb.co/pysqD4C/navbar-mobile-closed.png)
+  - Mobile open  
+    ![mobile navigation open](https://i.ibb.co/5GJ1fhs/navbar-mobile-open.png)
+
+- I used layout concepts like flexbox and grid to be able to adapt the whole layout of sections with one simple change. In the following example, I just had to set 2 columns for each row to 1 column for each row:
+
+![responsive flexbox example desktop](https://i.ibb.co/G9qffTq/flexbox-example-desktop.png)  
+![responsive flexbox example mobile](https://i.ibb.co/sF1GGT8/responsive-flexbox-example-mobile.png)
 
 ### Consistency
 
@@ -1078,7 +1147,7 @@ Here are some examples of the top 50 current fortune 500 companies that are base
 
 The coding principles I used as blueprint for this project were the following:
 
-_**1. DRY (Don't Repeat Yourself)**_
+**_1. DRY (Don't Repeat Yourself)_**
 
 - **What it means:**  
   Avoid duplicating code by abstracting repeated patterns into functions, modules, or classes.
@@ -1087,7 +1156,7 @@ _**1. DRY (Don't Repeat Yourself)**_
 - **Real world example:**  
   Architects reuse standard blueprint elements for common building types (e.g., parking lots or bathrooms) to save time and reduce errors.
 
-_**2. KISS (Keep It Simple, Stupid)**_
+**_2. KISS (Keep It Simple, Stupid)_**
 
 - **What it means:**  
   Design systems and write code as simply as possible, avoiding overcomplication.
@@ -1096,7 +1165,7 @@ _**2. KISS (Keep It Simple, Stupid)**_
 - **Real world example:**  
   A straight staircase is simpler to design, build, and install than a complicated spiral staircase, which often makes things harder without adding much benefit for most buildings.
 
-_**3. SOLID (it's an acronym for a set of five principles of object-oriented programming)**_
+**_3. SOLID (it's an acronym for a set of five principles of object-oriented programming)_**
 
 - **Single Responsibility Principle (SRP)**
   - **What it means:**  
@@ -1107,7 +1176,7 @@ _**3. SOLID (it's an acronym for a set of five principles of object-oriented pro
   - **What it means:**  
     Code should be open to extension but closed to modification.
   - **Real world example:**  
-    Adding a garage or an extra room to a house shouldn't require tearing down the entire house; the house should be built in a way that allows the existing design to be simply extended by the garage.
+    Adding a garage or an extra room to a house shouldn't require tearing down the entire house; the house could be built in a way that allows the existing design to be simply extended by a garage.
 - **Liskov Substitution Principle**
   - **What it means:**  
     A new component should replace an old one without disrupting the system.
@@ -1126,7 +1195,7 @@ _**3. SOLID (it's an acronym for a set of five principles of object-oriented pro
 - **Why the SOLID principles matter:**  
   They provide a foundation for building modular, flexible, reusable, maintainable, and scalable systems. These systems help you create things that are easy to understand, test, and modify over time, reducing the risk of costly errors or reworks.
 
-_**4. Readability**_
+**_4. Readability_**
 
 - **What it means:**  
   Write code that is easy for humans to understand, even at the cost of extra comments or slightly longer code.
@@ -1135,7 +1204,7 @@ _**4. Readability**_
 - **Real world example:**  
   Writing a step-by-step assembly guide for prefabricated components helps workers follow instructions with a much lower risk for mistakes that could turn out to be way more expensive than the extra time investment for the creation of the guide.
 
-_**5. Modularity**_
+**_5. Modularity_**
 
 - **What it means:**  
   Break down code into small, independent, and reusable modules or components.
@@ -1144,7 +1213,7 @@ _**5. Modularity**_
 - **Real world example:**  
   Using standardized, reusable components like bricks or panels enables flexibility and quick assembly or repair.
 
-_**6. Performance Optimization**_
+**_6. Performance Optimization_**
 
 - **What it means:**  
   Strive for efficient solutions to reduce resource consumption.
@@ -1153,7 +1222,7 @@ _**6. Performance Optimization**_
 - **Real world example:**  
   Using a crane to lift heavy things instead of relying on manual labor saves time, physical and mental effort.
 
-_**7. Premature optimization is the root of all evil**_
+**_7. Premature optimization is the root of all evil_**
 
 - **What it means:**  
   Avoid spending excessive time on perfecting small details or features and ensure the overall structure and design are functional instead.
@@ -1162,7 +1231,7 @@ _**7. Premature optimization is the root of all evil**_
 - **Real world example:**  
   Designing a highly complex roof before confirming the walls can support it risks wasting effort or needing redesigns.
 
-_**8. YAGNI (Your Ain't Gonna Need It)**_
+**_8. YAGNI (Your Ain't Gonna Need It)_**
 
 - **What it means:**  
   Only implement features and write code that are **strictly necessary** for the **current** requirements.
@@ -1172,6 +1241,8 @@ _**8. YAGNI (Your Ain't Gonna Need It)**_
   Building additional rooms "just in case" they're needed later usually leads to wasted ressources like time and materials.
 
 **🎯 RESULTS**
+
+I won't explain the details of the code itself. You can navigate through the different [project files](https://github.com/xMazzmax/coiffeur-seren) yourself if you want to or simply visit the finished website at [www.coiffeur-seren.ch](https://www.coiffeur-seren.ch/) to see the end result.
 
 ## 🚀 Deployment
 
