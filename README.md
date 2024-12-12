@@ -919,6 +919,73 @@ Below is a summary of some of the key elements when it comes to consistency for 
 
 **📗 METHODOLOGY**
 
+Generally speaking, systems can be seen as blueprints. A design system is a collection of guidelines, principles, and basic design elements that ensure consistency and efficiency to all development stages. It also provides scalability and makes collaboration way easier throughout projects.
+
+#### 🗝️ Core Components
+
+**Design Tokens**
+
+Design tokens are variables (names) that each store a specific design-related value (that you can change) like colors, font families, icons, font sizes, spacing and shadows. Design tokens normally come in groups of a predefined amount of different values for each group. Here's an example of variables from different groups in CSS code:
+
+```
+:root {
+  --color-primary: #ffffff;
+  --spacing-1: 0.2rem;
+  --font-size-5: 1.8rem;
+  --border-radius: 3px;
+  --color-shadow: rgba(255, 255, 255, 0.4);
+  --shadow-default: 0 0.6rem 0.6rem var(--color-shadow);
+}
+```
+
+Check out this example:
+
+```
+/*Before change*/
+:root {
+  --border-radius: 3px;
+}
+
+.gallery__item {
+  border-radius: var(--border-radius);    /*border-radius = 3px*/
+}
+```
+
+```
+/*After change*/
+:root {
+  --border-radius: 6px;   /*changed from 3px to 6px*/
+}
+
+.gallery__item {
+  border-radius: var(--border-radius);    /*border-radius = 6px*/
+}
+```
+
+Notice how the reference name `--border-radius` at the class `gallery__item` stays the same after the change and only the value gets updated. Every class like `.gallery__item` has access to the `:root` class. By making use of this feature, design tokens make updating easy by applying changes globally and ensure consistency across the website.
+
+**Component Library**
+
+A collection of reusable UI components like buttons, forms, cards, and navigation menus. Each component should be designed to be consistent, flexible, and accessible.
+
+- Buttons
+
+  - Primary
+  - Secondary
+  - Tertiary buttons
+
+- Forms
+
+  - Input fields
+  - Checkboxes
+  - Radio buttons
+  - Dropdowns
+
+- Navigation
+  - Headers
+  - Footers
+  - Menus
+
 **🎯 RESULTS**
 
 ### 🦿 Prototyping
