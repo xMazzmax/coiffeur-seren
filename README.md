@@ -964,9 +964,9 @@ Check out this example:
 
 Notice how the reference name `--border-radius` at the class `gallery__item` stays the same after the change and only the value gets updated. Every class like `.gallery__item` has access to the `:root` class. By making use of this feature, design tokens make updating easy by applying changes globally and ensure consistency across the website.
 
-**Component Library**
+**Component library**
 
-A collection of reusable UI components like buttons, forms, cards, and navigation menus. Each component should be designed to be consistent, flexible, and accessible.
+A collection of reusable UI components like buttons, forms, cards, and navigation menus. Each component should be designed to be consistent, flexible (adaptable to various use cases), and accessible (usable by people with disabilities like color blindness).
 
 - Buttons
 
@@ -985,6 +985,60 @@ A collection of reusable UI components like buttons, forms, cards, and navigatio
   - Headers
   - Footers
   - Menus
+
+**Patterns and templates**
+
+Design patterns offer best practices for common design challenges (e.g. 60/30/10 rule), while templates provide pre-designed layouts for sections or pages.
+
+**Style guide**
+A document that outlines the visual and brand guidelines, including:
+
+- Color Palette
+
+  - Primary
+  - Secondary
+  - Accent
+  - Neutral
+
+- Typography
+
+  - Font
+  - Weights
+  - Sizes
+
+- Imagery
+
+  - Photos and illustrations (e.g. aspect ratio)
+  - Icons (e.g. size)
+
+- Accessibility
+  - Color contrast ratio
+  - Keyboard navigation
+  - Alternative text for images (e.g. for screenreaders)
+
+#### ⚖️ Benefits
+
+**Consistency**
+
+All parts of the website follow the same visual language and design principles.
+
+**Efficiency**
+
+Designers and developers can reuse components, reducing the time spent on repetitive tasks.
+
+**Scalability**
+
+Allows an easy way to add new features without affecting the design quality negatively.
+
+**Collaboration**
+
+Promotes better communication between designers, developers, and stakeholders by offering one single reference point to everyone.
+
+**Maintainability**
+
+Simplifies updating by making changes in one place and see those changes reflected throughout the entire website (ensuring everything stays up to date).
+
+#### 🗺️ Creation Steps
 
 **🎯 RESULTS**
 
