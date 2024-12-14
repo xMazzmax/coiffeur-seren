@@ -1040,7 +1040,351 @@ Simplifies updating by making changes in one place and see those changes reflect
 
 #### 🗺️ Creation Steps
 
+**Review your current design**
+
+Identify the existing colors, typography, components, and patterns used on the Coiffeur Seren website.
+
+**Define Design Principles**
+
+Establish principles that reflect the brand’s identity, such as simplicity, elegance, and user-friendliness.
+
+**Create a Color Palette**
+
+Choose primary, secondary, and neutral colors that align with the brand. Include guidelines for tints, shades, and usage.
+
+**Select Typography**
+
+Choose typefaces and define font sizes, weights, and styles for headings, body text, and buttons.
+
+**Develop Reusable Components**
+
+Build a library of buttons, forms, cards, and icons that follow your design principles.
+
+**Document Everything**
+
+Create clear and detailed documentation for each component, pattern, and guideline. Include code snippets, examples, and usage instructions.
+
+**Ensure Accessibility**
+
+Test your components to ensure they are accessible and meet WCAG standards.
+
+**Test and Iterate**
+
+Continuously test your design system with real users and update it based on feedback.
+
+#### ♻️ Maintenance
+
+**Version control**
+Track changes with a tool as simple as [AutoSave for Microsoft Office Apps](https://support.microsoft.com/en-us/office/what-is-autosave-6d6bd723-ebfd-4e40-b5f6-ae6e8088f7a5) or a more complex system that gives you more control like [Git](https://git-scm.com/videos).
+
+**Regular reviews**
+Check the system from time to time, review and update it to ensure it remains relevant and effective.
+
+**Team training**
+Teach people on how to use the system effectively.
+
+**Feedback loop**
+Collect and implement feedback from the team and users to continuously improve the system.
+
 **🎯 RESULTS**
+
+You'll notice that in the first part of the code I used code comments (simple text) to capture my design system. During coding I then used it as a reference point throughout the project and simply copy pasted the defined values whereever needed. Only from `GENERAL SETTINGS` on I used variables and actual CSS code. Since it was my first time working with variables in CSS, I decided to only use it for colors to learn how to use it and limit the risk of me messing up the whole project. Now that I got the hang of it, in all future projects I'll use variables only because of their imense benefits.
+
+As for project file structure, I created a folder called `css` and separated general reusable CSS (my design system) from custom CSS each in a correspondent file (`general.css` + `style.css`) as seen in the screenshot below and created a link to both in my HTML (`index.html`). By the way, the code to automatically adapt the design based on the current screen size of the user's device was handled with media queries inside the file `queries.css`.
+
+![Project files structure](https://i.ibb.co/gDVFMTy/project-files-structure.png)
+
+> [!TIP]
+> I used VS Code as my code editor (software development application). I installed the VS Code extention called [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight) which highlights any color code with its corresponding color. It makes you find what you're looking for way faster and helps you avoid bugs.
+
+```
+/*
+---------------------
+--- 01 TYPOGRAPHY ---
+---------------------
+
+- Font size system (px):
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font weights:
+Default:    400
+Medium:     500
+Semi-bold:  600
+Bold:       700
+
+- Line heights:
+Default:    1
+h2:         1.2
+h3:         1.4
+p default:  1.6
+
+- Letter spacing:
+h1-h3:      -1px
+
+
+---------------------
+--- 02 WHITESPACE ---
+---------------------
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+
+-----------------
+--- 03 COLORS ---
+-----------------
+
+- As defined in the root class below
+
+
+------------------
+--- 04 SHADOWS ---
+------------------
+
+- Default:
+0 0.2rem 0.2rem var(--clr-shaddow-hard),
+0 0.6rem 0.6rem var(--clr-shaddow-soft);
+
+- Hover:
+0 0.8rem 0.8rem var(--clr-shaddow-dark--hover),
+0 2.4rem 2.4rem var(--clr-shaddow-soft--hover);
+
+
+------------------------
+--- 05 BORDER-RADIUS ---
+------------------------
+
+- Buttons: 3px
+*/
+
+/************************/
+/*** GENERAL SETTINGS ***/
+/************************/
+
+:root {
+  --clr-primary: #94d82d;
+  --clr-primary-950: #0f1604;
+  --clr-primary-900: #1e2b09;
+  --clr-primary-800: #3b5612;
+  --clr-primary-700: #59821b;
+  --clr-primary-600: #76ad24;
+  --clr-primary-500: var(--clr-primary);
+  --clr-primary-400: #a9e057;
+  --clr-primary-300: #bfe881;
+  --clr-primary-200: #d4efab;
+  --clr-primary-100: #eaf7d5;
+  --clr-primary-50: #f4fbea;
+
+  --clr-neutral-950: #0a0a0a;
+  --clr-neutral-900: #171717;
+  --clr-neutral-800: #262626;
+  --clr-neutral-700: #404040;
+  --clr-neutral-600: #525252;
+  --clr-neutral-500: #737373;
+  --clr-neutral-400: #a3a3a3;
+  --clr-neutral-300: #d4d4d4;
+  --clr-neutral-200: #e5e5e5;
+  --clr-neutral-100: #f5f5f5;
+  --clr-neutral-50: #fafafa;
+
+  --clr-bg: var(--clr-neutral-900);
+  --clr-bg--opacity: rgba(var(--clr-neutral-900), 0.9);
+  --clr-bg--tint: var(--clr-neutral-800);
+
+  --clr-shaddow-hard: rgba(255, 255, 255, 0.4);
+  --clr-shaddow-soft: rgba(255, 255, 255, 0.2);
+  --clr-shaddow-dark--hover: rgba(0, 0, 0, 0.2);
+  --clr-shaddow-soft--hover: rgba(0, 0, 0, 0.1);
+}
+
+/* Margin, padding and the calculation of element sizes are automatically predefined by default by the browser (app you access websites with). The following code resets all of that to make styling the whole website much easier */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Puts a border around elements that are selected when navigating a webpage with the `TAB`-key */
+*:focus-visible {
+  transition: 200ms;
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(148, 216, 45, 0.5);
+}
+
+/* The font size serves many purposes: Makes adjusting font size in media queries (bigger in smaller devices => better readability) very easy by allowing you to simply change the percentage, the displayed size is calculated using any set base font size (set font size * percentage = displayed font size), which allows the user to use whatever font size he has saved in his device settings, and it makes it easy for the developer to work with sizes, because setting `font-size: 62.5%` on the `html` element makes 1rem = 10px instead of 1rem = 16px (assuming the default browser font size of 16px), simplifying the process of calculating and converting between `px` and `rem` units. */
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+/* Default settings for all text and website background */
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: var(--clr-neutral-200);  /* text color */
+  background-color: var(--clr-bg);
+}
+
+/* Paragraphs */
+p,
+span {
+  font-size: 1.8rem;
+  line-height: 1.6;
+}
+
+/* Bold text */
+strong {
+  font-weight: 600;
+}
+
+/* Color used to highlight text. I didn't actually use it in this project, but it's a great way of intentionally leading the user's attention to something important. Just like accent colors, it should be used sparingly. */
+mark {
+  background-color: var(--clr-primary);
+}
+
+/***********************************/
+/*** GENERAL REUSABLE COMPONENTS ***/
+/***********************************/
+
+.heading-primary,
+.heading-secondary,
+.heading-tirtiary {
+  color: var(--clr-neutral-100);
+  letter-spacing: -1px;
+}
+
+.heading-primary {
+  font-size: 6.2rem;
+  font-weight: 700;
+  margin-bottom: 2.4rem;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 8rem;
+}
+
+.heading-tirtiary {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 2.4rem;
+}
+
+/* Buttons */
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 3px;
+  padding: 1.2rem 2.4rem;
+  transition: 200ms;
+}
+
+/* Button variations */
+.btn--primary {
+  color: var(--clr-neutral-800);
+  background-color: var(--clr-primary);
+}
+
+.btn--secondary {
+  color: var(--clr-neutral-200);
+  box-shadow: inset 0 0 0 2px var(--clr-primary);
+}
+
+.btn:hover,
+.btn:active {
+  background-color: var(--clr-primary-300);
+}
+
+.btn--secondary:hover,
+.btn--secondary:active {
+  color: var(--clr-neutral-800);
+  background-color: var(--clr-primary-300);
+  box-shadow: inset 0 0 0 2px var(--clr-primary-300);
+}
+
+.grid {
+  display: grid;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.icon {
+  fill: var(--clr-primary);
+  flex-shrink: 0;   /* Prevents the default behavior of icons that have the `flex` property to shrink */
+}
+
+.icon--star-rating {
+  height: 2.4rem;
+  fill: #fdd663;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.list__item {
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  line-height: 1.6rem;
+  gap: 1.2rem;
+}
+
+.seren-logo {
+  height: 4.8rem;
+}
+
+.align-items-center {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+/***********************************/
+/* HELPER CLASSES */
+/***********************************/
+
+.container--center {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.section__padding--vertical {
+  padding-top: 9.6rem;
+  padding-bottom: 9.6rem;
+}
+
+.center-content {
+  text-align: center;
+}
+
+.bg-clr {
+  background-color: var(--clr-bg--tint);
+}
+```
 
 ### 🦿 Prototyping
 
