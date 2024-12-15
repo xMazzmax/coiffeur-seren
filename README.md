@@ -781,36 +781,36 @@ By the way, I used Google's [Material Symbols](https://fonts.google.com/icons). 
 
 **📗 METHODOLOGY**
 
-When planning a website, you have to keep responsiveness in mind throughout the whole design and implementation process. You don't want to invest a lot of time to create something that's really fancy and unique only to find out afterwards, that it only works/looks good on desktop PCs but terrible on mobile phones.
+When planning a website, it's important to keep responsiveness in mind throughout the whole development process. You don't want to invest a lot of time to create something that's really fancy and unique only to in the end find out that it only works/looks good on desktop PCs but terrible on mobile phones.
 
-While keeping responsiveness in mind, I chose the desktop-first design, where you design and implement the website for large screen sizes like desktop PCs first. With that you optimize the website for desktops. Once you're done, you then check how it looks on smaller and smaller screen sizes and fix the design where it is not optimal or even breaks along the way. The second option, is called mobile-first design, where you optimize for mobile and then fix the design for bigger and bigger screens step by step.
+I chose the desktop-first design approach, where you design and implement the website for large screen sizes like desktop PCs first. By doing that, you optimize the website for desktops. Once you're done, you then check how it looks on smaller and smaller screen sizes and fix the design along the way where it's not displayed optimally or even breaks. The second approach is called mobile-first design, where you optimize for mobile first, then fix the design for bigger and bigger screens step by step.
 
-Here are some general guidelines to design just about anything:
+Here are some general guidelines to design just about anything with an example each:
 
 - Create components that can be rearranged, replaced, or reused without affecting the overall structure.
-  - Prefabricated building blocks that can be reconfigured.
+  - Using prefabricated building blocks that can be reconfigured.
 - Ensure the design maintains functionality and appearance at different sizes or scales.
-  - Chosing images that don't have too much detail which wouldn't be visible when displayed in smaller scales.
+  - Choosing images that don't have too much detail which wouldn't be visible when displayed in smaller scales.
 - Use adjustable parameters or rules to generate variations of the design.
   - Creating a flexible T-shirt that adapts to the user's body type within a certain range of variability.
 - Design with multiple versions and tests in mind and change based on test results.
   - Creating prototypes to test before going all-in on an idea that was destined to fail from the start.
 - Allow for content or design elements that can change based on context or user preference.
-  - Selling ice cream where the customer can choose the topping, based on his personal taste.
+  - Delling ice cream and offering the customer a variety of toppings to choose from, based on his personal preference.
 - Use a consistent framework that maintains order while allowing flexibility.
-  - Using SVG files icons that always displays it in the best possible resolution instead of PNG files that make it pixelated when increasing the size.
+  - Using SVG icons that always displays it in the best possible resolution instead of PNG files that make it pixelated when increasing the size.
 - Design with potential changes or expansions in mind.
+  - Choosing to provide products or services in a domain (e.g. health, money making, relationship) for which the demand won't ever be negatively affected by external changes and most likely grow in the future.
 - Create designs in layers, where elements can be added or removed without disrupting the core structure.
-  - For a website, the content layer (HTML) is separated from its styling (CSS). One can be changed without directly affecting the other.
-  - Choose to provide products or services in a domain (e.g. health, money making, relationship) for which the demand won't ever be negatively affected by external changes and most likely grow in the future.
+  - Separating the code of a website between between the content layer (HTML) and its styling (CSS). One can be changed without directly affecting the other.
 
-In regards to web development, HTML (content and structure) is inherently responsive. Responsiveness only becomes a problem, when the developer doesn't know about that innate responsiveness of HTML and because of that introduces bugs through CSS (style). It's like designing an adjustable belt but adding holes in the wrong places so it no longer fits different sizes properly.
+In regards to web development, HTML (content and structure) is inherently responsive. Responsiveness only becomes a problem, when the developer doesn't know about that innate responsiveness of HTML and introduces bugs through CSS (style). It's like designing an adjustable belt but adding holes in the wrong places so it no longer fits different sizes properly.
 
 **🎯 RESULTS**
 
 Some examples:
 
-- Instead of using a fixed pixel values for images and text, I used variable values like percentages that automatically adapt to the current screen size.
+- Instead of using fixed pixel values for images and text, I used variable values like percentages that automatically adapt to the current screen size.
 
 - There is a navigation dedicated to desktop and one to mobile devices to provide the best possible user experience.
 
@@ -1040,33 +1040,35 @@ Simplifies updating by making changes in one place and see those changes reflect
 
 #### 🗺️ Creation Steps
 
+You don't need to implement everything that's listed below. It should only serve as reference. Start small and grow it over time when you need to.
+
 **Review your current design**
 
-Identify the existing colors, typography, components, and patterns used on the Coiffeur Seren website.
+Identify the existing colors, typography, components, and patterns you already use instead of starting from scratch.
 
-**Define Design Principles**
+**Define design principles**
 
-Establish principles that reflect the brand’s identity, such as simplicity, elegance, and user-friendliness.
+Establish principles that reflect the brand's personality and identity, such as simplicity, elegance, and user-friendliness.
 
-**Create a Color Palette**
+**Create a color palette**
 
-Choose primary, secondary, and neutral colors that align with the brand. Include guidelines for tints, shades, and usage.
+Choose primary, secondary, and accent colors that align with the brand. Include guidelines for tints, shades, and usage.
 
-**Select Typography**
+**Select typography**
 
-Choose typefaces and define font sizes, weights, and styles for headings, body text, and buttons.
+Choose a typeface and define font sizes, weights, and styles for headings, body text, and buttons.
 
-**Develop Reusable Components**
+**Develop reusable components**
 
-Build a library of buttons, forms, cards, and icons that follow your design principles.
+Build a library of things like buttons and icons that follow your design principles.
 
-**Document Everything**
+**Document everything**
 
-Create clear and detailed documentation for each component, pattern, and guideline. Include code snippets, examples, and usage instructions.
+Create clear and – for big complex projects where multiple people are involved – detailed documentation for each component, pattern, and guideline. Include code snippets, examples, and usage instructions.
 
-**Ensure Accessibility**
+**Ensure accessibility**
 
-Test your components to ensure they are accessible and meet WCAG standards.
+Test your components to ensure they are accessible and meet certain standards like [WCAG](https://www.w3.org/TR/WCAG22/). But don't get lost in it. Start with just color contrast ratio, alternative text for images and – in case you use forms – error messages. Those will give you the best return on your time investment. Once the website is finished, use Google Chrome's Lighthouse to receive quick feedback. More on that in the optimization chapter.
 
 **Test and Iterate**
 
@@ -1075,13 +1077,13 @@ Continuously test your design system with real users and update it based on feed
 #### ♻️ Maintenance
 
 **Version control**
-Track changes with a tool as simple as [AutoSave for Microsoft Office Apps](https://support.microsoft.com/en-us/office/what-is-autosave-6d6bd723-ebfd-4e40-b5f6-ae6e8088f7a5) or a more complex system that gives you more control like [Git](https://git-scm.com/videos).
+Track changes with a tool as simple as [AutoSave for Microsoft Office Apps](https://support.microsoft.com/en-us/office/what-is-autosave-6d6bd723-ebfd-4e40-b5f6-ae6e8088f7a5). All you need for that is a Microsoft 365 (formerly Office 365) subscription, log into your OneDrive account on your PC, and activate AutoSave with one click of a button. Or you can use a free and more complex system that gives you more control like [Git](https://git-scm.com/videos) and is used by almost all software developers.
 
 **Regular reviews**
 Check the system from time to time, review and update it to ensure it remains relevant and effective.
 
 **Team training**
-Teach people on how to use the system effectively.
+Teach people what the system is about and – if relevant to them – how to use it effectively.
 
 **Feedback loop**
 Collect and implement feedback from the team and users to continuously improve the system.
@@ -1090,7 +1092,7 @@ Collect and implement feedback from the team and users to continuously improve t
 
 You'll notice that in the first part of the code I used code comments (simple text) to capture my design system. During coding I then used it as a reference point throughout the project and simply copy pasted the defined values whereever needed. Only from `GENERAL SETTINGS` on I used variables and actual CSS code. Since it was my first time working with variables in CSS, I decided to only use it for colors to learn how to use it and limit the risk of me messing up the whole project. Now that I got the hang of it, in all future projects I'll use variables only because of their imense benefits.
 
-As for project file structure, I created a folder called `css` and separated general reusable CSS (my design system) from custom CSS each in a correspondent file (`general.css` + `style.css`) as seen in the screenshot below and created a link to both in my HTML (`index.html`). By the way, the code to automatically adapt the design based on the current screen size of the user's device was handled with media queries inside the file `queries.css`.
+As for the project file structure, I created a folder called `css` and separated general reusable CSS (my design system) from custom CSS each in a correspondent file (`general.css` + `style.css`) as seen in the screenshot below and created a link to both in my HTML (`index.html`). By the way, the code to automatically adapt the design based on the current screen size of the user's device was handled with media queries inside the file `queries.css`.
 
 ![Project files structure](https://i.ibb.co/gDVFMTy/project-files-structure.png)
 
