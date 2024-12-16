@@ -6,7 +6,7 @@
 Coiffeur Seren is a responsive landing page/single page website that I developed to practice and solidify my recently gained knowledge in HTML, CSS and web design. Other than my last project this was done for an actual client.
 
 > [!TIP]
-> Press the following icon on the top left to get an overview of all chapters. It'll also save you time if you're looking for something specific: ⋮☰
+> Press this icon `⋮☰` on the top right to get an overview of all chapters. It'll help you navigate the documentation as a whole and also save you time if you're looking for something specific.
 
 ## 📅 Client Meetings
 
