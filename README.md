@@ -1392,7 +1392,81 @@ mark {
 
 **📗 METHODOLOGY**
 
+My client told me I should do whatever I want for the layout and design and that he trusts me. But I the risk involved in depending on this trust. I didn't want code the whole website and find out in the end that there are things he imagined to be completely different. So before starting to write a single line of code, I wanted to create a mockup. There are different ways to prototype, varying in complexity, time investment and quality.
+
+- Sketch
+
+  - Made by hand with pencil or pen on a piece of paper. There are even stencils you can use to speed up this process.
+  - General sections and ideas are drawn and written down.
+  - The goal is to brainstorm ideas (low input, high output) by yourself or in teams.
+    ![Sketch example of a webpage](https://i.ibb.co/y6ZPhXV/sketch-example.jpg)
+    ![iPhone UI stencil](https://i.ibb.co/2S7qngB/iphone-stencil.png)
+
+- Wireframe
+
+  - Made digitally for fastest results with an application like [Figma](https://www.youtube.com/watch?v=PaPIsyO1t3Q).
+  - All UI elements (everything the user sees) are illustrated with just lines and squares. Connect corners diagonally (making an x) when it's an image. Use keywords to specify the meaning of the elements.
+  - The goal is to design the layout.
+    ![Wireframe example of a webpage]("https://i.ibb.co/5rfkxXj/wireframe-example.webp)
+
+- Mockup
+
+  - Made with an app like Figma.
+  - It's a representation of the end result including content (text, images, colors etc.).
+  - The goal is to communicate the design, layout and functionality, and it might represent the final opportunity to gather and implement feedback before development begins and coding begins. From this point on, while design changes such as color and fonts remain relatively easy to apply, changes to layout and functionality become significantly more costly.
+    ![Example of a website mockup](https://i.ibb.co/Ks4PRyG/mockup-example.png)
+
+- Prototype
+  - Made either without code in an app like Figma or else with code in the developer environment the project will be built on like VS Code.
+  - It's an interactive simulation and a simplified version of the final product.
+  - Not the content itself, but the UX (user experience) is the main focus. The goal is to validate user interactions, test user flows, and identify usability issues before going all-in on code implementation.
+    ![Example of a website prototype](https://i.ibb.co/DGFmLMz/prototype-example.png)
+
+I've heard multiple times in the past and also in the last course I did on web development that Figma is a great tool for designing websites. In fact, according to Figma's CEO they apparently hold 70% of global market share for UI and UX design software. While the actual percentage might not be as high as stated, they're definitely the primary choice for designers by a big margin.
+
+While I know that learning Figma would pay off long-term, I had mixed feelings about actually doing it before I started the project. I wanted to spend as little time as possible on design but still deliver great results. During my research on YouTube regarding prototyping on Figma, I stumbled uppon the perfect solution for my problem. I saw a [YouTube short](https://youtube.com/shorts/Z_gIqodBmdc?si=ywXgnym2xn2K1Ptl) on a relatively new and revolutionary AI powered web app called [Relume](https://www.relume.io/). With just a few words you can tell Relume what website you're trying to create and watch the magic happen as Relume generates the following in a matter of seconds:
+
+- A sitemap (visual list of all the pages on a website)
+  - All sections inside each page
+  - Hierarchy and relationship between pages
+- Wireframe
+  - Suitable real world component for every single page section
+    - Out of a library of over 1'000 components
+    - You can regenerate section components you don't like
+    - Desktop and mobile version side by side
+  - AI generated copywriting (text) relevant to the specific project and in any language
+- Export the wireframe to Figma
+  - Connect it to a design system
+    - Add color
+    - Change fonts
+  - Directly create a prototype out of it
+
+All those steps would normally take countless hours but with the help of AI you can do it in seconds.
+
 **🎯 RESULTS**
+
+My idea was to create a mix between a wireframe. Since the generated wireframe also comes with copywriting out of the box, I decided to add a snapshot of the copy I'd already written. None of the pricing components had a suitable layout, I forgot to add the Q&A section, and there wasn't a footer component with opening hours, so I simply left it out and showed my client screenshots I gathered elsewhere instead. When showing him the result, I focused on the desktop version. The mobile version was just to explain to him that the design would be optimized for mobile devices once the website was done for desktops. That's why I didn't keep all copy on the wireframe for mobile.
+
+My initial plan was to just copy the layout from the wireframe, but since I also liked the design from the components, I copied most of it and made changes where I wanted things differently.
+
+> [!TIP]
+> This approach is a good example of how to implement the 80/20 principle and get 80% of the possible results with just 20% of the effort needed to reach 100%. In this case the investment was even lower than 20%, and more like 5% or less. Ask yourself "what's the _simplest_ **and** _easiest_ **and** _fastest_ thing I could do that would give me the _most output_." Apply the 80/20 principle on the 80/20 principle by making an effort to think outside the box. Here's some guidance on what questions to ask yourself:
+>
+> - Challenge your assumptions
+>   - "What if my limiting assumptions weren't true?"
+> - Reframe your problem
+>   - Instead of "how can I make this product better" ask yourself "what would make this product unnecessary?"
+> - Set yourself artificial constraints
+>   - "If someone pointed a gun at my head and told me I to do something in 1 hour instead of 1 week, how would I do it?"
+> - Ask experts
+>   - Ask a lazy person "if you really didn't feel like doing X but had to do it, how would you get it over with as fast as possible?"
+> - Apply concepts from other domains
+>   - "How does the film industry effectively manage scenes with multiple characters in different locations at the same time?"
+>
+> **BONUS TIP**
+> First try to come up with such questions and answers by yourself to train your problem-solving and creativity muscle. To apply the 80/20 principle on the 80/20 principle on steroids, use ChatGPT (with its latest model that has the best reasoning) to add clarity to your questions and answers and to come up with more such questions and answers. Then either combine all of them or pick the best. I just used exactly that process to come up with this section tip. 😉
+
+![Result of the project's wireframe](https://i.ibb.co/vBdzJhR/project-wireframe.png)
 
 ## 📰 Content Creation
 
