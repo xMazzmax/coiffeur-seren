@@ -161,11 +161,11 @@ During our meeting I went through the questionnaire with him but after getting t
 
 I agreed with my client's decision that the website should be as simple as possible. My definition of greatness is achieved, not when there is nothing more to add, but when there is nothing unnecessary left to take away from a product or service so that the user can achieve his goals as simple as possible and as fast as possible. Adding more value with less stuff isn't easy, in fact it's way harder. My philosophy is that it's the responsibility of the service provider to take on the burden of that complexity in order to add as much value as possible to his customers. In regards to software, I think that to the users, software are primarily tools and tools should make their life easier, not harder. That's my approach and goal when providing not just software development but any kind of service or product.
 
-### 🌍 Marketing – Beyond Website Developent
+### 🌍 Marketing
 
 > [_"Every skill you add to your skill toolbelt makes the rest of your skills more valuable."_ – Alex Hormozi](https://youtube.com/shorts/M0Mq_q3gVXA?si=iuBANp5p1ZK4KSjz)
 
-Besides the website, my client also asked me for help regarding the following:
+My client asked me for help with tasks beyond just website developent:
 
 **Google Business Account**  
 My client has been working at his current hairdresser shop for years. He didn't own the place initially but eventually took it over. He also took over the existing Google Business Account and instead of renaming the existing profile, he created a second profile on the same account which resulted in the Google search results displaying the name of the new and the name of the old business. I did some research and found out my client's option to solve the problem and shared it with him:
@@ -1879,9 +1879,7 @@ I won't explain the details of the code itself. You can navigate through the dif
 
 > [_"."_ – ]()
 
-**📗 METHODOLOGY**
-
-**🎯 RESULTS**
+I'll keep this chapter short and simple.
 
 ### 🏠 Local
 
@@ -1908,20 +1906,23 @@ I won't explain the details of the code itself. You can navigate through the dif
   - Manual: Firefox (PC), Chrome/Safari (phone), Samsung Internet (tablet)
   - Automated: Google Chrome Lighthouse (PC)
 
-### ☁️ Hosting
-
-> [_"."_ – ]()
-
-**📗 METHODOLOGY**
-
-**🎯 RESULTS**
-
 ## 🌊 Workflow
 
-> [_"."_ – ]()
+> [_"."_ – ](https://youtube.com/shorts/q725Nr4UkPU?si=Ly1ugsQa_5VCNJTc)
+
+> [!IMPORTANT]
+> Once you find out what needs to be done, it's crucial to consider the order of doing those things. This decision can make or break your project. Thinking is cheap, doing is costly. Take some time to try and come up with the optimal path. If you're doing something for the first time, search for people who have achieved your desired outcome, study their process. Think about not what they're doing now, but what they did when they were starting out like you. Learn from their mistakes so you don't have make them yourself. Question their decisions and try to come up with ways they could have done it better and why, before you come up with reasons for why their decisions make sense to you. This way you minimize the risk of becoming a victim of a phenomenon called **confirmation bias**. It's the human tendency to search for, interpret, favor, and recall information in a way that confirms one's pre-existing beliefs or hypotheses. Confirmation bias leads people to give more weight to information that supports their own views while ignoring or dismissing information that challenges them. Nature always tries to find the easiest path. A hard path is not always the best path, but the best path is always a hard path. The art lies in discovering which difficult path leads to the **right** destination or at least the right direction. Usually it is the hardest one that is the right one. And the hardest part isn't the doing itself, but having the courage to make the most difficult decision and having to courage to follow through with it.
 
 **📗 METHODOLOGY**
 
-https://youtube.com/shorts/q725Nr4UkPU?si=Ly1ugsQa_5VCNJTc
+Here's a hard pill to swallow: You will make the wrong decision on how you should approach something no matter what. But it's not black and white, it's more like shades of grey. You can imagine the error rate of your decision more like a spectrum. On one end you have the perfect, most optimal path. On the other you have the worst possible path, which will have the irreversable consequences you can't even imagine. The more time you think about what would make most sense, the more you're going to lean towards the perfect, most optimal side. But there's two things you need to take in account:
+
+1. Everyone, to varying degrees across different domains, remains ignorant – regardless of their expertise. It's impossible to have all the information needed to make the perfect decision.
+2. The more time you spend searching for the perfect answer, the longer it takes to reach your goals. Most people never achieve what they truly want and settle for less because it's easier – and less painful – to let their dreams stay in their imagination rather than turn them into reality.
+
+How could one navigate that dilemma? There's a hard but simple answer: The 80/20 principle. You use what you have at your exposal to make the most informed decision possible and just go for it. This will get the ball rolling in the right direction. During the implementation process you then make small corrections to the direction you're going. Think of it as paying your ignorance debt with the newly aquired knowledge you gained from the process itself.
+
+> [!IMPORTANT]
+> The more impactful and long lasting the effect of a decision will be, the more time shuold be spent on finding the optimal path.
 
 **🎯 RESULTS**
