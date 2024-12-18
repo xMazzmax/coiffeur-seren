@@ -1925,4 +1925,32 @@ How could one navigate that dilemma? There's a hard but simple answer: The 80/20
 > [!IMPORTANT]
 > The more impactful and long lasting the effect of a decision will be, the more time shuold be spent on finding the optimal path.
 
+Here's how I did it for this project:
+
+1. I thought about how I would do it based on my prior experiences.
+2. I then tried to poke holes at my assumptions, which tested their validity and removed misconceptions.
+3. I researched on YouTube what other people did to reach my desired outcome and learned from their mistakes.
+4. I tried to poke holes at their process and made it better.
+5. I made mistakes of my own throughout the process.
+6. I adjusted my path when it made sense or at least kept the lessons learned to avoid ever repeating the same mistakes in the future.
+
+When developing a website, the most efficient and effective order to approach it is as following including the reasoning behind it:
+
+1. Content creation
+
+- Content is the core of any website. It defines the purpose, message, and value you want to convey to your audience.
+- Helps decide on a design and layout that best suits the message of the content.
+- Prevents the need for significant adjustments later, which can happen if design and layout are done without considering the actual content.
+
+2. Design
+
+- Design elements like color schemes, typography, and imagery can be tailored to reflect the brand identity and resonate with the target audience.
+- Designing with content in mind allows you to optimize the UX (user experience).
+
+3. Layout
+
+-
+
+But that order assumes that you know exactly what you're doing.
+
 **🎯 RESULTS**
