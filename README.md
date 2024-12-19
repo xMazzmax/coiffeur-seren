@@ -1984,3 +1984,25 @@ Now that the design was finished and the content was basically finished, I made 
 6. Lastly I added a last touch to the **content**.
 
 I fixed typos, made the message easier to understand (with simpler words), shorter, more compelling, and more impactful.
+
+## 💎 Lessons learned
+
+> [_"."_ – ](https://youtu.be/0SQVuWCKXak?si=Qwd35pNInEd1amY4)
+
+I've learned many, many lessons during this project. Here are the most significant ones:
+
+1. If a specific agreement is really important to you, don't rely on the other side's word. Instead, make a written contract where both need to agree on the expectations of both sides by signing it off.
+
+- One of my crucial conditions for me to offer my services to my customer was that he gives me a review (where he could say whatever he wants). He agreed to it before we started working together, but after I finished the project and asked him for that, he told me that due to his language barrier it's best if I did it myself in his name and that he would stand behind whatever I wrote in his name. I told him that the goal of the review was to get an honest insight on how I might have helped him and where I can possibly improve. But he insisted on it and I said okay. I thought about it for a bit afterwards and I knew exactly what to write, but one of my core values is that never lying will always lead me to the best possible outcome, no matter how unlikely that might seem to me in the moment. Future will tell. So therefore, I decided not to create the fake review, and also not to push my client to do it, because it wouldn't lead to the desired outcome.
+
+2. People come to you if you know how to grab their attention. People stay with you when they know you have their best interest in mind.
+
+3. The more skills you gain, the more each skill enhances the value of the others. All skills are interconnected, even when they come from different domains (of life). In this project I combined my practical knowledge from software development, project management, meta-learning (learning how to learn), philosophy, behavioral psychology and neuropsychology (neuro = brain-related), marketing, communication etc. to come up with the best possible result based on all ressources available to me.
+
+4. Writing improves your thinking. There is nothing more powerful in the world than the ability to acticulate your thoughts clearly. It's the key to open any door you want in your life.
+
+5. By teaching something, you discover the difference between application and knowledge – you might know how to use something, but we often mistake that for understanding it. To gain true expertise in something, you must be able to explain it to someone who has no prior experience in the specific field using simple words. To be completely transparent, I've learned more in writing this documentation than I've learned throughout the rest of the project.
+
+6. More is less! An abundance of ressources in the creation process is great. It gives you the opportunity to choose what's best for a specific goal. But an abundance of ressources in an end product is a form of laziness by its creator. The faster and easier it is for users to reach their individual specific goal with what you have to offer, the more valuable the product or service.
+
+7. Always set yourself and your team tight or even better impossible time limits to complete the tasks. Parkinson's Law states that "work expands to fill the time available for its completion". The positive effect is best achieved when there's (perceived) negative consequences for not finishing the task at the agreed deadline. You'd be amazed to find out that you can achieve results you didn't believe to be possible. For example, this whole project (without the documentation) took me 2 weeks. I did 90% of the coding in 1.5 days because of a time constraint I set myself in the form of an appointment I set with my client. I did not finish everything I wanted until the appointment, but my client was amazed with what I had made so far – though not as amazed as I was with the output I delivered, given the time it took me to achieve it.
