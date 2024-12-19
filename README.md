@@ -1006,7 +1006,7 @@ A document that outlines the visual and brand guidelines, including:
   - Weights
   - Sizes
 
-- Imagery
+- Images
 
   - Photos and illustrations (e.g. aspect ratio)
   - Icons (e.g. size)
@@ -1949,8 +1949,35 @@ When developing a website, the most efficient and effective order to approach it
 
 3. Layout
 
--
+- With all content and design done as your Lego bricks, you simply have to assemble and place it together in a logical way.
+- Creating a structure that's dependent the content and design makes it so that the flow of the website makes most sense and enhances the UX.
 
-But that order assumes that you know exactly what you're doing.
+But that order assumes you know exactly what you're doing.
 
 **🎯 RESULTS**
+
+Here's how I did it:
+
+1. I started with a high level overview and implementation of the **layout**.
+
+Because I had no prior experience on how to create a website with the goal of selling something, I studied and copied a proven blueprint for the structure. Thinking back now, I realize that this approach also prioritizes the UX.
+
+2. I then created a high level overview and implementation of the **design**.
+
+I analysed my customer's brand and created a design system with the most important elements like color, typeface, spacing system, font size.
+
+3. Afterwards I did all the **content**.
+
+My layout and design choices, guided and limited what text and image I could and couldn't create and use – and that's a good thing. Limits give you focus and increases productivity and efficiency. The design choices had the biggest influence on the content because it represents the identity of the brand. It was a balance of fitting the content inside the frame of the layout and the design while focusing on appealing to the ideal customer at the same time.
+
+4. After that, I went back to do the rest of the **design**.
+
+I added the rest of the missing details like border radius, global variables (into the code) and reusable components.
+
+5. Next I finished the **layout**.
+
+Now that the design was finished and the content was basically finished, I made detailed layout work that was dependent on that and finished the desktop version after polishing the layout as a whole. Then I created all the mobile versions and did the same thing on them aswell.
+
+6. Lastly I added a last touch to the **content**.
+
+I fixed typos, made the message easier to understand (with simpler words), shorter, more compelling, and more impactful.
