@@ -760,6 +760,9 @@ When choosing icons sets and deciding on image border radius, remember this:
 
 You don't have to choose one or the other. See it as a spectrum. Depending on your brand, you can lean more towards one or the other, but after deciding on for example mostly sharp edges, choose 1 single border radius and 1 single icon set that gives that impression and stick to it.
 
+> [!IMPORTANT]
+> Images are usually the main reason behind very slow websites. Before publishing your own website, make sure to compress your images with an app like [Squoosh](https://squoosh.app/). This will significantly reduces the image sizes, resulting in blazing fast loading speed, while keeping great image quality. In most cases you won't even notice the difference visually. A good rule of thumb for the size of each image is 100KB. There are similar tools for video, in case you need it.
+
 **🎯 RESULTS**
 
 Here are three examples:
