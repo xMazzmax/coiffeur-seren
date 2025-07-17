@@ -1393,6 +1393,8 @@ mark {
 
 ### 🦿 Prototyping
 
+> [_"A prototype is worth a thousand meetings."_ – Mike Davidson]()
+
 **📗 METHODOLOGY**
 
 My client told me I should do whatever I want for the layout and design and that he trusts me. But I the risk involved in depending on this trust. I didn't want code the whole website and find out in the end that there are things he imagined to be completely different. So before starting to write a single line of code, I wanted to create a mockup. There are different ways to prototype, varying in complexity, time investment and quality.
@@ -1880,7 +1882,7 @@ I won't explain the details of the code itself. You can navigate through the dif
 
 ## 🚀 Deployment
 
-> [_"."_ – ]()
+> [_"It's not enough that we do our best; sometimes we have to do what is required."_ – Winston Churchill](https://youtu.be/_pS1xKELtts?si=tDwXNmZLRT6DheiC)
 
 I'll keep this chapter short and simple.
 
@@ -1911,7 +1913,7 @@ I'll keep this chapter short and simple.
 
 ## 🌊 Workflow
 
-> [_"."_ – ](https://youtube.com/shorts/q725Nr4UkPU?si=Ly1ugsQa_5VCNJTc)
+> [_"To achieve great things, two things are needed; a plan, and not quite enough time."_ – Leonard Bernstein](https://youtube.com/shorts/q725Nr4UkPU?si=Ly1ugsQa_5VCNJTc)
 
 > [!IMPORTANT]
 > Once you find out what needs to be done, it's crucial to consider the order of doing those things. This decision can make or break your project. Thinking is cheap, doing is costly. Take some time to try and come up with the optimal path. If you're doing something for the first time, search for people who have achieved your desired outcome, study their process. Think about not what they're doing now, but what they did when they were starting out like you. Learn from their mistakes so you don't have make them yourself. Question their decisions and try to come up with ways they could have done it better and why, before you come up with reasons for why their decisions make sense to you. This way you minimize the risk of becoming a victim of a phenomenon called **confirmation bias**. It's the human tendency to search for, interpret, favor, and recall information in a way that confirms one's pre-existing beliefs or hypotheses. Confirmation bias leads people to give more weight to information that supports their own views while ignoring or dismissing information that challenges them. Nature always tries to find the easiest path. A hard path is not always the best path, but the best path is always a hard path. The art lies in discovering which difficult path leads to the **right** destination or at least the right direction. Usually it is the hardest one that is the right one. And the hardest part isn't the doing itself, but having the courage to make the most difficult decision and having to courage to follow through with it.
@@ -1987,7 +1989,7 @@ I fixed typos, made the message easier to understand (with simpler words), short
 
 ## 💎 Lessons learned
 
-> [_"."_ – ](https://youtu.be/0SQVuWCKXak?si=Qwd35pNInEd1amY4)
+> [_"Change is the end result of all true learning.."_ – Leo Buscaglia](https://youtu.be/0SQVuWCKXak?si=Qwd35pNInEd1amY4)
 
 I've learned many, many lessons during this project. Here are the most significant ones:
 
